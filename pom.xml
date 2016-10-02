@@ -6,7 +6,8 @@
 	<packaging>pom</packaging>
 	
 	<properties>
-		<be.nabu.utils.io-version>1.2-SNAPSHOT</be.nabu.utils.io-version>
+		<be.nabu.utils-utils-io-version>1.2-SNAPSHOT</be.nabu.utils-utils-io-version>
+		<be.nabu.utils-utils-security.resources-version>1.0-SNAPSHOT</be.nabu.utils-utils-security.resources-version>
 	</properties>
 	
 	<build>
@@ -14,7 +15,6 @@
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>flatten-maven-plugin</artifactId>
-				<!--<version>1.0.0</version>-->
 				<configuration>
 				</configuration>
 				<executions>
@@ -56,12 +56,12 @@
 			<dependency>
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-io</artifactId>
-				<version>${be.nabu.utils.io-version}</version>
+				<version>${be.nabu.utils-utils-io-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-security-resources</artifactId>
-				<version>1.0-SNAPSHOT</version>
+				<version>${be.nabu.utils-utils-security.resources-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
