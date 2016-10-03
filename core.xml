@@ -11,6 +11,9 @@
 		<be.nabu.utils-utils-security-version>1.0</be.nabu.utils-utils-security-version>
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
 		<be.nabu.libs.resources-resources-api-version>1.1</be.nabu.libs.resources-resources-api-version>
+		<be.nabu.libs.resources-resources-alias-version>1.0</be.nabu.libs.resources-resources-alias-version>
+		<be.nabu.libs.resources-resources-cifs-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-cifs-version>
+		<be.nabu.libs.resources-resources-classpath-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-classpath-version>
 	</properties>
 	
 	<build>
@@ -54,6 +57,13 @@
 		</plugins>
 	</build>
 	
+	<licenses>
+		<license>
+			<name>LGPL 3.0 License</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+		</license>
+	</licenses>
+	
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -75,6 +85,21 @@
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-codec</artifactId>
 				<version>${be.nabu.utils-utils-codec-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.resources</groupId>
+				<artifactId>resources-api</artifactId>
+				<version>${be.nabu.libs.resources-resources-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.resources</groupId>
+				<artifactId>resources-alias</artifactId>
+				<version>${be.nabu.libs.resources-resources-alias-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.resources</groupId>
+				<artifactId>resources-cifs</artifactId>
+				<version>${be.nabu.libs.resources-resources-cifs-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
