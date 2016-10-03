@@ -7,7 +7,8 @@
 	
 	<properties>
 		<be.nabu.utils-utils-io-version>1.2-SNAPSHOT</be.nabu.utils-utils-io-version>
-		<be.nabu.utils-utils-security.resources-version>1.0-SNAPSHOT</be.nabu.utils-utils-security.resources-version>
+		<be.nabu.utils-utils-security-resources-version>1.0-SNAPSHOT</be.nabu.utils-utils-security-resources-version>
+		<be.nabu.utils-utils-security-version>1.0-SNAPSHOT</be.nabu.utils-utils-security-version>
 	</properties>
 	
 	<build>
@@ -61,8 +62,22 @@
 			<dependency>
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-security-resources</artifactId>
-				<version>${be.nabu.utils-utils-security.resources-version}</version>
+				<version>${be.nabu.utils-utils-security-resources-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.utils</groupId>
+				<artifactId>utils-security</artifactId>
+				<version>${be.nabu.utils-utils-security-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>
