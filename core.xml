@@ -12,7 +12,7 @@
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
 		<be.nabu.libs.resources-resources-api-version>1.1</be.nabu.libs.resources-resources-api-version>
 		<be.nabu.libs.resources-resources-alias-version>1.0</be.nabu.libs.resources-resources-alias-version>
-		<be.nabu.libs.resources-resources-cifs-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-cifs-version>
+		<be.nabu.libs.resources-resources-cifs-version>1.0</be.nabu.libs.resources-resources-cifs-version>
 		<be.nabu.libs.resources-resources-classpath-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-classpath-version>
 	</properties>
 	
