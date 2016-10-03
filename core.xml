@@ -14,6 +14,7 @@
 		<be.nabu.libs.resources-resources-alias-version>1.0</be.nabu.libs.resources-resources-alias-version>
 		<be.nabu.libs.resources-resources-cifs-version>1.0</be.nabu.libs.resources-resources-cifs-version>
 		<be.nabu.libs.resources-resources-classpath-version>1.0</be.nabu.libs.resources-resources-classpath-version>
+		<be.nabu.libs.resources-resources-file-version>1.1</be.nabu.libs.resources-resources-file-version>
 	</properties>
 	
 	<build>
@@ -66,6 +67,7 @@
 	
 	<dependencyManagement>
 		<dependencies>
+			<!-- Utils -->
 			<dependency>
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-io</artifactId>
@@ -86,6 +88,8 @@
 				<artifactId>utils-codec</artifactId>
 				<version>${be.nabu.utils-utils-codec-version}</version>
 			</dependency>
+			
+			<!-- Resources -->
 			<dependency>
 				<groupId>be.nabu.libs.resources</groupId>
 				<artifactId>resources-api</artifactId>
@@ -100,6 +104,11 @@
 				<groupId>be.nabu.libs.resources</groupId>
 				<artifactId>resources-cifs</artifactId>
 				<version>${be.nabu.libs.resources-resources-cifs-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.resources</groupId>
+				<artifactId>resources-file</artifactId>
+				<version>${be.nabu.libs.resources-resources-file-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
