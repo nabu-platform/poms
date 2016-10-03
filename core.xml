@@ -11,6 +11,10 @@
 		<be.nabu.utils-utils-security-resources-version>1.0</be.nabu.utils-utils-security-resources-version>
 		<be.nabu.utils-utils-security-version>1.0</be.nabu.utils-utils-security-version>
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
+		<be.nabu.utils-utils-xml-version>1.0-SNAPSHOT</be.nabu.utils-utils-xml-version>
+		
+		<!-- Validator -->
+		<be.nabu.libs.validator-validator-api-version>1.1</be.nabu.libs.validator-validator-api-version>
 		
 		<!-- Resources -->
 		<be.nabu.libs.resources-resources-api-version>1.1</be.nabu.libs.resources-resources-api-version>
