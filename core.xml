@@ -21,6 +21,7 @@
 		<be.nabu.libs.resources-resources-memory-version>1.1</be.nabu.libs.resources-resources-memory-version>
 		<be.nabu.libs.resources-resources-remote-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-remote-version>
 		<be.nabu.libs.resources-resources-url-version>1.0</be.nabu.libs.resources-resources-url-version>
+		<be.nabu.libs.resources-resources-zip-version>1.0</be.nabu.libs.resources-resources-zip-version>
 	</properties>
 	
 	<build>
@@ -118,6 +119,11 @@
 			</dependency>
 			<dependency>
 				<groupId>be.nabu.libs.resources</groupId>
+				<artifactId>resources-classpath</artifactId>
+				<version>${be.nabu.libs.resources-resources-classpath-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.resources</groupId>
 				<artifactId>resources-memory</artifactId>
 				<version>${be.nabu.libs.resources-resources-memory-version}</version>
 			</dependency>
@@ -130,6 +136,11 @@
 				<groupId>be.nabu.libs.resources</groupId>
 				<artifactId>resources-url</artifactId>
 				<version>${be.nabu.libs.resources-resources-url-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.resources</groupId>
+				<artifactId>resources-zip</artifactId>
+				<version>${be.nabu.libs.resources-resources-zip-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
