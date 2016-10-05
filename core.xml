@@ -11,7 +11,6 @@
 		<be.nabu.utils-utils-security-resources-version>1.0</be.nabu.utils-utils-security-resources-version>
 		<be.nabu.utils-utils-security-version>1.0</be.nabu.utils-utils-security-version>
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
-		<be.nabu.utils-utils-xml-version>1.0</be.nabu.utils-utils-xml-version>
 		
 		<!-- Validator -->
 		<be.nabu.libs.validator-validator-api-version>1.1</be.nabu.libs.validator-validator-api-version>
@@ -46,6 +45,8 @@
 		<be.nabu.libs.events-events-api-version>1.1</be.nabu.libs.events-events-api-version>
 		<be.nabu.libs.events-events-impl-version>1.1</be.nabu.libs.events-events-impl-version>
 		<be.nabu.libs.wsdl-wsdl-api-version>1.0</be.nabu.libs.wsdl-wsdl-api-version>
+		<be.nabu.libs.wsdl-wsdl-formatter-version>1.0-SNAPSHOT</be.nabu.libs.wsdl-wsdl-formatter-version>
+		<be.nabu.utils-utils-xml-version>1.0</be.nabu.utils-utils-xml-version>
 	</properties>
 	
 	<build>
@@ -290,6 +291,16 @@
 				<groupId>be.nabu.libs.wsdl</groupId>
 				<artifactId>wsdl-api</artifactId>
 				<version>${be.nabu.libs.wsdl-wsdl-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.wsdl</groupId>
+				<artifactId>wsdl-formatter</artifactId>
+				<version>${be.nabu.libs.wsdl-wsdl-formatter-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.utils</groupId>
+				<artifactId>utils-xml</artifactId>
+				<version>${be.nabu.utils-utils-xml-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
