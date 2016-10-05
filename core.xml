@@ -40,6 +40,8 @@
 		<be.nabu.libs.types-types-binding-form-version>1.0</be.nabu.libs.types-types-binding-form-version>
 		<be.nabu.libs.types-types-binding-flat-version>1.2</be.nabu.libs.types-types-binding-flat-version>
 		<be.nabu.libs.types-types-definition-api-version>1.0</be.nabu.libs.types-types-definition-api-version>
+		<be.nabu.libs.types-types-definition-xml-version>1.0-SNAPSHOT</be.nabu.libs.types-types-definition-xml-version>
+		<be.nabu.libs.types-types-structure-version>1.0</be.nabu.libs.types-types-structure-version>
 	</properties>
 	
 	<build>
@@ -254,6 +256,16 @@
 				<groupId>be.nabu.libs.types</groupId>
 				<artifactId>types-definition-api</artifactId>
 				<version>${be.nabu.libs.types-types-definition-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.types</groupId>
+				<artifactId>types-definition-xml</artifactId>
+				<version>${be.nabu.libs.types-types-definition-xml-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.types</groupId>
+				<artifactId>types-structure</artifactId>
+				<version>${be.nabu.libs.types-types-structure-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
