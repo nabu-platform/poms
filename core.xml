@@ -47,6 +47,9 @@
 		<be.nabu.libs.wsdl-wsdl-api-version>1.0</be.nabu.libs.wsdl-wsdl-api-version>
 		<be.nabu.libs.wsdl-wsdl-formatter-version>1.0</be.nabu.libs.wsdl-wsdl-formatter-version>
 		<be.nabu.utils-utils-xml-version>1.0</be.nabu.utils-utils-xml-version>
+		<be.nabu.libs.wsdl-wsdl-parser-version>1.0-SNAPSHOT</be.nabu.libs.wsdl-wsdl-parser-version>
+		<be.nabu.libs.types-types-xml-version>1.1-SNAPSHOT</be.nabu.libs.types-types-xml-version>
+		<be.nabu.libs.evaluator-evaluator-api-version>1.0</be.nabu.libs.evaluator-evaluator-api-version>
 	</properties>
 	
 	<build>
@@ -301,6 +304,21 @@
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-xml</artifactId>
 				<version>${be.nabu.utils-utils-xml-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.wsdl</groupId>
+				<artifactId>wsdl-parser</artifactId>
+				<version>${be.nabu.libs.wsdl-wsdl-parser-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.types</groupId>
+				<artifactId>types-xml</artifactId>
+				<version>${be.nabu.libs.types-types-xml-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.evaluator</groupId>
+				<artifactId>evaluator-api</artifactId>
+				<version>${be.nabu.libs.evaluator-evaluator-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
