@@ -45,6 +45,7 @@
 		<be.nabu.libs.types-types-definition-xsd-version>1.0</be.nabu.libs.types-types-definition-xsd-version>
 		<be.nabu.libs.events-events-api-version>1.1</be.nabu.libs.events-events-api-version>
 		<be.nabu.libs.events-events-impl-version>1.1</be.nabu.libs.events-events-impl-version>
+		<be.nabu.libs.wsdl-wsdl-api-version>1.0</be.nabu.libs.wsdl-wsdl-api-version>
 	</properties>
 	
 	<build>
@@ -284,6 +285,11 @@
 				<groupId>be.nabu.libs.events</groupId>
 				<artifactId>events-impl</artifactId>
 				<version>${be.nabu.libs.events-events-impl-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.wsdl</groupId>
+				<artifactId>wsdl-api</artifactId>
+				<version>${be.nabu.libs.wsdl-wsdl-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
