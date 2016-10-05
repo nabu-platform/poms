@@ -42,6 +42,7 @@
 		<be.nabu.libs.types-types-definition-api-version>1.0</be.nabu.libs.types-types-definition-api-version>
 		<be.nabu.libs.types-types-definition-xml-version>1.0</be.nabu.libs.types-types-definition-xml-version>
 		<be.nabu.libs.types-types-structure-version>1.0</be.nabu.libs.types-types-structure-version>
+		<be.nabu.libs.types-types-definition-xsd-version>1.0</be.nabu.libs.types-types-definition-xsd-version>
 	</properties>
 	
 	<build>
@@ -266,6 +267,11 @@
 				<groupId>be.nabu.libs.types</groupId>
 				<artifactId>types-structure</artifactId>
 				<version>${be.nabu.libs.types-types-structure-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.types</groupId>
+				<artifactId>types-definition-xsd</artifactId>
+				<version>${be.nabu.libs.types-types-definition-xsd-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
