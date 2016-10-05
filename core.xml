@@ -30,7 +30,7 @@
 		<be.nabu.libs.converter-converter-api-version>1.1</be.nabu.libs.converter-converter-api-version>
 		<be.nabu.libs.converter-converter-base-version>1.1</be.nabu.libs.converter-converter-base-version>
 		<be.nabu.libs.types-types-api-version>1.1-SNAPSHOT</be.nabu.libs.types-types-api-version>
-		<be.nabu.libs.property-property-api-version>1.1-SNAPSHOT</be.nabu.libs.property-property-api-version>
+		<be.nabu.libs.property-property-api-version>1.1</be.nabu.libs.property-property-api-version>
 	</properties>
 	
 	<build>
