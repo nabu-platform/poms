@@ -43,6 +43,7 @@
 		<be.nabu.libs.types-types-definition-xml-version>1.0</be.nabu.libs.types-types-definition-xml-version>
 		<be.nabu.libs.types-types-structure-version>1.0</be.nabu.libs.types-types-structure-version>
 		<be.nabu.libs.types-types-definition-xsd-version>1.0</be.nabu.libs.types-types-definition-xsd-version>
+		<be.nabu.libs.events-events-api-version>1.1</be.nabu.libs.events-events-api-version>
 	</properties>
 	
 	<build>
@@ -273,6 +274,11 @@
 				<artifactId>types-definition-xsd</artifactId>
 				<version>${be.nabu.libs.types-types-definition-xsd-version}</version>
 			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.events</groupId>
+				<artifactId>events-api</artifactId>
+				<version>${be.nabu.libs.events-events-api-version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	
@@ -284,4 +290,5 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 </project>
