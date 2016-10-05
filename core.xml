@@ -50,6 +50,7 @@
 		<be.nabu.libs.wsdl-wsdl-parser-version>1.0-SNAPSHOT</be.nabu.libs.wsdl-wsdl-parser-version>
 		<be.nabu.libs.types-types-xml-version>1.1-SNAPSHOT</be.nabu.libs.types-types-xml-version>
 		<be.nabu.libs.evaluator-evaluator-api-version>1.0</be.nabu.libs.evaluator-evaluator-api-version>
+		<be.nabu.libs.evaluator-evaluator-types-version>1.0</be.nabu.libs.evaluator-evaluator-types-version>
 	</properties>
 	
 	<build>
@@ -319,6 +320,11 @@
 				<groupId>be.nabu.libs.evaluator</groupId>
 				<artifactId>evaluator-api</artifactId>
 				<version>${be.nabu.libs.evaluator-evaluator-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.evaluator</groupId>
+				<artifactId>evaluator-types</artifactId>
+				<version>${be.nabu.libs.evaluator-evaluator-types-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
