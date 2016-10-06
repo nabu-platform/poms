@@ -47,7 +47,7 @@
 		<be.nabu.libs.wsdl-wsdl-api-version>1.0</be.nabu.libs.wsdl-wsdl-api-version>
 		<be.nabu.libs.wsdl-wsdl-formatter-version>1.0</be.nabu.libs.wsdl-wsdl-formatter-version>
 		<be.nabu.utils-utils-xml-version>1.0</be.nabu.utils-utils-xml-version>
-		<be.nabu.libs.wsdl-wsdl-parser-version>1.0-SNAPSHOT</be.nabu.libs.wsdl-wsdl-parser-version>
+		<be.nabu.libs.wsdl-wsdl-parser-version>1.0</be.nabu.libs.wsdl-wsdl-parser-version>
 		<be.nabu.libs.types-types-xml-version>1.1</be.nabu.libs.types-types-xml-version>
 		<be.nabu.libs.evaluator-evaluator-api-version>1.1-SNAPSHOT</be.nabu.libs.evaluator-evaluator-api-version>
 		<be.nabu.libs.evaluator-evaluator-types-version>1.0</be.nabu.libs.evaluator-evaluator-types-version>
