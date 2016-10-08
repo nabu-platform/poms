@@ -273,6 +273,8 @@
 		<be.nabu.libs.http-http-server-rest-version>1.1</be.nabu.libs.http-http-server-rest-version>
 		<be.nabu.libs.http-http-server-websockets-version>1.0</be.nabu.libs.http-http-server-websockets-version>
 		<be.nabu.libs.http-http-client-ntlm-version>1.1</be.nabu.libs.http-http-client-ntlm-version>
+		<be.nabu.libs.dms-dms-api-version>1.1-SNAPSHOT</be.nabu.libs.dms-dms-api-version>
+		<be.nabu.libs.vfs-vfs-api-version>1.0-SNAPSHOT</be.nabu.libs.vfs-vfs-api-version>
 	</properties>
 	
 	<build>
@@ -725,6 +727,16 @@
 				<groupId>be.nabu.libs.http</groupId>
 				<artifactId>http-client-ntlm</artifactId>
 				<version>${be.nabu.libs.http-http-client-ntlm-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.dms</groupId>
+				<artifactId>dms-api</artifactId>
+				<version>${be.nabu.libs.dms-dms-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.vfs</groupId>
+				<artifactId>vfs-api</artifactId>
+				<version>${be.nabu.libs.vfs-vfs-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
