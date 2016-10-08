@@ -262,7 +262,7 @@
 		<be.nabu.libs.services-services-wsdl-version>1.0</be.nabu.libs.services-services-wsdl-version>
 		<be.nabu.libs.services-services-vm-version>1.0</be.nabu.libs.services-services-vm-version>
 		<be.nabu.libs.services-services-cache-version>1.0</be.nabu.libs.services-services-cache-version>
-		<be.nabu.libs.services-services-mask-version>1.0-SNAPSHOT</be.nabu.libs.services-services-mask-version>
+		<be.nabu.libs.services-services-mask-version>1.0</be.nabu.libs.services-services-mask-version>
 		<be.nabu.libs.types-types-mask-version>1.0</be.nabu.libs.types-types-mask-version>
 	</properties>
 	
