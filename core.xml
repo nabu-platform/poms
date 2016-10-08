@@ -255,6 +255,7 @@
 		<be.nabu.libs.metrics-metrics-core-version>1.0</be.nabu.libs.metrics-metrics-core-version>
 		<be.nabu.libs.http-http-server-version>1.1</be.nabu.libs.http-http-server-version>
 		<be.nabu.libs.http-http-client-version>1.1</be.nabu.libs.http-http-client-version>
+		<be.nabu.libs.cache-cache-api-version>1.0</be.nabu.libs.cache-cache-api-version>
 	</properties>
 	
 	<build>
@@ -606,6 +607,11 @@
 				<groupId>be.nabu.libs.http</groupId>
 				<artifactId>http-client</artifactId>
 				<version>${be.nabu.libs.http-http-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.cache</groupId>
+				<artifactId>cache-api</artifactId>
+				<version>${be.nabu.libs.cache-cache-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
