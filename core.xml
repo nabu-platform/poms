@@ -247,12 +247,13 @@
 		<be.nabu.libs.authentication-authentication-api-version>1.0</be.nabu.libs.authentication-authentication-api-version>
 		<be.nabu.libs.authentication-authentication-database-version>1.0</be.nabu.libs.authentication-authentication-database-version>
 		<be.nabu.libs.authentication-authentication-resources-version>1.0</be.nabu.libs.authentication-authentication-resources-version>
-		<be.nabu.libs.http-http-core-version>1.1-SNAPSHOT</be.nabu.libs.http-http-core-version>
+		<be.nabu.libs.http-http-core-version>1.1</be.nabu.libs.http-http-core-version>
 		<be.nabu.libs.http-http-api-version>1.1</be.nabu.libs.http-http-api-version>
 		<be.nabu.utils-utils-mime-version>1.1</be.nabu.utils-utils-mime-version>
 		<be.nabu.libs.nio-nio-server-version>1.0</be.nabu.libs.nio-nio-server-version>
 		<be.nabu.libs.metrics-metrics-api-version>1.0</be.nabu.libs.metrics-metrics-api-version>
 		<be.nabu.libs.metrics-metrics-core-version>1.0</be.nabu.libs.metrics-metrics-core-version>
+		<be.nabu.libs.http-http-server-version>1.1</be.nabu.libs.http-http-server-version>
 	</properties>
 	
 	<build>
@@ -594,6 +595,11 @@
 				<groupId>be.nabu.libs.metrics</groupId>
 				<artifactId>metrics-core</artifactId>
 				<version>${be.nabu.libs.metrics-metrics-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.http</groupId>
+				<artifactId>http-server</artifactId>
+				<version>${be.nabu.libs.http-http-server-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
