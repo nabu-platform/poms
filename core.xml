@@ -53,7 +53,7 @@
 		<be.nabu.libs.evaluator-evaluator-types-version>1.0</be.nabu.libs.evaluator-evaluator-types-version>
 		<be.nabu.libs.types-types-uml-version>1.1-SNAPSHOT</be.nabu.libs.types-types-uml-version>
 		<be.nabu.libs.services-services-api-version>1.0-SNAPSHOT</be.nabu.libs.services-services-api-version>
-		<be.nabu.libs.authentication-authentication-api-version>1.0-SNAPSHOT</be.nabu.libs.authentication-authentication-api-version>
+		<be.nabu.libs.authentication-authentication-api-version>1.0</be.nabu.libs.authentication-authentication-api-version>
 	</properties>
 	
 	<build>
