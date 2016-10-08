@@ -276,6 +276,8 @@
 		<be.nabu.libs.dms-dms-api-version>1.1</be.nabu.libs.dms-dms-api-version>
 		<be.nabu.libs.vfs-vfs-api-version>1.0</be.nabu.libs.vfs-vfs-api-version>
 		<be.nabu.libs.datastore-datastore-api-version>1.1</be.nabu.libs.datastore-datastore-api-version>
+		<be.nabu.libs.dms-dms-core-version>1.1-SNAPSHOT</be.nabu.libs.dms-dms-core-version>
+		<be.nabu.libs.vfs-vfs-resources-version>1.0</be.nabu.libs.vfs-vfs-resources-version>
 	</properties>
 	
 	<build>
@@ -743,6 +745,16 @@
 				<groupId>be.nabu.libs.datastore</groupId>
 				<artifactId>datastore-api</artifactId>
 				<version>${be.nabu.libs.datastore-datastore-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.dms</groupId>
+				<artifactId>dms-core</artifactId>
+				<version>${be.nabu.libs.dms-dms-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.vfs</groupId>
+				<artifactId>vfs-resources</artifactId>
+				<version>${be.nabu.libs.vfs-vfs-resources-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
