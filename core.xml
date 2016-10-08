@@ -246,6 +246,7 @@
 		<be.nabu.libs.services-services-api-version>1.0-SNAPSHOT</be.nabu.libs.services-services-api-version>
 		<be.nabu.libs.authentication-authentication-api-version>1.0</be.nabu.libs.authentication-authentication-api-version>
 		<be.nabu.libs.authentication-authentication-database-version>1.0</be.nabu.libs.authentication-authentication-database-version>
+		<be.nabu.libs.authentication-authentication-resources-version>1.0</be.nabu.libs.authentication-authentication-resources-version>
 	</properties>
 	
 	<build>
@@ -552,6 +553,11 @@
 				<groupId>be.nabu.libs.authentication</groupId>
 				<artifactId>authentication-database</artifactId>
 				<version>${be.nabu.libs.authentication-authentication-database-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.authentication</groupId>
+				<artifactId>authentication-resources</artifactId>
+				<version>${be.nabu.libs.authentication-authentication-resources-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
