@@ -199,7 +199,7 @@
 		<be.nabu.libs.http-http-client-scm>https://nablex@github.com/nablex/http-client</be.nabu.libs.http-http-client-scm>
 		<nabu-eai-module-jdbc-pool-scm>https://nablex@bitbucket.org/nablex/eai-module-jdbc-pool</nabu-eai-module-jdbc-pool-scm>
 		<be.nabu.glue-glue-transcoder-scm>https://nablex@github.com/nablex/glue-transcoder</be.nabu.glue-glue-transcoder-scm>
-		<be.nabu.libs.services-services-wsdl-scm>https://nablex@bitbucket.org/nablex/services-wsdl</be.nabu.libs.services-services-wsdl-scm>
+		<be.nabu.libs.services-services-wsdl-scm>https://nablex@github.com/nablex/services-wsdl</be.nabu.libs.services-services-wsdl-scm>
 		
 		<!-- Versioning -->
 		<be.nabu.utils-utils-io-version>1.2</be.nabu.utils-utils-io-version>
