@@ -272,6 +272,7 @@
 		<be.nabu.libs.resources-resources-snapshot-version>1.0</be.nabu.libs.resources-resources-snapshot-version>
 		<be.nabu.libs.http-http-server-rest-version>1.1</be.nabu.libs.http-http-server-rest-version>
 		<be.nabu.libs.http-http-server-websockets-version>1.0</be.nabu.libs.http-http-server-websockets-version>
+		<be.nabu.libs.http-http-client-ntlm-version>1.1</be.nabu.libs.http-http-client-ntlm-version>
 	</properties>
 	
 	<build>
@@ -719,6 +720,11 @@
 				<groupId>be.nabu.libs.http</groupId>
 				<artifactId>http-server-websockets</artifactId>
 				<version>${be.nabu.libs.http-http-server-websockets-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.http</groupId>
+				<artifactId>http-client-ntlm</artifactId>
+				<version>${be.nabu.libs.http-http-client-ntlm-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
