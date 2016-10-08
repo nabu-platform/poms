@@ -268,6 +268,7 @@
 		<be.nabu.libs.swagger-swagger-parser-version>1.0</be.nabu.libs.swagger-swagger-parser-version>
 		<be.nabu.libs.types-types-map-version>1.0</be.nabu.libs.types-types-map-version>
 		<be.nabu.libs.swagger-swagger-formatter-version>1.0</be.nabu.libs.swagger-swagger-formatter-version>
+		<be.nabu.utils-utils-aspects-version>1.0</be.nabu.utils-utils-aspects-version>
 	</properties>
 	
 	<build>
@@ -690,6 +691,11 @@
 				<groupId>be.nabu.libs.swagger</groupId>
 				<artifactId>swagger-formatter</artifactId>
 				<version>${be.nabu.libs.swagger-swagger-formatter-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.utils</groupId>
+				<artifactId>utils-aspects</artifactId>
+				<version>${be.nabu.utils-utils-aspects-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
