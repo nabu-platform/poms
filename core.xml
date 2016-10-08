@@ -270,6 +270,7 @@
 		<be.nabu.libs.swagger-swagger-formatter-version>1.0</be.nabu.libs.swagger-swagger-formatter-version>
 		<be.nabu.utils-utils-aspects-version>1.0</be.nabu.utils-utils-aspects-version>
 		<be.nabu.libs.resources-resources-snapshot-version>1.0</be.nabu.libs.resources-resources-snapshot-version>
+		<be.nabu.libs.http-http-server-rest-version>1.1</be.nabu.libs.http-http-server-rest-version>
 	</properties>
 	
 	<build>
@@ -356,6 +357,11 @@
 				<artifactId>javaee-api</artifactId>
 				<version>6.0</version>
 				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>javax.ws.rs</groupId>
+				<artifactId>javax.ws.rs-api</artifactId>
+				<version>2.0.1</version>
 			</dependency>
 			
 			<!-- Utils -->
@@ -702,6 +708,11 @@
 				<groupId>be.nabu.libs.resources</groupId>
 				<artifactId>resources-snapshot</artifactId>
 				<version>${be.nabu.libs.resources-resources-snapshot-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.http</groupId>
+				<artifactId>http-server-rest</artifactId>
+				<version>${be.nabu.libs.http-http-server-rest-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
