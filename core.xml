@@ -6,20 +6,208 @@
 	<packaging>pom</packaging>
 	
 	<properties>
+		<!-- General settings -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		
-		<!-- Utils -->
+		<!-- Source control endpoints -->
+		<be.nabu.libs.authentication-authentication-database-scm>https://nablex@github.com/nablex/authentication-database</be.nabu.libs.authentication-authentication-database-scm>
+		<nabu-eai-module-web-component-scm>https://nablex@bitbucket.org/nablex/eai-module-web-component</nabu-eai-module-web-component-scm>
+		<be.nabu.libs.vfs-vfs-resources-scm>https://nablex@github.com/nablex/vfs-resources</be.nabu.libs.vfs-vfs-resources-scm>
+		<be.nabu.glue-glue-scm>https://nablex@github.com/nablex/glue</be.nabu.glue-glue-scm>
+		<nabu-eai-module-broker-scm>https://nablex@bitbucket.org/nablex/eai-module-broker</nabu-eai-module-broker-scm>
+		<be.nabu.packaging-packaging-developer-scm>https://nablex@bitbucket.org/nablex/packaging-developer</be.nabu.packaging-packaging-developer-scm>
+		<be.nabu.libs.converter-converter-base-scm>https://nablex@github.com/nablex/converter-base</be.nabu.libs.converter-converter-base-scm>
+		<be.nabu.jfx-jfx-control-ace-scm>https://nablex@github.com/nablex/jfx-control-ace</be.nabu.jfx-jfx-control-ace-scm>
+		<be.nabu.apps-apps-blog-scm>https://nablex@bitbucket.org/nablex/apps-blog</be.nabu.apps-apps-blog-scm>
+		<be.nabu.glue-glue-tests-scm>https://nablex@bitbucket.org/nablex/glue-tests/</be.nabu.glue-glue-tests-scm>
+		<nabu-eai-module-web-application-scm>https://nablex@bitbucket.org/nablex/eai-module-web-application</nabu-eai-module-web-application-scm>
+		<be.nabu.libs.swagger-swagger-parser-scm>https://nablex@bitbucket.org/nablex/swagger-parser</be.nabu.libs.swagger-swagger-parser-scm>
+		<be.nabu.libs.types-types-binding-api-scm>https://nablex@github.com/nablex/types-binding-api</be.nabu.libs.types-types-binding-api-scm>
+		<be.nabu.glue-glave-scm>https://nablex@bitbucket.org/nablex/glave</be.nabu.glue-glave-scm>
+		<be.nabu.libs.types-types-binding-xml-scm>https://nablex@github.com/nablex/types-binding-xml</be.nabu.libs.types-types-binding-xml-scm>
+		<be.nabu.libs.services-services-pojo-scm>https://nablex@github.com/nablex/services-pojo</be.nabu.libs.services-services-pojo-scm>
+		<be.nabu.libs.http-http-server-scm>https://nablex@github.com/nablex/http-server</be.nabu.libs.http-http-server-scm>
+		<be.nabu.libs.resources-resources-cifs-scm>https://nablex@github.com/nablex/resources-cifs</be.nabu.libs.resources-resources-cifs-scm>
+		<be.nabu.libs.types-types-mask-scm>https://nablex@github.com/nablex/types-mask</be.nabu.libs.types-types-mask-scm>
+		<be.nabu.libs.resources-resources-zip-scm>https://nablex@github.com/nablex/resources-zip</be.nabu.libs.resources-resources-zip-scm>
+		<be.nabu.libs.validator-validator-base-scm>https://nablex@github.com/nablex/validator-base</be.nabu.libs.validator-validator-base-scm>
+		<nabu-eai-module-web-resources-scm>https://nablex@bitbucket.org/nablex/eai-module-web-resources</nabu-eai-module-web-resources-scm>
+		<nabu-eai-module-utils-scm>https://nablex@bitbucket.org/nablex/eai-module-utils</nabu-eai-module-utils-scm>
+		<be.nabu.eai-eai-broker-scm>https://nablex@bitbucket.org/nablex/eai-broker</be.nabu.eai-eai-broker-scm>
+		<be.nabu.utils-utils-mime-scm>https://nablex@github.com/nablex/utils-mime</be.nabu.utils-utils-mime-scm>
+		<be.nabu.glue-glue-http-server-scm>https://nablex@github.com/nablex/glue-http-server</be.nabu.glue-glue-http-server-scm>
+		<be.nabu.libs.types-types-definition-xml-scm>https://nablex@github.com/nablex/types-definition-xml</be.nabu.libs.types-types-definition-xml-scm>
+		<be.nabu.libs.http-http-core-scm>https://nablex@github.com/nablex/http-core</be.nabu.libs.http-http-core-scm>
+		<be.nabu.glue-glue-events-scm>https://nablex@github.com/nablex/glue-events</be.nabu.glue-glue-events-scm>
+		<be.nabu.jfx-jfx-control-tree-scm>https://nablex@github.com/nablex/jfx-control-tree</be.nabu.jfx-jfx-control-tree-scm>
+		<be.nabu.libs.types-types-definition-api-scm>https://nablex@github.com/nablex/types-definition-api</be.nabu.libs.types-types-definition-api-scm>
+		<be.nabu.utils-utils-security-resources-scm>https://nablex@github.com/nablex/utils-security-resources</be.nabu.utils-utils-security-resources-scm>
+		<nabu-eai-module-web-websockets-scm>https://nablex@bitbucket.org/nablex/eai-module-web-websockets</nabu-eai-module-web-websockets-scm>
+		<nabu-eai-module-proxy-scm>https://nablex@bitbucket.org/nablex/eai-module-proxy</nabu-eai-module-proxy-scm>
+		<nabu-eai-module-services-interface-scm>https://nablex@bitbucket.org/nablex/eai-module-services-interface</nabu-eai-module-services-interface-scm>
+		<be.nabu.libs.tasks-tasks-queues-database-scm>https://nablex@bitbucket.org/nablex/tasks-queues-database</be.nabu.libs.tasks-tasks-queues-database-scm>
+		<nabu-eai-module-types-uml-scm>https://nablex@bitbucket.org/nablex/eai-module-types-uml</nabu-eai-module-types-uml-scm>
+		<be.nabu.utils-utils-excel-scm>https://nablex@bitbucket.org/nablex/utils-excel</be.nabu.utils-utils-excel-scm>
+		<be.nabu.libs.swagger-swagger-formatter-scm>https://nablex@bitbucket.org/nablex/swagger-formatter</be.nabu.libs.swagger-swagger-formatter-scm>
+		<be.nabu.libs.types-types-binding-json-scm>https://nablex@github.com/nablex/types-binding-json</be.nabu.libs.types-types-binding-json-scm>
+		<be.nabu.libs.services-services-api-scm>https://nablex@github.com/nablex/services-api</be.nabu.libs.services-services-api-scm>
+		<be.nabu.libs.property-property-api-scm>https://nablex@github.com/nablex/property-api</be.nabu.libs.property-property-api-scm>
+		<nabu-eai-module-deployment-scm>https://bitbucket.org/nablex/eai-module-deployment</nabu-eai-module-deployment-scm>
+		<be.nabu.libs.services-services-cache-scm>https://nablex@github.com/nablex/services-cache</be.nabu.libs.services-services-cache-scm>
+		<nabu-eai-module-data-provider-scm>https://nablex@bitbucket.org/nablex/eai-module-data-provider</nabu-eai-module-data-provider-scm>
+		<be.nabu.utils-utils-io-scm>https://nablex@github.com/nablex/utils-io</be.nabu.utils-utils-io-scm>
+		<be.nabu.libs.artifacts-artifacts-api-scm>https://nablex@github.com/nablex/artifacts-api</be.nabu.libs.artifacts-artifacts-api-scm>
+		<be.nabu.libs.artifacts-artifacts-jdbc-scm>https://nablex@bitbucket.org/nablex/artifacts-jdbc</be.nabu.libs.artifacts-artifacts-jdbc-scm>
+		<nabu-eai-module-glue-pdf-viewer-scm>https://nablex@bitbucket.org/nablex/eai-module-glue-pdf-viewer</nabu-eai-module-glue-pdf-viewer-scm>
+		<be.nabu.libs.services-services-xslt-scm>https://nablex@bitbucket.org/nablex/services-xslt</be.nabu.libs.services-services-xslt-scm>
+		<nabu-eai-module-smtp-client-scm>https://nablex@bitbucket.org/nablex/eai-module-smtp-client/</nabu-eai-module-smtp-client-scm>
+		<be.nabu.libs.dms-dms-core-scm>https://nablex@github.com/nablex/dms-core</be.nabu.libs.dms-dms-core-scm>
+		<be.nabu.libs.resources-resources-memory-scm>https://nablex@github.com/nablex/resources-memory</be.nabu.libs.resources-resources-memory-scm>
+		<be.nabu.libs.resources-resources-file-scm>https://nablex@github.com/nablex/resources-file</be.nabu.libs.resources-resources-file-scm>
+		<be.nabu.libs.artifacts-artifacts-maven-scm>https://nablex@github.com/nablex/artifacts-maven</be.nabu.libs.artifacts-artifacts-maven-scm>
+		<be.nabu.libs.tasks-tasks-queues-cache-scm>https://nablex@bitbucket.org/nablex/tasks-queues-cache</be.nabu.libs.tasks-tasks-queues-cache-scm>
+		<be.nabu.glue-glue-types-scm>https://nablex@github.com/nablex/glue-types</be.nabu.glue-glue-types-scm>
+		<be.nabu.libs.types-types-uml-scm>https://nablex@github.com/nablex/types-uml</be.nabu.libs.types-types-uml-scm>
+		<nabu-eai-module-http-server-scm>https://nablex@bitbucket.org/nablex/eai-module-http-server</nabu-eai-module-http-server-scm>
+		<be.nabu.glue-glue-xml-scm>https://nablex@github.com/nablex/glue-xml</be.nabu.glue-glue-xml-scm>
+		<be.nabu.libs.http-http-client-websockets-scm>https://nablex@github.com/nablex/http-client-websockets</be.nabu.libs.http-http-client-websockets-scm>
+		<be.nabu.libs.types-types-base-scm>https://nablex@github.com/nablex/types-base</be.nabu.libs.types-types-base-scm>
+		<be.nabu.libs.services-services-jdbc-scm>https://nablex@github.com/nablex/services-jdbc</be.nabu.libs.services-services-jdbc-scm>
+		<be.nabu.jfx-jfx-control-treecombo-scm>https://nablex@github.com/nablex/jfx-control-treecombo</be.nabu.jfx-jfx-control-treecombo-scm>
+		<be.nabu.glue-glue-api-scm>https://nablex@github.com/nablex/glue-api</be.nabu.glue-glue-api-scm>
+		<be.nabu.jfx-jfx-control-line-scm>https://nablex@github.com/nablex/jfx-control-line</be.nabu.jfx-jfx-control-line-scm>
+		<be.nabu.glue-glue-html-scm>https://nablex@github.com/nablex/glue-html</be.nabu.glue-glue-html-scm>
+		<be.nabu.utils-utils-xml-scm>https://nablex@github.com/nablex/utils-xml</be.nabu.utils-utils-xml-scm>
+		<nabu-eai-module-rest-scm>https://nablex@bitbucket.org/nablex/eai-module-rest</nabu-eai-module-rest-scm>
+		<be.nabu.libs.dms-dms-api-scm>https://nablex@github.com/nablex/dms-api</be.nabu.libs.dms-dms-api-scm>
+		<nabu-eai-module-services-vm-scm>https://nablex@bitbucket.org/nablex/eai-module-services-vm</nabu-eai-module-services-vm-scm>
+		<be.nabu.glue-glue-validators-scm>https://nablex@github.com/nablex/glue-validators</be.nabu.glue-glue-validators-scm>
+		<be.nabu.glue-glue-selenese-scm>https://nablex@github.com/nablex/glue-selenese</be.nabu.glue-glue-selenese-scm>
+		<be.nabu.libs.http-http-server-websockets-scm>https://nablex@github.com/nablex/http-server-websockets</be.nabu.libs.http-http-server-websockets-scm>
+		<be.nabu.libs.http-http-server-rest-scm>https://nablex@github.com/nablex/http-server-rest</be.nabu.libs.http-http-server-rest-scm>
+		<nabu-eai-module-keystore-scm>https://nablex@bitbucket.org/nablex/eai-module-keystore</nabu-eai-module-keystore-scm>
+		<be.nabu.libs.tasks-tasks-api-scm>https://nablex@github.com/nablex/tasks-api</be.nabu.libs.tasks-tasks-api-scm>
+		<be.nabu.libs.resources-resources-url-scm>https://nablex@github.com/nablex/resources-url</be.nabu.libs.resources-resources-url-scm>
+		<nabu-eai-module-http-client-scm>https://nablex@bitbucket.org/nablex/eai-module-http-client</nabu-eai-module-http-client-scm>
+		<be.nabu.eai-eai-developer-scm>https://nablex@bitbucket.org/nablex/eai-developer</be.nabu.eai-eai-developer-scm>
+		<be.nabu.glue-glue-excel-scm>https://nablex@github.com/nablex/glue-excel</be.nabu.glue-glue-excel-scm>
+		<be.nabu.libs.maven-maven-server-scm>https://nablex@github.com/nablex/maven-server</be.nabu.libs.maven-maven-server-scm>
+		<nabu-eai-module-swagger-scm>https://nablex@bitbucket.org/nablex/eai-module-swagger</nabu-eai-module-swagger-scm>
+		<be.nabu.libs.http-http-api-scm>https://nablex@github.com/nablex/http-api</be.nabu.libs.http-http-api-scm>
+		<be.nabu.libs.types-types-binding-flat-scm>https://nablex@github.com/nablex/types-binding-flat</be.nabu.libs.types-types-binding-flat-scm>
+		<be.nabu.libs.datastore-datastore-resources-scm>https://nablex@github.com/nablex/datastore-resources</be.nabu.libs.datastore-datastore-resources-scm>
+		<nabu-eai-module-datastore-scm>https://nablex@bitbucket.org/nablex/eai-module-datastore/</nabu-eai-module-datastore-scm>
+		<be.nabu.libs.resources-resources-remote-scm>https://nablex@github.com/nablex/resources-remote</be.nabu.libs.resources-resources-remote-scm>
+		<be.nabu.libs.channels-channels-api-scm>https://nablex@github.com/nablex/channels-api</be.nabu.libs.channels-channels-api-scm>
+		<nabu-eai-module-services-jdbc-scm>https://nablex@bitbucket.org/nablex/eai-module-services-jdbc</nabu-eai-module-services-jdbc-scm>
+		<be.nabu.libs.events-events-api-scm>https://nablex@github.com/nablex/events-api</be.nabu.libs.events-events-api-scm>
+		<be.nabu.jfx-jfx-component-date-scm>https://nablex@github.com/nablex/jfx-control-date</be.nabu.jfx-jfx-component-date-scm>
+		<nabu-eai-module-types-xml-scm>https://nablex@bitbucket.org/nablex/eai-module-types-xml</nabu-eai-module-types-xml-scm>
+		<nabu-eai-module-authorization-vm-scm>https://nablex@bitbucket.org/nablex/eai-module-authorization-vm</nabu-eai-module-authorization-vm-scm>
+		<be.nabu.libs.metrics-metrics-database-scm>https://nablex@github.com/nablex/metrics-database</be.nabu.libs.metrics-metrics-database-scm>
+		<be.nabu.libs.resources-resources-alias-scm>https://nablex@github.com/nablex/resources-alias</be.nabu.libs.resources-resources-alias-scm>
+		<nabu-eai-module-wsdl-provider-scm>https://nablex@bitbucket.org/nablex/eai-module-wsdl-provider</nabu-eai-module-wsdl-provider-scm>
+		<be.nabu.libs.tasks-tasks-remote-scm>https://nablex@bitbucket.org/nablex/tasks-remote</be.nabu.libs.tasks-tasks-remote-scm>
+		<be.nabu.libs.authentication-authentication-api-scm>https://nablex@github.com/nablex/authentication-api</be.nabu.libs.authentication-authentication-api-scm>
+		<nabu-eai-module-wsdl-client-scm>https://nablex@bitbucket.org/nablex/eai-module-wsdl-client</nabu-eai-module-wsdl-client-scm>
+		<nabu-eai-module-cache-scm>https://nablex@bitbucket.org/nablex/eai-module-cache</nabu-eai-module-cache-scm>
+		<be.nabu.packaging-packaging-glue-console-scm>https://nablex@bitbucket.org/nablex/packaging-glue-console</be.nabu.packaging-packaging-glue-console-scm>
+		<be.nabu.glue-glue-images-scm>https://nablex@github.com/nablex/glue-images</be.nabu.glue-glue-images-scm>
+		<nabu-eai-module-types-structure-scm>https://nablex@bitbucket.org/nablex/eai-module-types-structure</nabu-eai-module-types-structure-scm>
+		<nabu-eai-module-metrics-scm>https://nablex@bitbucket.org/nablex/eai-module-metrics</nabu-eai-module-metrics-scm>
+		<nabu-eai-module-glue-scm>https://nablex@bitbucket.org/nablex/eai-module-glue</nabu-eai-module-glue-scm>
+		<nabu-eai-module-mime-scm>https://nablex@bitbucket.org/nablex/eai-module-mime</nabu-eai-module-mime-scm>
+		<nabu-eai-module-web-wiki-scm>https://nablex@bitbucket.org/nablex/eai-module-web-wiki</nabu-eai-module-web-wiki-scm>
+		<nabu-eai-module-rest-provider-scm>https://nablex@bitbucket.org/nablex/eai-module-rest-provider</nabu-eai-module-rest-provider-scm>
+		<be.nabu.libs.swagger-swagger-api-scm>https://nablex@bitbucket.org/nablex/swagger-api</be.nabu.libs.swagger-swagger-api-scm>
+		<be.nabu.glue-glue-soapui-scm>https://nablex@github.com/nablex/glue-soapui</be.nabu.glue-glue-soapui-scm>
+		<be.nabu.jfx-jfx-control-spinner-scm>https://github.com/nablex/jfx-control-spinner</be.nabu.jfx-jfx-control-spinner-scm>
+		<be.nabu.libs.types-types-structure-scm>https://nablex@github.com/nablex/types-structure</be.nabu.libs.types-types-structure-scm>
+		<be.nabu.libs.wsdl-wsdl-api-scm>https://nablex@github.com/nablex/wsdl-api</be.nabu.libs.wsdl-wsdl-api-scm>
+		<nabu-eai-module-configuration-scm>https://nablex@bitbucket.org/nablex/eai-module-configuration</nabu-eai-module-configuration-scm>
+		<nabu-eai-module-glue-testing-scm>https://nablex@bitbucket.org/nablex/eai-module-glue-testing</nabu-eai-module-glue-testing-scm>
+		<be.nabu.packaging-packaging-glue-testing-scm>https://nablex@github.com/nablex/packaging-glue-testing</be.nabu.packaging-packaging-glue-testing-scm>
+		<be.nabu.libs.resources-resources-classpath-scm>https://nablex@github.com/nablex/resources-classpath</be.nabu.libs.resources-resources-classpath-scm>
+		<be.nabu.glue-glue-ide-scm>https://nablex@github.com/nablex/glue-ide</be.nabu.glue-glue-ide-scm>
+		<be.nabu.libs.evaluator-evaluator-types-scm>https://nablex@github.com/nablex/evaluator-types</be.nabu.libs.evaluator-evaluator-types-scm>
+		<be.nabu.libs.types-types-java-scm>https://nablex@github.com/nablex/types-java</be.nabu.libs.types-types-java-scm>
+		<be.nabu.libs.wsdl-wsdl-formatter-scm>https://nablex@github.com/nablex/wsdl-formatter</be.nabu.libs.wsdl-wsdl-formatter-scm>
+		<nabu-eai-module-cluster-scm>https://nablex@bitbucket.org/nablex/eai-module-cluster</nabu-eai-module-cluster-scm>
+		<be.nabu.libs.resources-resources-snapshot-scm>https://nablex@bitbucket.org/nablex/resources-snapshot</be.nabu.libs.resources-resources-snapshot-scm>
+		<be.nabu.libs.types-types-api-scm>https://nablex@github.com/nablex/types-api</be.nabu.libs.types-types-api-scm>
+		<be.nabu.libs.types-types-xml-scm>https://nablex@github.com/nablex/types-xml</be.nabu.libs.types-types-xml-scm>
+		<be.nabu.libs.resources-resources-api-scm>https://nablex@github.com/nablex/resources-api</be.nabu.libs.resources-resources-api-scm>
+		<nabu-eai-module-types-simple-scm>https://nablex@bitbucket.org/nablex/eai-module-types-simple</nabu-eai-module-types-simple-scm>
+		<be.nabu.libs.cache-cache-resources-scm>https://nablex@github.com/nablex/cache-resources</be.nabu.libs.cache-cache-resources-scm>
+		<nabu-eai-module-rest-client-scm>https://nablex@bitbucket.org/nablex/eai-module-rest-client</nabu-eai-module-rest-client-scm>
+		<be.nabu.libs.channels-channels-resources-scm>https://nablex@github.com/nablex/channels-resources</be.nabu.libs.channels-channels-resources-scm>
+		<be.nabu.libs.maven-maven-repository-scm>https://nablex@github.com/nablex/maven-repository</be.nabu.libs.maven-maven-repository-scm>
+		<be.nabu.utils-utils-codec-scm>https://nablex@github.com/nablex/utils-codec</be.nabu.utils-utils-codec-scm>
+		<nabu-eai-module-tracer-scm>https://nablex@bitbucket.org/nablex/eai-module-tracer</nabu-eai-module-tracer-scm>
+		<nabu-eai-module-scheduler-scm>https://nablex@bitbucket.org/nablex/eai-module-scheduler</nabu-eai-module-scheduler-scm>
+		<be.nabu.libs.events-events-impl-scm>https://nablex@github.com/nablex/events-impl</be.nabu.libs.events-events-impl-scm>
+		<be.nabu.glue-glue-json-scm>https://nablex@github.com/nablex/glue-json</be.nabu.glue-glue-json-scm>
+		<nabu-eai-module-authentication-oauth2-scm>https://nablex@bitbucket.org/nablex/eai-module-authentication-oauth2</nabu-eai-module-authentication-oauth2-scm>
+		<be.nabu.libs-html-scraper-scm>https://nablex@github.com/nablex/html-scraper</be.nabu.libs-html-scraper-scm>
+		<nabu-eai-module-excel-scm>https://nablex@bitbucket.org/nablex/eai-module-excel</nabu-eai-module-excel-scm>
+		<nabu-eai-module-maven-scm>https://nablex@bitbucket.org/nablex/eai-module-maven</nabu-eai-module-maven-scm>
+		<be.nabu.libs.datatransactions-datatransactions-database-scm>https://nablex@github.com/nablex/datatransactions-database</be.nabu.libs.datatransactions-datatransactions-database-scm>
+		<nabu-eai-module-template-text-scm>https://nablex@bitbucket.org/nablex/eai-module-template-text</nabu-eai-module-template-text-scm>
+		<be.nabu.packaging-packaging-glue-cli-scm>https://nablex@bitbucket.org/nablex/packaging-glue-cli</be.nabu.packaging-packaging-glue-cli-scm>
+		<be.nabu.libs.http-http-client-ntlm-scm>https://nablex@github.com/nablex/http-client-ntlm</be.nabu.libs.http-http-client-ntlm-scm>
+		<be.nabu.glue-glue-pdf-scm>https://nablex@github.com/nablex/glue-pdf</be.nabu.glue-glue-pdf-scm>
+		<be.nabu.libs.validator-validator-api-scm>https://nablex@github.com/nablex/validator-api</be.nabu.libs.validator-validator-api-scm>
+		<nabu-eai-module-startup-scm>https://nablex@bitbucket.org/nablex/eai-module-startup</nabu-eai-module-startup-scm>
+		<be.nabu.glue-glue-console-scm>https://nablex@github.com/nablex/glue-console</be.nabu.glue-glue-console-scm>
+		<be.nabu.utils-utils-security-scm>https://nablex@github.com/nablex/utils-security</be.nabu.utils-utils-security-scm>
+		<be.nabu.libs.converter-converter-api-scm>https://nablex@github.com/nablex/converter-api</be.nabu.libs.converter-converter-api-scm>
+		<be.nabu.libs.services-services-mask-scm>https://nablex@github.com/nablex/services-mask</be.nabu.libs.services-services-mask-scm>
+		<be.nabu.libs.types-types-definition-xsd-scm>https://nablex@github.com/nablex/types-definition-xsd</be.nabu.libs.types-types-definition-xsd-scm>
+		<be.nabu.libs.metrics-metrics-api-scm>https://nablex@github.com/nablex/metrics-api</be.nabu.libs.metrics-metrics-api-scm>
+		<be.nabu.packaging-packaging-integrator-modules-scm>https://nablex@bitbucket.org/nablex/packaging-integrator-modules</be.nabu.packaging-packaging-integrator-modules-scm>
+		<be.nabu.libs.datastore-datastore-api-scm>https://nablex@github.com/nablex/datastore-api</be.nabu.libs.datastore-datastore-api-scm>
+		<be.nabu.eai-eai-server-scm>https://nablex@bitbucket.org/nablex/eai-server</be.nabu.eai-eai-server-scm>
+		<be.nabu.libs.metrics-metrics-core-scm>https://nablex@github.com/nablex/metrics-core</be.nabu.libs.metrics-metrics-core-scm>
+		<be.nabu.libs.wsdl-wsdl-parser-scm>https://nablex@github.com/nablex/wsdl-parser</be.nabu.libs.wsdl-wsdl-parser-scm>
+		<nabu-eai-module-auditing-scm>https://nablex@bitbucket.org/nablex/eai-module-auditing</nabu-eai-module-auditing-scm>
+		<be.nabu.libs.vfs-vfs-api-scm>https://nablex@github.com/nablex/vfs-api</be.nabu.libs.vfs-vfs-api-scm>
+		<be.nabu.libs.metrics-metrics-codahale-scm>https://nablex@github.com/nablex/metric-codahale</be.nabu.libs.metrics-metrics-codahale-scm>
+		<be.nabu.libs.authentication-authentication-resources-scm>https://nablex@github.com/nablex/authentication-resources</be.nabu.libs.authentication-authentication-resources-scm>
+		<be.nabu.glue-glue-integrator-scm>https://nablex@github.com/nablex/glue-integrator</be.nabu.glue-glue-integrator-scm>
+		<be.nabu.glue-glue-services-scm>https://nablex@github.com/nablex/glue-services</be.nabu.glue-glue-services-scm>
+		<be.nabu.libs.evaluator-evaluator-api-scm>https://nablex@github.com/nablex/evaluator-api</be.nabu.libs.evaluator-evaluator-api-scm>
+		<be.nabu.js-js-typescript-scm>https://nablex@bitbucket.org/nablex/js-typescript</be.nabu.js-js-typescript-scm>
+		<be.nabu.glue-glue-series-scm>https://nablex@github.com/nablex/glue-series</be.nabu.glue-glue-series-scm>
+		<be.nabu.libs.services-services-vm-scm>https://nablex@github.com/nablex/services-vm</be.nabu.libs.services-services-vm-scm>
+		<be.nabu.libs.cache-cache-api-scm>https://nablex@github.com/nablex/cache-api</be.nabu.libs.cache-cache-api-scm>
+		<be.nabu.libs.nio-nio-server-scm>https://nablex@github.com/nablex/nio-server</be.nabu.libs.nio-nio-server-scm>
+		<be.nabu.eai-eai-api-scm>https://nablex@bitbucket.org/nablex/eai-api</be.nabu.eai-eai-api-scm>
+		<nabu-eai-module-web-cordova-scm>https://nablex@bitbucket.org/nablex/eai-module-web-cordova</nabu-eai-module-web-cordova-scm>
+		<be.nabu.libs.http-http-glue-scm>https://nablex@github.com/nablex/http-glue</be.nabu.libs.http-http-glue-scm>
+		<be.nabu.utils-utils-aspects-scm>https://nablex@bitbucket.org/nablex/utils-aspects</be.nabu.utils-utils-aspects-scm>
+		<be.nabu.libs.datastore-datastore-urn-database-scm>https://nablex@github.com/nablex/datastore-urn-database</be.nabu.libs.datastore-datastore-urn-database-scm>
+		<be.nabu.eai-eai-repository-scm>https://nablex@bitbucket.org/nablex/eai-repository</be.nabu.eai-eai-repository-scm>
+		<be.nabu.packaging-packaging-integrator-scm>https://nablex@bitbucket.org/nablex/packaging-integrator</be.nabu.packaging-packaging-integrator-scm>
+		<be.nabu.libs.datatransactions-datatransactions-api-scm>https://nablex@github.com/nablex/datatransactions-api</be.nabu.libs.datatransactions-datatransactions-api-scm>
+		<be.nabu.glue-glue-database-scm>https://nablex@github.com/nablex/glue-database</be.nabu.glue-glue-database-scm>
+		<nabu-eai-module-workflow-scm>https://nablex@bitbucket.org/nablex/eai-module-workflow</nabu-eai-module-workflow-scm>
+		<be.nabu.libs.types-types-binding-form-scm>https://nablex@github.com/nablex/types-binding-form</be.nabu.libs.types-types-binding-form-scm>
+		<be.nabu.glue-glue-appium-scm>https://nablex@github.com/nablex/glue-appium</be.nabu.glue-glue-appium-scm>
+		<be.nabu.libs.types-types-map-scm>https://nablex@github.com/nablex/types-map</be.nabu.libs.types-types-map-scm>
+		<be.nabu.libs.artifacts-artifacts-jdbc-postgresql-scm>https://nablex@bitbucket.org/nablex/artifacts-jdbc-postgresql</be.nabu.libs.artifacts-artifacts-jdbc-postgresql-scm>
+		<be.nabu.libs.http-http-client-scm>https://nablex@github.com/nablex/http-client</be.nabu.libs.http-http-client-scm>
+		<nabu-eai-module-jdbc-pool-scm>https://nablex@bitbucket.org/nablex/eai-module-jdbc-pool</nabu-eai-module-jdbc-pool-scm>
+		<be.nabu.glue-glue-transcoder-scm>https://nablex@github.com/nablex/glue-transcoder</be.nabu.glue-glue-transcoder-scm>
+		<be.nabu.libs.services-services-wsdl-scm>https://nablex@bitbucket.org/nablex/services-wsdl</be.nabu.libs.services-services-wsdl-scm>
+		
+		<!-- Versioning -->
 		<be.nabu.utils-utils-io-version>1.2</be.nabu.utils-utils-io-version>
 		<be.nabu.utils-utils-security-resources-version>1.0</be.nabu.utils-utils-security-resources-version>
 		<be.nabu.utils-utils-security-version>1.0</be.nabu.utils-utils-security-version>
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
-		
-		<!-- Validator -->
 		<be.nabu.libs.validator-validator-api-version>1.1</be.nabu.libs.validator-validator-api-version>
 		<be.nabu.libs.validator-validator-base-version>1.1</be.nabu.libs.validator-validator-base-version>
-		
-		<!-- Resources -->
 		<be.nabu.libs.resources-resources-api-version>1.2-SNAPSHOT</be.nabu.libs.resources-resources-api-version>
 		<be.nabu.libs.resources-resources-alias-version>1.0</be.nabu.libs.resources-resources-alias-version>
 		<be.nabu.libs.resources-resources-cifs-version>1.0</be.nabu.libs.resources-resources-cifs-version>
