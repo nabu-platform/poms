@@ -250,6 +250,8 @@
 		<be.nabu.libs.http-http-core-version>1.1-SNAPSHOT</be.nabu.libs.http-http-core-version>
 		<be.nabu.libs.http-http-api-version>1.1-SNAPSHOT</be.nabu.libs.http-http-api-version>
 		<be.nabu.utils-utils-mime-version>1.1</be.nabu.utils-utils-mime-version>
+		<be.nabu.libs.nio-nio-server-version>1.0-SNAPSHOT</be.nabu.libs.nio-nio-server-version>
+		<be.nabu.libs.metrics-metrics-api-version>1.0</be.nabu.libs.metrics-metrics-api-version>
 	</properties>
 	
 	<build>
@@ -576,6 +578,16 @@
 				<groupId>be.nabu.utils</groupId>
 				<artifactId>utils-mime</artifactId>
 				<version>${be.nabu.utils-utils-mime-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.nio</groupId>
+				<artifactId>nio-server</artifactId>
+				<version>${be.nabu.libs.nio-nio-server-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.metrics</groupId>
+				<artifactId>metrics-api</artifactId>
+				<version>${be.nabu.libs.metrics-metrics-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
