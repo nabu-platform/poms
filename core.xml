@@ -261,6 +261,7 @@
 		<be.nabu.libs.services-services-pojo-version>1.0</be.nabu.libs.services-services-pojo-version>
 		<be.nabu.libs.services-services-wsdl-version>1.0</be.nabu.libs.services-services-wsdl-version>
 		<be.nabu.libs.services-services-vm-version>1.0</be.nabu.libs.services-services-vm-version>
+		<be.nabu.libs.services-services-cache-version>1.0</be.nabu.libs.services-services-cache-version>
 	</properties>
 	
 	<build>
@@ -648,6 +649,11 @@
 				<groupId>be.nabu.libs.services</groupId>
 				<artifactId>services-vm</artifactId>
 				<version>${be.nabu.libs.services-services-vm-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.services</groupId>
+				<artifactId>services-cache</artifactId>
+				<version>${be.nabu.libs.services-services-cache-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
