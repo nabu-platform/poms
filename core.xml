@@ -302,6 +302,7 @@
 		<be.nabu.libs-html-scraper-version>1.0</be.nabu.libs-html-scraper-version>
 		<be.nabu.glue-glue-html-version>1.0</be.nabu.glue-glue-html-version>
 		<be.nabu.libs.http-http-glue-version>1.1</be.nabu.libs.http-http-glue-version>
+		<be.nabu.jfx-jfx-control-line-version>1.0</be.nabu.jfx-jfx-control-line-version>
 	</properties>
 	
 	<build>
@@ -916,6 +917,11 @@
 				<groupId>be.nabu.libs.http</groupId>
 				<artifactId>http-glue</artifactId>
 				<version>${be.nabu.libs.http-http-glue-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.jfx</groupId>
+				<artifactId>jfx-control-line</artifactId>
+				<version>${be.nabu.jfx-jfx-control-line-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
