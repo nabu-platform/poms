@@ -315,7 +315,7 @@
 		<be.nabu.libs.tasks-tasks-api-version>1.1</be.nabu.libs.tasks-tasks-api-version>
 		<be.nabu.libs.tasks-tasks-queues-database-version>1.0</be.nabu.libs.tasks-tasks-queues-database-version>
 		<be.nabu.libs.tasks-tasks-queues-cache-version>1.0</be.nabu.libs.tasks-tasks-queues-cache-version>
-		<be.nabu.libs.tasks-tasks-remote-version>1.0-SNAPSHOT</be.nabu.libs.tasks-tasks-remote-version>
+		<be.nabu.libs.tasks-tasks-remote-version>1.0</be.nabu.libs.tasks-tasks-remote-version>
 		<be.nabu.libs.datastore-datastore-resources-version>1.1</be.nabu.libs.datastore-datastore-resources-version>
 	</properties>
 	
