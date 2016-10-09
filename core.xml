@@ -284,7 +284,7 @@
 		<be.nabu.glue-glue-json-version>1.0</be.nabu.glue-glue-json-version>
 		<be.nabu.glue-glue-selenese-version>1.0</be.nabu.glue-glue-selenese-version>
 		<be.nabu.glue-glue-appium-version>1.0</be.nabu.glue-glue-appium-version>
-		<be.nabu.glue-glue-services-version>1.0-SNAPSHOT</be.nabu.glue-glue-services-version>
+		<be.nabu.glue-glue-services-version>1.0</be.nabu.glue-glue-services-version>
 		<be.nabu.glue-glue-types-version>1.0</be.nabu.glue-glue-types-version>
 	</properties>
 	
