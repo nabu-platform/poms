@@ -282,6 +282,7 @@
 		<be.nabu.glue-glue-version>1.0</be.nabu.glue-glue-version>
 		<be.nabu.glue-glue-xml-version>1.0</be.nabu.glue-glue-xml-version>
 		<be.nabu.glue-glue-json-version>1.0</be.nabu.glue-glue-json-version>
+		<be.nabu.glue-glue-selenese-version>1.0</be.nabu.glue-glue-selenese-version>
 	</properties>
 	
 	<build>
@@ -791,6 +792,11 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-json</artifactId>
 				<version>${be.nabu.glue-glue-json-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-selenese</artifactId>
+				<version>${be.nabu.glue-glue-selenese-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
