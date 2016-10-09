@@ -308,6 +308,7 @@
 		<be.nabu.libs.maven-maven-repository-version>1.2</be.nabu.libs.maven-maven-repository-version>
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
 		<be.nabu.eai-eai-api-version>1.0</be.nabu.eai-eai-api-version>
+		<be.nabu.libs.http-http-client-websockets-version>0.1</be.nabu.libs.http-http-client-websockets-version>
 	</properties>
 	
 	<build>
@@ -952,6 +953,11 @@
 				<groupId>be.nabu.eai</groupId>
 				<artifactId>eai-api</artifactId>
 				<version>${be.nabu.eai-eai-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.http</groupId>
+				<artifactId>http-client-websockets</artifactId>
+				<version>${be.nabu.libs.http-http-client-websockets-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
