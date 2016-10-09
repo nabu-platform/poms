@@ -300,6 +300,7 @@
 		<be.nabu.jfx-jfx-control-tree-version>1.0</be.nabu.jfx-jfx-control-tree-version>
 		<be.nabu.jfx-jfx-control-ace-version>1.0</be.nabu.jfx-jfx-control-ace-version>
 		<be.nabu.libs-html-scraper-version>1.0</be.nabu.libs-html-scraper-version>
+		<be.nabu.glue-glue-html-version>1.0</be.nabu.glue-glue-html-version>
 	</properties>
 	
 	<build>
@@ -904,6 +905,11 @@
 				<groupId>be.nabu.libs</groupId>
 				<artifactId>html-scraper</artifactId>
 				<version>${be.nabu.libs-html-scraper-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-html</artifactId>
+				<version>${be.nabu.glue-glue-html-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
