@@ -283,6 +283,9 @@
 		<be.nabu.glue-glue-xml-version>1.0</be.nabu.glue-glue-xml-version>
 		<be.nabu.glue-glue-json-version>1.0</be.nabu.glue-glue-json-version>
 		<be.nabu.glue-glue-selenese-version>1.0</be.nabu.glue-glue-selenese-version>
+		<be.nabu.glue-glue-appium-version>1.0</be.nabu.glue-glue-appium-version>
+		<be.nabu.glue-glue-services-version>1.0-SNAPSHOT</be.nabu.glue-glue-services-version>
+		<be.nabu.glue-glue-types-version>1.0</be.nabu.glue-glue-types-version>
 	</properties>
 	
 	<build>
@@ -797,6 +800,21 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-selenese</artifactId>
 				<version>${be.nabu.glue-glue-selenese-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-appium</artifactId>
+				<version>${be.nabu.glue-glue-appium-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-services</artifactId>
+				<version>${be.nabu.glue-glue-services-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-types</artifactId>
+				<version>${be.nabu.glue-glue-types-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
