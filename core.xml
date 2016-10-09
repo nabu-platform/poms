@@ -314,6 +314,7 @@
 		<be.nabu.jfx-jfx-control-spinner-version>1.0</be.nabu.jfx-jfx-control-spinner-version>
 		<be.nabu.libs.tasks-tasks-api-version>1.1</be.nabu.libs.tasks-tasks-api-version>
 		<be.nabu.libs.tasks-tasks-queues-database-version>1.0</be.nabu.libs.tasks-tasks-queues-database-version>
+		<be.nabu.libs.tasks-tasks-queues-cache-version>1.0</be.nabu.libs.tasks-tasks-queues-cache-version>
 	</properties>
 	
 	<build>
@@ -988,6 +989,11 @@
 				<groupId>be.nabu.libs.tasks</groupId>
 				<artifactId>tasks-queues-database</artifactId>
 				<version>${be.nabu.libs.tasks-tasks-queues-database-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.tasks</groupId>
+				<artifactId>tasks-queues-cache</artifactId>
+				<version>${be.nabu.libs.tasks-tasks-queues-cache-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
