@@ -289,6 +289,7 @@
 		<be.nabu.glue-glue-soapui-version>1.0</be.nabu.glue-glue-soapui-version>
 		<be.nabu.glue-glue-transcoder-version>1.0</be.nabu.glue-glue-transcoder-version>
 		<be.nabu.glue-glue-images-version>1.0</be.nabu.glue-glue-images-version>
+		<be.nabu.glue-glue-pdf-version>1.0</be.nabu.glue-glue-pdf-version>
 	</properties>
 	
 	<build>
@@ -833,6 +834,11 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-images</artifactId>
 				<version>${be.nabu.glue-glue-images-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-pdf</artifactId>
+				<version>${be.nabu.glue-glue-pdf-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
