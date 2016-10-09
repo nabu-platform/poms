@@ -319,7 +319,7 @@
 		<be.nabu.libs.datastore-datastore-resources-version>1.1</be.nabu.libs.datastore-datastore-resources-version>
 		<be.nabu.libs.channels-channels-api-version>1.1</be.nabu.libs.channels-channels-api-version>
 		<be.nabu.libs.datatransactions-datatransactions-api-version>1.1</be.nabu.libs.datatransactions-datatransactions-api-version>
-		<be.nabu.libs.channels-channels-resources-version>1.1-SNAPSHOT</be.nabu.libs.channels-channels-resources-version>
+		<be.nabu.libs.channels-channels-resources-version>1.1</be.nabu.libs.channels-channels-resources-version>
 		<be.nabu.libs.datatransactions-datatransactions-database-version>1.1</be.nabu.libs.datatransactions-datatransactions-database-version>
 		<be.nabu.libs.datastore-datastore-urn-database-version>1.1</be.nabu.libs.datastore-datastore-urn-database-version>
 	</properties>
