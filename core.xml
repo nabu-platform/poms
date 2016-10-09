@@ -278,6 +278,7 @@
 		<be.nabu.libs.datastore-datastore-api-version>1.1</be.nabu.libs.datastore-datastore-api-version>
 		<be.nabu.libs.dms-dms-core-version>1.1</be.nabu.libs.dms-dms-core-version>
 		<be.nabu.libs.vfs-vfs-resources-version>1.0</be.nabu.libs.vfs-vfs-resources-version>
+		<be.nabu.glue-glue-api-version>1.0-SNAPSHOT</be.nabu.glue-glue-api-version>
 	</properties>
 	
 	<build>
@@ -296,6 +297,18 @@
 						</goals>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<configuration>
+					<archive>
+						<manifestEntries>
+							<Build-Time>${maven.build.timestamp}</Build-Time>
+							<Build-Version>${project.version}</Build-Version>
+						</manifestEntries>
+					</archive>
+				</configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -755,6 +768,11 @@
 				<groupId>be.nabu.libs.vfs</groupId>
 				<artifactId>vfs-resources</artifactId>
 				<version>${be.nabu.libs.vfs-vfs-resources-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-api</artifactId>
+				<version>${be.nabu.glue-glue-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
