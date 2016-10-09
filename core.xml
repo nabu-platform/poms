@@ -293,6 +293,7 @@
 		<be.nabu.glue-glue-console-version>1.0-SNAPSHOT</be.nabu.glue-glue-console-version>
 		<be.nabu.glue-glue-validators-version>1.0</be.nabu.glue-glue-validators-version>
 		<be.nabu.glue-glue-integrator-version>1.0</be.nabu.glue-glue-integrator-version>
+		<be.nabu.glue-glue-events-version>1.0</be.nabu.glue-glue-events-version>
 	</properties>
 	
 	<build>
@@ -857,6 +858,11 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-integrator</artifactId>
 				<version>${be.nabu.glue-glue-integrator-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-events</artifactId>
+				<version>${be.nabu.glue-glue-events-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
