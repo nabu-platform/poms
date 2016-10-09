@@ -306,6 +306,8 @@
 		<be.nabu.eai-eai-repository-version>1.0-SNAPSHOT</be.nabu.eai-eai-repository-version>
 		<be.nabu.libs.artifacts-artifacts-maven-version>1.0</be.nabu.libs.artifacts-artifacts-maven-version>
 		<be.nabu.libs.maven-maven-repository-version>1.2</be.nabu.libs.maven-maven-repository-version>
+		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
+		<be.nabu.eai-eai-api-version>1.0</be.nabu.eai-eai-api-version>
 	</properties>
 	
 	<build>
@@ -940,6 +942,16 @@
 				<groupId>be.nabu.libs.maven</groupId>
 				<artifactId>maven-repository</artifactId>
 				<version>${be.nabu.libs.maven-maven-repository-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.maven</groupId>
+				<artifactId>maven-server</artifactId>
+				<version>${be.nabu.libs.maven-maven-server-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.eai</groupId>
+				<artifactId>eai-api</artifactId>
+				<version>${be.nabu.eai-eai-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
