@@ -319,6 +319,8 @@
 		<be.nabu.libs.datastore-datastore-resources-version>1.1</be.nabu.libs.datastore-datastore-resources-version>
 		<be.nabu.libs.channels-channels-api-version>1.1</be.nabu.libs.channels-channels-api-version>
 		<be.nabu.libs.datatransactions-datatransactions-api-version>1.1</be.nabu.libs.datatransactions-datatransactions-api-version>
+		<be.nabu.libs.channels-channels-resources-version>1.1-SNAPSHOT</be.nabu.libs.channels-channels-resources-version>
+		<be.nabu.libs.datatransactions-datatransactions-database-version>1.1</be.nabu.libs.datatransactions-datatransactions-database-version>
 	</properties>
 	
 	<build>
@@ -1018,6 +1020,16 @@
 				<groupId>be.nabu.libs.datatransactions</groupId>
 				<artifactId>datatransactions-api</artifactId>
 				<version>${be.nabu.libs.datatransactions-datatransactions-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.channels</groupId>
+				<artifactId>channels-resources</artifactId>
+				<version>${be.nabu.libs.channels-channels-resources-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.datatransactions</groupId>
+				<artifactId>datatransactions-database</artifactId>
+				<version>${be.nabu.libs.datatransactions-datatransactions-database-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
