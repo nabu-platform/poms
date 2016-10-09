@@ -317,6 +317,8 @@
 		<be.nabu.libs.tasks-tasks-queues-cache-version>1.0</be.nabu.libs.tasks-tasks-queues-cache-version>
 		<be.nabu.libs.tasks-tasks-remote-version>1.0</be.nabu.libs.tasks-tasks-remote-version>
 		<be.nabu.libs.datastore-datastore-resources-version>1.1</be.nabu.libs.datastore-datastore-resources-version>
+		<be.nabu.libs.channels-channels-api-version>1.1-SNAPSHOT</be.nabu.libs.channels-channels-api-version>
+		<be.nabu.libs.datatransactions-datatransactions-api-version>1.1</be.nabu.libs.datatransactions-datatransactions-api-version>
 	</properties>
 	
 	<build>
@@ -1006,6 +1008,16 @@
 				<groupId>be.nabu.libs.datastore</groupId>
 				<artifactId>datastore-resources</artifactId>
 				<version>${be.nabu.libs.datastore-datastore-resources-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.channels</groupId>
+				<artifactId>channels-api</artifactId>
+				<version>${be.nabu.libs.channels-channels-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.datatransactions</groupId>
+				<artifactId>datatransactions-api</artifactId>
+				<version>${be.nabu.libs.datatransactions-datatransactions-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
