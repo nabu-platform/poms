@@ -290,6 +290,8 @@
 		<be.nabu.glue-glue-transcoder-version>1.0</be.nabu.glue-glue-transcoder-version>
 		<be.nabu.glue-glue-images-version>1.0</be.nabu.glue-glue-images-version>
 		<be.nabu.glue-glue-pdf-version>1.0</be.nabu.glue-glue-pdf-version>
+		<be.nabu.glue-glue-console-version>1.0-SNAPSHOT</be.nabu.glue-glue-console-version>
+		<be.nabu.glue-glue-validators-version>1.0</be.nabu.glue-glue-validators-version>
 	</properties>
 	
 	<build>
@@ -839,6 +841,16 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-pdf</artifactId>
 				<version>${be.nabu.glue-glue-pdf-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-console</artifactId>
+				<version>${be.nabu.glue-glue-console-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-validators</artifactId>
+				<version>${be.nabu.glue-glue-validators-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
