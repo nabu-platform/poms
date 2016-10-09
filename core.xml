@@ -303,6 +303,9 @@
 		<be.nabu.glue-glue-html-version>1.0</be.nabu.glue-glue-html-version>
 		<be.nabu.libs.http-http-glue-version>1.1</be.nabu.libs.http-http-glue-version>
 		<be.nabu.jfx-jfx-control-line-version>1.0</be.nabu.jfx-jfx-control-line-version>
+		<be.nabu.eai-eai-repository-version>1.0-SNAPSHOT</be.nabu.eai-eai-repository-version>
+		<be.nabu.libs.artifacts-artifacts-maven-version>1.0</be.nabu.libs.artifacts-artifacts-maven-version>
+		<be.nabu.libs.maven-maven-repository-version>1.2</be.nabu.libs.maven-maven-repository-version>
 	</properties>
 	
 	<build>
@@ -922,6 +925,21 @@
 				<groupId>be.nabu.jfx</groupId>
 				<artifactId>jfx-control-line</artifactId>
 				<version>${be.nabu.jfx-jfx-control-line-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.eai</groupId>
+				<artifactId>eai-repository</artifactId>
+				<version>${be.nabu.eai-eai-repository-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.artifacts</groupId>
+				<artifactId>artifacts-maven</artifactId>
+				<version>${be.nabu.libs.artifacts-artifacts-maven-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.maven</groupId>
+				<artifactId>maven-repository</artifactId>
+				<version>${be.nabu.libs.maven-maven-repository-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
