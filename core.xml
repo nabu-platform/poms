@@ -310,7 +310,7 @@
 		<be.nabu.eai-eai-api-version>1.0</be.nabu.eai-eai-api-version>
 		<be.nabu.libs.http-http-client-websockets-version>0.1</be.nabu.libs.http-http-client-websockets-version>
 		<be.nabu.eai-eai-server-version>1.0</be.nabu.eai-eai-server-version>
-		<be.nabu.eai-eai-developer-version>1.0-SNAPSHOT</be.nabu.eai-eai-developer-version>
+		<be.nabu.eai-eai-developer-version>1.0</be.nabu.eai-eai-developer-version>
 		<be.nabu.jfx-jfx-control-spinner-version>1.0</be.nabu.jfx-jfx-control-spinner-version>
 	</properties>
 	
