@@ -312,6 +312,7 @@
 		<be.nabu.eai-eai-server-version>1.0</be.nabu.eai-eai-server-version>
 		<be.nabu.eai-eai-developer-version>1.0</be.nabu.eai-eai-developer-version>
 		<be.nabu.jfx-jfx-control-spinner-version>1.0</be.nabu.jfx-jfx-control-spinner-version>
+		<be.nabu.libs.tasks-tasks-api-version>1.1</be.nabu.libs.tasks-tasks-api-version>
 	</properties>
 	
 	<build>
@@ -976,6 +977,11 @@
 				<groupId>be.nabu.jfx</groupId>
 				<artifactId>jfx-control-spinner</artifactId>
 				<version>${be.nabu.jfx-jfx-control-spinner-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.tasks</groupId>
+				<artifactId>tasks-api</artifactId>
+				<version>${be.nabu.libs.tasks-tasks-api-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
