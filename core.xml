@@ -294,6 +294,7 @@
 		<be.nabu.glue-glue-validators-version>1.0</be.nabu.glue-glue-validators-version>
 		<be.nabu.glue-glue-integrator-version>1.0</be.nabu.glue-glue-integrator-version>
 		<be.nabu.glue-glue-events-version>1.0</be.nabu.glue-glue-events-version>
+		<be.nabu.glue-glue-database-version>1.0</be.nabu.glue-glue-database-version>
 	</properties>
 	
 	<build>
@@ -397,6 +398,11 @@
 				<groupId>javax.ws.rs</groupId>
 				<artifactId>javax.ws.rs-api</artifactId>
 				<version>2.0.1</version>
+			</dependency>
+			<dependency>
+				<groupId>com.zaxxer</groupId>
+				<artifactId>HikariCP</artifactId>
+				<version>2.5.1</version>
 			</dependency>
 			
 			<!-- Utils -->
@@ -863,6 +869,11 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-events</artifactId>
 				<version>${be.nabu.glue-glue-events-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-database</artifactId>
+				<version>${be.nabu.glue-glue-database-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
