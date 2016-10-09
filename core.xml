@@ -299,6 +299,7 @@
 		<be.nabu.utils-utils-excel-version>1.0</be.nabu.utils-utils-excel-version>
 		<be.nabu.jfx-jfx-control-tree-version>1.0</be.nabu.jfx-jfx-control-tree-version>
 		<be.nabu.jfx-jfx-control-ace-version>1.0</be.nabu.jfx-jfx-control-ace-version>
+		<be.nabu.libs-html-scraper-version>1.0</be.nabu.libs-html-scraper-version>
 	</properties>
 	
 	<build>
@@ -898,6 +899,11 @@
 				<groupId>be.nabu.jfx</groupId>
 				<artifactId>jfx-control-ace</artifactId>
 				<version>${be.nabu.jfx-jfx-control-ace-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs</groupId>
+				<artifactId>html-scraper</artifactId>
+				<version>${be.nabu.libs-html-scraper-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
