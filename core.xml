@@ -359,6 +359,7 @@
 		<nabu-eai-module-types-xml-version>1.0</nabu-eai-module-types-xml-version>
 		<nabu-eai-module-types-uml-version>1.0</nabu-eai-module-types-uml-version>
 		<nabu-eai-module-types-simple-version>1.0</nabu-eai-module-types-simple-version>
+		<nabu-eai-module-wsdl-client-version>1.0</nabu-eai-module-wsdl-client-version>
 	</properties>
 	
 	<build>
@@ -1241,6 +1242,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-types-simple</artifactId>
 				<version>${nabu-eai-module-types-simple-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-wsdl-client</artifactId>
+				<version>${nabu-eai-module-wsdl-client-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
