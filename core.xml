@@ -330,6 +330,9 @@
 		<nabu-eai-module-web-application-version>1.0-SNAPSHOT</nabu-eai-module-web-application-version>
 		<nabu-eai-module-http-server-version>1.0</nabu-eai-module-http-server-version>
 		<nabu-eai-module-keystore-version>1.0</nabu-eai-module-keystore-version>
+		<nabu-eai-module-authorization-vm-version>1.0-SNAPSHOT</nabu-eai-module-authorization-vm-version>
+		<nabu-eai-module-services-interface-version>1.0-SNAPSHOT</nabu-eai-module-services-interface-version>
+		<nabu-eai-module-types-structure-version>1.0</nabu-eai-module-types-structure-version>
 	</properties>
 	
 	<build>
@@ -1074,6 +1077,21 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-keystore</artifactId>
 				<version>${nabu-eai-module-keystore-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-authorization-vm</artifactId>
+				<version>${nabu-eai-module-authorization-vm-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-services-interface</artifactId>
+				<version>${nabu-eai-module-services-interface-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-types-structure</artifactId>
+				<version>${nabu-eai-module-types-structure-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
