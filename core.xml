@@ -374,6 +374,7 @@
 		<nabu-eai-module-web-wiki-version>1.0</nabu-eai-module-web-wiki-version>
 		<nabu-eai-module-tracer-version>1.0</nabu-eai-module-tracer-version>
 		<nabu-eai-module-utils-version>1.0</nabu-eai-module-utils-version>
+		<be.nabu.packaging-packaging-integrator-version>1.0</be.nabu.packaging-packaging-integrator-version>
 	</properties>
 	
 	<build>
@@ -1331,6 +1332,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-utils</artifactId>
 				<version>${nabu-eai-module-utils-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.packaging</groupId>
+				<artifactId>packaging-integrator</artifactId>
+				<version>${be.nabu.packaging-packaging-integrator-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
