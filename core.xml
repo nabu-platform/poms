@@ -340,6 +340,8 @@
 		<nabu-eai-module-http-client-version>1.0</nabu-eai-module-http-client-version>
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
 		<nabu-eai-module-services-vm-version>1.0</nabu-eai-module-services-vm-version>
+		<nabu-eai-module-broker-version>1.0-SNAPSHOT</nabu-eai-module-broker-version>
+		<nabu-eai-module-datastore-version>1.0</nabu-eai-module-datastore-version>
 	</properties>
 	
 	<build>
@@ -1127,6 +1129,16 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-services-vm</artifactId>
 				<version>${nabu-eai-module-services-vm-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-broker</artifactId>
+				<version>${nabu-eai-module-broker-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-datastore</artifactId>
+				<version>${nabu-eai-module-datastore-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
