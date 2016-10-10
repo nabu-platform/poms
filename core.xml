@@ -361,6 +361,7 @@
 		<nabu-eai-module-types-simple-version>1.0</nabu-eai-module-types-simple-version>
 		<nabu-eai-module-wsdl-client-version>1.0</nabu-eai-module-wsdl-client-version>
 		<nabu-eai-module-wsdl-provider-version>1.0</nabu-eai-module-wsdl-provider-version>
+		<nabu-eai-module-web-cordova-version>1.0</nabu-eai-module-web-cordova-version>
 	</properties>
 	
 	<build>
@@ -1253,6 +1254,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-wsdl-provider</artifactId>
 				<version>${nabu-eai-module-wsdl-provider-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-web-cordova</artifactId>
+				<version>${nabu-eai-module-web-cordova-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
