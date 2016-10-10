@@ -336,6 +336,9 @@
 		<nabu-eai-module-glue-version>1.0</nabu-eai-module-glue-version>
 		<be.nabu.glue-glue-series-version>1.0</be.nabu.glue-glue-series-version>
 		<nabu-eai-module-web-component-version>1.0</nabu-eai-module-web-component-version>
+		<nabu-eai-module-authentication-oauth2-version>1.0-SNAPSHOT</nabu-eai-module-authentication-oauth2-version>
+		<nabu-eai-module-http-client-version>1.0-SNAPSHOT</nabu-eai-module-http-client-version>
+		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
 	</properties>
 	
 	<build>
@@ -1110,6 +1113,21 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-web-component</artifactId>
 				<version>${nabu-eai-module-web-component-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-authentication-oauth2</artifactId>
+				<version>${nabu-eai-module-authentication-oauth2-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-http-client</artifactId>
+				<version>${nabu-eai-module-http-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-proxy</artifactId>
+				<version>${nabu-eai-module-proxy-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
