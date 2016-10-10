@@ -373,6 +373,7 @@
 		<nabu-eai-module-services-jdbc-version>1.0</nabu-eai-module-services-jdbc-version>
 		<nabu-eai-module-web-wiki-version>1.0</nabu-eai-module-web-wiki-version>
 		<nabu-eai-module-tracer-version>1.0</nabu-eai-module-tracer-version>
+		<nabu-eai-module-utils-version>1.0</nabu-eai-module-utils-version>
 	</properties>
 	
 	<build>
@@ -1325,6 +1326,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-tracer</artifactId>
 				<version>${nabu-eai-module-tracer-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-utils</artifactId>
+				<version>${nabu-eai-module-utils-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
