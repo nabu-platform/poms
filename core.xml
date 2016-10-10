@@ -350,7 +350,7 @@
 		<nabu-eai-module-deployment-version>1.0</nabu-eai-module-deployment-version>
 		<nabu-eai-module-jdbc-pool-version>1.0</nabu-eai-module-jdbc-pool-version>
 		<nabu-eai-module-maven-version>1.0</nabu-eai-module-maven-version>
-		<nabu-eai-module-metrics-version>1.0-SNAPSHOT</nabu-eai-module-metrics-version>
+		<nabu-eai-module-metrics-version>1.0</nabu-eai-module-metrics-version>
 		<be.nabu.libs.metrics-metrics-database-version>1.0</be.nabu.libs.metrics-metrics-database-version>
 	</properties>
 	
