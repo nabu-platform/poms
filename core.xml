@@ -367,6 +367,7 @@
 		<nabu-eai-module-startup-version>1.0</nabu-eai-module-startup-version>
 		<nabu-eai-module-smtp-client-version>1.0</nabu-eai-module-smtp-client-version>
 		<nabu-eai-module-swagger-version>1.0-SNAPSHOT</nabu-eai-module-swagger-version>
+		<nabu-eai-module-workflow-version>1.0-SNAPSHOT</nabu-eai-module-workflow-version>
 	</properties>
 	
 	<build>
@@ -1289,6 +1290,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-swagger</artifactId>
 				<version>${nabu-eai-module-swagger-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-workflow</artifactId>
+				<version>${nabu-eai-module-workflow-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
