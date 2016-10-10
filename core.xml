@@ -339,6 +339,7 @@
 		<nabu-eai-module-authentication-oauth2-version>1.0</nabu-eai-module-authentication-oauth2-version>
 		<nabu-eai-module-http-client-version>1.0</nabu-eai-module-http-client-version>
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
+		<nabu-eai-module-services-vm-version>1.0</nabu-eai-module-services-vm-version>
 	</properties>
 	
 	<build>
@@ -405,13 +406,6 @@
 			</plugin>
 		</plugins>
 	</build>
-	
-	<licenses>
-		<license>
-			<name>LGPL 3.0 License</name>
-			<url>http://www.gnu.org/licenses/lgpl.html</url>
-		</license>
-	</licenses>
 	
 	<dependencyManagement>
 		<dependencies>
@@ -1128,6 +1122,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-proxy</artifactId>
 				<version>${nabu-eai-module-proxy-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-services-vm</artifactId>
+				<version>${nabu-eai-module-services-vm-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
