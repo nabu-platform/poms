@@ -363,6 +363,7 @@
 		<nabu-eai-module-wsdl-provider-version>1.0</nabu-eai-module-wsdl-provider-version>
 		<nabu-eai-module-web-cordova-version>1.0</nabu-eai-module-web-cordova-version>
 		<nabu-eai-module-template-text-version>1.0</nabu-eai-module-template-text-version>
+		<nabu-eai-module-scheduler-version>1.0</nabu-eai-module-scheduler-version>
 	</properties>
 	
 	<build>
@@ -1265,6 +1266,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-template-text</artifactId>
 				<version>${nabu-eai-module-template-text-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-scheduler</artifactId>
+				<version>${nabu-eai-module-scheduler-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
