@@ -348,6 +348,7 @@
 		<nabu-eai-module-configuration-version>1.0</nabu-eai-module-configuration-version>
 		<nabu-eai-module-data-provider-version>1.0</nabu-eai-module-data-provider-version>
 		<nabu-eai-module-deployment-version>1.0</nabu-eai-module-deployment-version>
+		<nabu-eai-module-jdbc-pool-version>1.0</nabu-eai-module-jdbc-pool-version>
 	</properties>
 	
 	<build>
@@ -1175,6 +1176,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-deployment</artifactId>
 				<version>${nabu-eai-module-deployment-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-jdbc-pool</artifactId>
+				<version>${nabu-eai-module-jdbc-pool-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
