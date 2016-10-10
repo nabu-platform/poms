@@ -360,6 +360,7 @@
 		<nabu-eai-module-types-uml-version>1.0</nabu-eai-module-types-uml-version>
 		<nabu-eai-module-types-simple-version>1.0</nabu-eai-module-types-simple-version>
 		<nabu-eai-module-wsdl-client-version>1.0</nabu-eai-module-wsdl-client-version>
+		<nabu-eai-module-wsdl-provider-version>1.0</nabu-eai-module-wsdl-provider-version>
 	</properties>
 	
 	<build>
@@ -1247,6 +1248,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-wsdl-client</artifactId>
 				<version>${nabu-eai-module-wsdl-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-wsdl-provider</artifactId>
+				<version>${nabu-eai-module-wsdl-provider-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
