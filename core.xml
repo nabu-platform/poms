@@ -333,7 +333,7 @@
 		<nabu-eai-module-authorization-vm-version>1.0-SNAPSHOT</nabu-eai-module-authorization-vm-version>
 		<nabu-eai-module-services-interface-version>1.0</nabu-eai-module-services-interface-version>
 		<nabu-eai-module-types-structure-version>1.0</nabu-eai-module-types-structure-version>
-		<nabu-eai-module-glue-version>1.0-SNAPSHOT</nabu-eai-module-glue-version>
+		<nabu-eai-module-glue-version>1.0</nabu-eai-module-glue-version>
 		<be.nabu.glue-glue-series-version>1.0</be.nabu.glue-glue-series-version>
 	</properties>
 	
