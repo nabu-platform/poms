@@ -335,6 +335,7 @@
 		<nabu-eai-module-types-structure-version>1.0</nabu-eai-module-types-structure-version>
 		<nabu-eai-module-glue-version>1.0</nabu-eai-module-glue-version>
 		<be.nabu.glue-glue-series-version>1.0</be.nabu.glue-glue-series-version>
+		<nabu-eai-module-web-component-version>1.0</nabu-eai-module-web-component-version>
 	</properties>
 	
 	<build>
@@ -1104,6 +1105,11 @@
 				<groupId>be.nabu.glue</groupId>
 				<artifactId>glue-series</artifactId>
 				<version>${be.nabu.glue-glue-series-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-web-component</artifactId>
+				<version>${nabu-eai-module-web-component-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
