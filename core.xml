@@ -354,6 +354,7 @@
 		<be.nabu.libs.metrics-metrics-database-version>1.0</be.nabu.libs.metrics-metrics-database-version>
 		<nabu-eai-module-rest-version>1.0</nabu-eai-module-rest-version>
 		<nabu-eai-module-rest-client-version>1.0</nabu-eai-module-rest-client-version>
+		<nabu-eai-module-rest-provider-version>1.0</nabu-eai-module-rest-provider-version>
 	</properties>
 	
 	<build>
@@ -1211,6 +1212,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-rest-client</artifactId>
 				<version>${nabu-eai-module-rest-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-rest-provider</artifactId>
+				<version>${nabu-eai-module-rest-provider-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
