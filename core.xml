@@ -355,6 +355,7 @@
 		<nabu-eai-module-rest-version>1.0</nabu-eai-module-rest-version>
 		<nabu-eai-module-rest-client-version>1.0</nabu-eai-module-rest-client-version>
 		<nabu-eai-module-rest-provider-version>1.0</nabu-eai-module-rest-provider-version>
+		<nabu-eai-module-mime-version>1.0</nabu-eai-module-mime-version>
 	</properties>
 	
 	<build>
@@ -1217,6 +1218,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-rest-provider</artifactId>
 				<version>${nabu-eai-module-rest-provider-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-mime</artifactId>
+				<version>${nabu-eai-module-mime-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
