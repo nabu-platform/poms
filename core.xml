@@ -339,7 +339,7 @@
 		<nabu-eai-module-authentication-oauth2-version>1.0</nabu-eai-module-authentication-oauth2-version>
 		<nabu-eai-module-http-client-version>1.0</nabu-eai-module-http-client-version>
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
-		<nabu-eai-module-services-vm-version>1.0</nabu-eai-module-services-vm-version>
+		<nabu-eai-module-services-vm-version>1.1</nabu-eai-module-services-vm-version>
 		<nabu-eai-module-broker-version>1.0</nabu-eai-module-broker-version>
 		<nabu-eai-module-datastore-version>1.0</nabu-eai-module-datastore-version>
 		<nabu-eai-module-cache-version>1.0</nabu-eai-module-cache-version>
