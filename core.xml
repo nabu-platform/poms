@@ -331,7 +331,7 @@
 		<nabu-eai-module-http-server-version>1.0</nabu-eai-module-http-server-version>
 		<nabu-eai-module-keystore-version>1.0</nabu-eai-module-keystore-version>
 		<nabu-eai-module-authorization-vm-version>1.0-SNAPSHOT</nabu-eai-module-authorization-vm-version>
-		<nabu-eai-module-services-interface-version>1.0-SNAPSHOT</nabu-eai-module-services-interface-version>
+		<nabu-eai-module-services-interface-version>1.0</nabu-eai-module-services-interface-version>
 		<nabu-eai-module-types-structure-version>1.0</nabu-eai-module-types-structure-version>
 	</properties>
 	
