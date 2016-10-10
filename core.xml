@@ -22,7 +22,7 @@
 		<be.nabu.apps-apps-blog-scm>https://nablex@bitbucket.org/nablex/apps-blog</be.nabu.apps-apps-blog-scm>
 		<be.nabu.glue-glue-tests-scm>https://nablex@bitbucket.org/nablex/glue-tests/</be.nabu.glue-glue-tests-scm>
 		<nabu-eai-module-web-application-scm>https://nablex@bitbucket.org/nablex/eai-module-web-application</nabu-eai-module-web-application-scm>
-		<be.nabu.libs.swagger-swagger-parser-scm>https://nablex@bitbucket.org/nablex/swagger-parser</be.nabu.libs.swagger-swagger-parser-scm>
+		<be.nabu.libs.swagger-swagger-parser-scm>https://nablex@github.com/nablex/swagger-parser</be.nabu.libs.swagger-swagger-parser-scm>
 		<be.nabu.libs.types-types-binding-api-scm>https://nablex@github.com/nablex/types-binding-api</be.nabu.libs.types-types-binding-api-scm>
 		<be.nabu.glue-glave-scm>https://nablex@bitbucket.org/nablex/glave</be.nabu.glue-glave-scm>
 		<be.nabu.libs.types-types-binding-xml-scm>https://nablex@github.com/nablex/types-binding-xml</be.nabu.libs.types-types-binding-xml-scm>
@@ -49,7 +49,7 @@
 		<be.nabu.libs.tasks-tasks-queues-database-scm>https://nablex@bitbucket.org/nablex/tasks-queues-database</be.nabu.libs.tasks-tasks-queues-database-scm>
 		<nabu-eai-module-types-uml-scm>https://nablex@bitbucket.org/nablex/eai-module-types-uml</nabu-eai-module-types-uml-scm>
 		<be.nabu.utils-utils-excel-scm>https://nablex@bitbucket.org/nablex/utils-excel</be.nabu.utils-utils-excel-scm>
-		<be.nabu.libs.swagger-swagger-formatter-scm>https://nablex@bitbucket.org/nablex/swagger-formatter</be.nabu.libs.swagger-swagger-formatter-scm>
+		<be.nabu.libs.swagger-swagger-formatter-scm>https://nablex@github.com/nablex/swagger-formatter</be.nabu.libs.swagger-swagger-formatter-scm>
 		<be.nabu.libs.types-types-binding-json-scm>https://nablex@github.com/nablex/types-binding-json</be.nabu.libs.types-types-binding-json-scm>
 		<be.nabu.libs.services-services-api-scm>https://nablex@github.com/nablex/services-api</be.nabu.libs.services-services-api-scm>
 		<be.nabu.libs.property-property-api-scm>https://nablex@github.com/nablex/property-api</be.nabu.libs.property-property-api-scm>
@@ -120,7 +120,7 @@
 		<nabu-eai-module-mime-scm>https://nablex@bitbucket.org/nablex/eai-module-mime</nabu-eai-module-mime-scm>
 		<nabu-eai-module-web-wiki-scm>https://nablex@bitbucket.org/nablex/eai-module-web-wiki</nabu-eai-module-web-wiki-scm>
 		<nabu-eai-module-rest-provider-scm>https://nablex@bitbucket.org/nablex/eai-module-rest-provider</nabu-eai-module-rest-provider-scm>
-		<be.nabu.libs.swagger-swagger-api-scm>https://nablex@bitbucket.org/nablex/swagger-api</be.nabu.libs.swagger-swagger-api-scm>
+		<be.nabu.libs.swagger-swagger-api-scm>https://nablex@github.com/nablex/swagger-api</be.nabu.libs.swagger-swagger-api-scm>
 		<be.nabu.glue-glue-soapui-scm>https://nablex@github.com/nablex/glue-soapui</be.nabu.glue-glue-soapui-scm>
 		<be.nabu.jfx-jfx-control-spinner-scm>https://github.com/nablex/jfx-control-spinner</be.nabu.jfx-jfx-control-spinner-scm>
 		<be.nabu.libs.types-types-structure-scm>https://nablex@github.com/nablex/types-structure</be.nabu.libs.types-types-structure-scm>
@@ -134,7 +134,7 @@
 		<be.nabu.libs.types-types-java-scm>https://nablex@github.com/nablex/types-java</be.nabu.libs.types-types-java-scm>
 		<be.nabu.libs.wsdl-wsdl-formatter-scm>https://nablex@github.com/nablex/wsdl-formatter</be.nabu.libs.wsdl-wsdl-formatter-scm>
 		<nabu-eai-module-cluster-scm>https://nablex@bitbucket.org/nablex/eai-module-cluster</nabu-eai-module-cluster-scm>
-		<be.nabu.libs.resources-resources-snapshot-scm>https://nablex@bitbucket.org/nablex/resources-snapshot</be.nabu.libs.resources-resources-snapshot-scm>
+		<be.nabu.libs.resources-resources-snapshot-scm>https://nablex@github.com/nablex/resources-snapshot</be.nabu.libs.resources-resources-snapshot-scm>
 		<be.nabu.libs.types-types-api-scm>https://nablex@github.com/nablex/types-api</be.nabu.libs.types-types-api-scm>
 		<be.nabu.libs.types-types-xml-scm>https://nablex@github.com/nablex/types-xml</be.nabu.libs.types-types-xml-scm>
 		<be.nabu.libs.resources-resources-api-scm>https://nablex@github.com/nablex/resources-api</be.nabu.libs.resources-resources-api-scm>
@@ -185,7 +185,7 @@
 		<be.nabu.eai-eai-api-scm>https://nablex@bitbucket.org/nablex/eai-api</be.nabu.eai-eai-api-scm>
 		<nabu-eai-module-web-cordova-scm>https://nablex@bitbucket.org/nablex/eai-module-web-cordova</nabu-eai-module-web-cordova-scm>
 		<be.nabu.libs.http-http-glue-scm>https://nablex@github.com/nablex/http-glue</be.nabu.libs.http-http-glue-scm>
-		<be.nabu.utils-utils-aspects-scm>https://nablex@bitbucket.org/nablex/utils-aspects</be.nabu.utils-utils-aspects-scm>
+		<be.nabu.utils-utils-aspects-scm>https://nablex@github.com/nablex/utils-aspects</be.nabu.utils-utils-aspects-scm>
 		<be.nabu.libs.datastore-datastore-urn-database-scm>https://nablex@github.com/nablex/datastore-urn-database</be.nabu.libs.datastore-datastore-urn-database-scm>
 		<be.nabu.eai-eai-repository-scm>https://nablex@bitbucket.org/nablex/eai-repository</be.nabu.eai-eai-repository-scm>
 		<be.nabu.packaging-packaging-integrator-scm>https://nablex@bitbucket.org/nablex/packaging-integrator</be.nabu.packaging-packaging-integrator-scm>
@@ -324,6 +324,10 @@
 		<be.nabu.libs.datastore-datastore-urn-database-version>1.1</be.nabu.libs.datastore-datastore-urn-database-version>
 		<be.nabu.libs.http-http-server-kerberos-version>1.0</be.nabu.libs.http-http-server-kerberos-version>
 		<nabu-eai-module-auditing-version>1.0</nabu-eai-module-auditing-version>
+		<be.nabu.libs.http-http-server-kerberos-scm>https://nablex@bitbucket.org/nablex/http-server-kerberos</be.nabu.libs.http-http-server-kerberos-scm>
+		<nabu-eai-module-authentication-kerberos-scm>https://nablex@bitbucket.org/nablex/eai-module-authentication-kerberos</nabu-eai-module-authentication-kerberos-scm>
+		<nabu-eai-module-authentication-kerberos-version>1.0-SNAPSHOT</nabu-eai-module-authentication-kerberos-version>
+		<nabu-eai-module-web-application-version>1.0-SNAPSHOT</nabu-eai-module-web-application-version>
 	</properties>
 	
 	<build>
@@ -1048,6 +1052,16 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-auditing</artifactId>
 				<version>${nabu-eai-module-auditing-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-authentication-kerberos</artifactId>
+				<version>${nabu-eai-module-authentication-kerberos-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-web-application</artifactId>
+				<version>${nabu-eai-module-web-application-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
