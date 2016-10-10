@@ -352,6 +352,7 @@
 		<nabu-eai-module-maven-version>1.0</nabu-eai-module-maven-version>
 		<nabu-eai-module-metrics-version>1.0</nabu-eai-module-metrics-version>
 		<be.nabu.libs.metrics-metrics-database-version>1.0</be.nabu.libs.metrics-metrics-database-version>
+		<nabu-eai-module-rest-version>1.0</nabu-eai-module-rest-version>
 	</properties>
 	
 	<build>
@@ -1199,6 +1200,11 @@
 				<groupId>be.nabu.libs.metrics</groupId>
 				<artifactId>metrics-database</artifactId>
 				<version>${be.nabu.libs.metrics-metrics-database-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-rest</artifactId>
+				<version>${nabu-eai-module-rest-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
