@@ -208,25 +208,25 @@
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
 		<be.nabu.libs.validator-validator-api-version>1.1</be.nabu.libs.validator-validator-api-version>
 		<be.nabu.libs.validator-validator-base-version>1.1</be.nabu.libs.validator-validator-base-version>
-		<be.nabu.libs.resources-resources-api-version>1.2-SNAPSHOT</be.nabu.libs.resources-resources-api-version>
+		<be.nabu.libs.resources-resources-api-version>1.2</be.nabu.libs.resources-resources-api-version>
 		<be.nabu.libs.resources-resources-alias-version>1.0</be.nabu.libs.resources-resources-alias-version>
 		<be.nabu.libs.resources-resources-cifs-version>1.0</be.nabu.libs.resources-resources-cifs-version>
 		<be.nabu.libs.resources-resources-classpath-version>1.0</be.nabu.libs.resources-resources-classpath-version>
 		<be.nabu.libs.resources-resources-file-version>1.2</be.nabu.libs.resources-resources-file-version>
 		<be.nabu.libs.resources-resources-memory-version>1.1</be.nabu.libs.resources-resources-memory-version>
-		<be.nabu.libs.resources-resources-remote-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-remote-version>
+		<be.nabu.libs.resources-resources-remote-version>1.0</be.nabu.libs.resources-resources-remote-version>
 		<be.nabu.libs.resources-resources-url-version>1.0</be.nabu.libs.resources-resources-url-version>
-		<be.nabu.libs.resources-resources-zip-version>1.1-SNAPSHOT</be.nabu.libs.resources-resources-zip-version>
+		<be.nabu.libs.resources-resources-zip-version>1.1</be.nabu.libs.resources-resources-zip-version>
 		<be.nabu.libs.converter-converter-api-version>1.1</be.nabu.libs.converter-converter-api-version>
 		<be.nabu.libs.converter-converter-base-version>1.1</be.nabu.libs.converter-converter-base-version>
 		<be.nabu.libs.types-types-api-version>1.1</be.nabu.libs.types-types-api-version>
 		<be.nabu.libs.property-property-api-version>1.1</be.nabu.libs.property-property-api-version>
 		<be.nabu.libs.artifacts-artifacts-api-version>1.1</be.nabu.libs.artifacts-artifacts-api-version>
-		<be.nabu.libs.types-types-base-version>1.2-SNAPSHOT</be.nabu.libs.types-types-base-version>
+		<be.nabu.libs.types-types-base-version>1.2</be.nabu.libs.types-types-base-version>
 		<be.nabu.libs.types-types-binding-api-version>1.1</be.nabu.libs.types-types-binding-api-version>
 		<be.nabu.libs.types-types-binding-xml-version>1.1</be.nabu.libs.types-types-binding-xml-version>
 		<be.nabu.libs.types-types-java-version>1.1</be.nabu.libs.types-types-java-version>
-		<be.nabu.libs.types-types-binding-json-version>1.1-SNAPSHOT</be.nabu.libs.types-types-binding-json-version>
+		<be.nabu.libs.types-types-binding-json-version>1.1</be.nabu.libs.types-types-binding-json-version>
 		<be.nabu.libs.types-types-binding-form-version>1.0</be.nabu.libs.types-types-binding-form-version>
 		<be.nabu.libs.types-types-binding-flat-version>1.2</be.nabu.libs.types-types-binding-flat-version>
 		<be.nabu.libs.types-types-definition-api-version>1.0</be.nabu.libs.types-types-definition-api-version>
@@ -240,7 +240,7 @@
 		<be.nabu.utils-utils-xml-version>1.0</be.nabu.utils-utils-xml-version>
 		<be.nabu.libs.wsdl-wsdl-parser-version>1.0</be.nabu.libs.wsdl-wsdl-parser-version>
 		<be.nabu.libs.types-types-xml-version>1.1</be.nabu.libs.types-types-xml-version>
-		<be.nabu.libs.evaluator-evaluator-api-version>1.1-SNAPSHOT</be.nabu.libs.evaluator-evaluator-api-version>
+		<be.nabu.libs.evaluator-evaluator-api-version>1.1</be.nabu.libs.evaluator-evaluator-api-version>
 		<be.nabu.libs.evaluator-evaluator-types-version>1.0</be.nabu.libs.evaluator-evaluator-types-version>
 		<be.nabu.libs.types-types-uml-version>1.1</be.nabu.libs.types-types-uml-version>
 		<be.nabu.libs.services-services-api-version>1.0</be.nabu.libs.services-services-api-version>
@@ -307,7 +307,7 @@
 		<be.nabu.libs.artifacts-artifacts-maven-version>1.0</be.nabu.libs.artifacts-artifacts-maven-version>
 		<be.nabu.libs.maven-maven-repository-version>1.2</be.nabu.libs.maven-maven-repository-version>
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
-		<be.nabu.eai-eai-api-version>1.1-SNAPSHOT</be.nabu.eai-eai-api-version>
+		<be.nabu.eai-eai-api-version>1.1</be.nabu.eai-eai-api-version>
 		<be.nabu.libs.http-http-client-websockets-version>0.1</be.nabu.libs.http-http-client-websockets-version>
 		<be.nabu.eai-eai-server-version>1.0</be.nabu.eai-eai-server-version>
 		<be.nabu.eai-eai-developer-version>1.0</be.nabu.eai-eai-developer-version>
