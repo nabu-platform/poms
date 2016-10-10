@@ -347,6 +347,7 @@
 		<nabu-eai-module-excel-version>1.0</nabu-eai-module-excel-version>
 		<nabu-eai-module-configuration-version>1.0</nabu-eai-module-configuration-version>
 		<nabu-eai-module-data-provider-version>1.0</nabu-eai-module-data-provider-version>
+		<nabu-eai-module-deployment-version>1.0</nabu-eai-module-deployment-version>
 	</properties>
 	
 	<build>
@@ -1169,6 +1170,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-data-provider</artifactId>
 				<version>${nabu-eai-module-data-provider-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-deployment</artifactId>
+				<version>${nabu-eai-module-deployment-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
