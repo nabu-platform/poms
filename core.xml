@@ -301,7 +301,7 @@
 		<be.nabu.jfx-jfx-control-ace-version>1.0</be.nabu.jfx-jfx-control-ace-version>
 		<be.nabu.libs-html-scraper-version>1.0</be.nabu.libs-html-scraper-version>
 		<be.nabu.glue-glue-html-version>1.0</be.nabu.glue-glue-html-version>
-		<be.nabu.libs.http-http-glue-version>1.2-SNAPSHOT</be.nabu.libs.http-http-glue-version>
+		<be.nabu.libs.http-http-glue-version>1.2</be.nabu.libs.http-http-glue-version>
 		<be.nabu.jfx-jfx-control-line-version>1.0</be.nabu.jfx-jfx-control-line-version>
 		<be.nabu.eai-eai-repository-version>1.1-SNAPSHOT</be.nabu.eai-eai-repository-version>
 		<be.nabu.libs.artifacts-artifacts-maven-version>1.0</be.nabu.libs.artifacts-artifacts-maven-version>
