@@ -365,6 +365,7 @@
 		<nabu-eai-module-template-text-version>1.0</nabu-eai-module-template-text-version>
 		<nabu-eai-module-scheduler-version>1.0</nabu-eai-module-scheduler-version>
 		<nabu-eai-module-startup-version>1.0</nabu-eai-module-startup-version>
+		<nabu-eai-module-smtp-client-version>1.0</nabu-eai-module-smtp-client-version>
 	</properties>
 	
 	<build>
@@ -1277,6 +1278,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-startup</artifactId>
 				<version>${nabu-eai-module-startup-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-smtp-client</artifactId>
+				<version>${nabu-eai-module-smtp-client-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
