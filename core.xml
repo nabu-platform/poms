@@ -326,7 +326,7 @@
 		<nabu-eai-module-auditing-version>1.0</nabu-eai-module-auditing-version>
 		<be.nabu.libs.http-http-server-kerberos-scm>https://nablex@bitbucket.org/nablex/http-server-kerberos</be.nabu.libs.http-http-server-kerberos-scm>
 		<nabu-eai-module-authentication-kerberos-scm>https://nablex@bitbucket.org/nablex/eai-module-authentication-kerberos</nabu-eai-module-authentication-kerberos-scm>
-		<nabu-eai-module-authentication-kerberos-version>1.0-SNAPSHOT</nabu-eai-module-authentication-kerberos-version>
+		<nabu-eai-module-authentication-kerberos-version>1.0</nabu-eai-module-authentication-kerberos-version>
 		<nabu-eai-module-web-application-version>1.0-SNAPSHOT</nabu-eai-module-web-application-version>
 		<nabu-eai-module-http-server-version>1.0</nabu-eai-module-http-server-version>
 		<nabu-eai-module-keystore-version>1.0</nabu-eai-module-keystore-version>
