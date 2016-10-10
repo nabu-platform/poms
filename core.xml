@@ -370,6 +370,7 @@
 		<nabu-eai-module-workflow-version>1.0-SNAPSHOT</nabu-eai-module-workflow-version>
 		<nabu-eai-module-web-websockets-version>1.0</nabu-eai-module-web-websockets-version>
 		<nabu-eai-module-web-resources-version>1.0</nabu-eai-module-web-resources-version>
+		<nabu-eai-module-services-jdbc-version>1.0</nabu-eai-module-services-jdbc-version>
 	</properties>
 	
 	<build>
@@ -1307,6 +1308,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-web-resources</artifactId>
 				<version>${nabu-eai-module-web-resources-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-services-jdbc</artifactId>
+				<version>${nabu-eai-module-services-jdbc-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
