@@ -12,7 +12,7 @@
 	</parent>
 	
 	<properties>
-		<nabu.authentication-kerberos-server-version>1.0-SNAPSHOT</nabu.authentication-kerberos-server-version>
+		<nabu.authentication.kerberos-server-version>1.0-SNAPSHOT</nabu.authentication.kerberos-server-version>
 	</properties>
 	
 	<build>
@@ -25,23 +25,8 @@
 				</excludes>
 			</resource>
 		</resources>
-		<plugins>
-			<plugin>
-				<groupId>org.codehaus.mojo</groupId>
-				<artifactId>flatten-maven-plugin</artifactId>
-				<configuration>
-				</configuration>
-				<executions>
-					<execution>
-						<id>flatten</id>
-						<phase>process-resources</phase>
-						<goals>
-							<goal>flatten</goal>
-						</goals>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
+		<finalName>${project.groupId}.${project.artifactId}.${project.version}</finalName>
+		<directory>/tmp/${project.groupId}.${project.artifactId}</directory>
 	</build>
 
 	<dependencyManagement>

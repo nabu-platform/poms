@@ -216,7 +216,7 @@
 		<be.nabu.libs.resources-resources-memory-version>1.1</be.nabu.libs.resources-resources-memory-version>
 		<be.nabu.libs.resources-resources-remote-version>1.0-SNAPSHOT</be.nabu.libs.resources-resources-remote-version>
 		<be.nabu.libs.resources-resources-url-version>1.0</be.nabu.libs.resources-resources-url-version>
-		<be.nabu.libs.resources-resources-zip-version>1.0</be.nabu.libs.resources-resources-zip-version>
+		<be.nabu.libs.resources-resources-zip-version>1.1-SNAPSHOT</be.nabu.libs.resources-resources-zip-version>
 		<be.nabu.libs.converter-converter-api-version>1.1</be.nabu.libs.converter-converter-api-version>
 		<be.nabu.libs.converter-converter-base-version>1.1</be.nabu.libs.converter-converter-base-version>
 		<be.nabu.libs.types-types-api-version>1.1</be.nabu.libs.types-types-api-version>
@@ -303,7 +303,7 @@
 		<be.nabu.glue-glue-html-version>1.0</be.nabu.glue-glue-html-version>
 		<be.nabu.libs.http-http-glue-version>1.1</be.nabu.libs.http-http-glue-version>
 		<be.nabu.jfx-jfx-control-line-version>1.0</be.nabu.jfx-jfx-control-line-version>
-		<be.nabu.eai-eai-repository-version>1.0</be.nabu.eai-eai-repository-version>
+		<be.nabu.eai-eai-repository-version>1.1-SNAPSHOT</be.nabu.eai-eai-repository-version>
 		<be.nabu.libs.artifacts-artifacts-maven-version>1.0</be.nabu.libs.artifacts-artifacts-maven-version>
 		<be.nabu.libs.maven-maven-repository-version>1.2</be.nabu.libs.maven-maven-repository-version>
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
@@ -323,6 +323,7 @@
 		<be.nabu.libs.datatransactions-datatransactions-database-version>1.1</be.nabu.libs.datatransactions-datatransactions-database-version>
 		<be.nabu.libs.datastore-datastore-urn-database-version>1.1</be.nabu.libs.datastore-datastore-urn-database-version>
 		<be.nabu.libs.http-http-server-kerberos-version>1.0</be.nabu.libs.http-http-server-kerberos-version>
+		<nabu-eai-module-auditing-version>1.0</nabu-eai-module-auditing-version>
 	</properties>
 	
 	<build>
@@ -1043,6 +1044,11 @@
 				<artifactId>http-server-kerberos</artifactId>
 				<version>${be.nabu.libs.http-http-server-kerberos-version}</version>
 			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-auditing</artifactId>
+				<version>${nabu-eai-module-auditing-version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	
@@ -1055,4 +1061,13 @@
 		</dependency>
 	</dependencies>
 	
+	<distributionManagement>
+		<repository>
+			<uniqueVersion>false</uniqueVersion>
+			<id>nabu</id>
+			<name>Nabu Maven Repository</name>
+			<url>http://localhost:5555/maven</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 </project>
