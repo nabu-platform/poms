@@ -242,7 +242,7 @@
 		<be.nabu.libs.types-types-xml-version>1.1</be.nabu.libs.types-types-xml-version>
 		<be.nabu.libs.evaluator-evaluator-api-version>1.1-SNAPSHOT</be.nabu.libs.evaluator-evaluator-api-version>
 		<be.nabu.libs.evaluator-evaluator-types-version>1.0</be.nabu.libs.evaluator-evaluator-types-version>
-		<be.nabu.libs.types-types-uml-version>1.1-SNAPSHOT</be.nabu.libs.types-types-uml-version>
+		<be.nabu.libs.types-types-uml-version>1.1</be.nabu.libs.types-types-uml-version>
 		<be.nabu.libs.services-services-api-version>1.0</be.nabu.libs.services-services-api-version>
 		<be.nabu.libs.authentication-authentication-api-version>1.1</be.nabu.libs.authentication-authentication-api-version>
 		<be.nabu.libs.authentication-authentication-database-version>1.0</be.nabu.libs.authentication-authentication-database-version>
