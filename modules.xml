@@ -10,11 +10,7 @@
 		<artifactId>core</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
-	
-	<properties>
-		<nabu.authentication.kerberos-server-version>1.0-SNAPSHOT</nabu.authentication.kerberos-server-version>
-	</properties>
-	
+		
 	<build>
 		<resources>
 			<resource>
@@ -22,6 +18,10 @@
 				<excludes>
 					<exclude>.flattened-pom.xml</exclude>
 					<exclude>target</exclude>
+					<exclude>pom.xml</exclude>
+					<exclude>.pom.xml.swp</exclude>
+					<exclude>.gitignore</exclude>
+					<exclude>.git</exclude>
 				</excludes>
 			</resource>
 		</resources>
@@ -29,16 +29,6 @@
 		<directory>/tmp/${project.groupId}.${project.artifactId}</directory>
 	</build>
 
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>nabu.authentication.kerberos</groupId>
-				<artifactId>server</artifactId>
-				<version>${nabu.authentication-kerberos-server-version}</version>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
-	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
