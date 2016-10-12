@@ -266,7 +266,7 @@
 		<be.nabu.libs.types-types-mask-version>1.0</be.nabu.libs.types-types-mask-version>
 		<be.nabu.libs.swagger-swagger-api-version>1.0</be.nabu.libs.swagger-swagger-api-version>
 		<be.nabu.libs.swagger-swagger-parser-version>1.0</be.nabu.libs.swagger-swagger-parser-version>
-		<be.nabu.libs.types-types-map-version>1.0</be.nabu.libs.types-types-map-version>
+		<be.nabu.libs.types-types-map-version>1.1-SNAPSHOT</be.nabu.libs.types-types-map-version>
 		<be.nabu.libs.swagger-swagger-formatter-version>1.0</be.nabu.libs.swagger-swagger-formatter-version>
 		<be.nabu.utils-utils-aspects-version>1.0</be.nabu.utils-utils-aspects-version>
 		<be.nabu.libs.resources-resources-snapshot-version>1.0</be.nabu.libs.resources-resources-snapshot-version>
@@ -285,7 +285,7 @@
 		<be.nabu.glue-glue-selenese-version>1.0</be.nabu.glue-glue-selenese-version>
 		<be.nabu.glue-glue-appium-version>1.0</be.nabu.glue-glue-appium-version>
 		<be.nabu.glue-glue-services-version>1.0</be.nabu.glue-glue-services-version>
-		<be.nabu.glue-glue-types-version>1.0</be.nabu.glue-glue-types-version>
+		<be.nabu.glue-glue-types-version>1.1-SNAPSHOT</be.nabu.glue-glue-types-version>
 		<be.nabu.glue-glue-soapui-version>1.0</be.nabu.glue-glue-soapui-version>
 		<be.nabu.glue-glue-transcoder-version>1.0</be.nabu.glue-glue-transcoder-version>
 		<be.nabu.glue-glue-images-version>1.0</be.nabu.glue-glue-images-version>
@@ -374,10 +374,11 @@
 		<nabu-eai-module-web-wiki-version>1.0</nabu-eai-module-web-wiki-version>
 		<nabu-eai-module-tracer-version>1.0</nabu-eai-module-tracer-version>
 		<nabu-eai-module-utils-version>1.0</nabu-eai-module-utils-version>
-		<be.nabu.packaging-packaging-integrator-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-integrator-version>
+		<be.nabu.packaging-packaging-integrator-version>1.0</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
+		<be.nabu.packaging-packaging-glue-cli-version>1.0-SNAPSHOT</be.nabu.packaging-packaging-glue-cli-version>
 	</properties>
 	
 	<build>
@@ -1355,6 +1356,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-glue-pdf-viewer</artifactId>
 				<version>${nabu-eai-module-glue-pdf-viewer-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.packaging</groupId>
+				<artifactId>packaging-glue-cli</artifactId>
+				<version>${be.nabu.packaging-packaging-glue-cli-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
