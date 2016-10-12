@@ -22,6 +22,7 @@
 					<exclude>.pom.xml.swp</exclude>
 					<exclude>.gitignore</exclude>
 					<exclude>.git</exclude>
+					<exclude>RELEASE.md</exclude>
 				</excludes>
 			</resource>
 		</resources>

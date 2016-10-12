@@ -309,7 +309,7 @@
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
 		<be.nabu.eai-eai-api-version>1.1</be.nabu.eai-eai-api-version>
 		<be.nabu.libs.http-http-client-websockets-version>0.1</be.nabu.libs.http-http-client-websockets-version>
-		<be.nabu.eai-eai-server-version>1.1-SNAPSHOT</be.nabu.eai-eai-server-version>
+		<be.nabu.eai-eai-server-version>1.1</be.nabu.eai-eai-server-version>
 		<be.nabu.eai-eai-developer-version>1.0</be.nabu.eai-eai-developer-version>
 		<be.nabu.jfx-jfx-control-spinner-version>1.0</be.nabu.jfx-jfx-control-spinner-version>
 		<be.nabu.libs.tasks-tasks-api-version>1.1</be.nabu.libs.tasks-tasks-api-version>
@@ -327,7 +327,7 @@
 		<be.nabu.libs.http-http-server-kerberos-scm>https://nablex@bitbucket.org/nablex/http-server-kerberos</be.nabu.libs.http-http-server-kerberos-scm>
 		<nabu-eai-module-authentication-kerberos-scm>https://nablex@bitbucket.org/nablex/eai-module-authentication-kerberos</nabu-eai-module-authentication-kerberos-scm>
 		<nabu-eai-module-authentication-kerberos-version>1.0</nabu-eai-module-authentication-kerberos-version>
-		<nabu-eai-module-web-application-version>1.1-SNAPSHOT</nabu-eai-module-web-application-version>
+		<nabu-eai-module-web-application-version>1.1</nabu-eai-module-web-application-version>
 		<nabu-eai-module-http-server-version>1.0</nabu-eai-module-http-server-version>
 		<nabu-eai-module-keystore-version>1.0</nabu-eai-module-keystore-version>
 		<nabu-eai-module-authorization-vm-version>1.0</nabu-eai-module-authorization-vm-version>
@@ -336,7 +336,7 @@
 		<nabu-eai-module-glue-version>1.0</nabu-eai-module-glue-version>
 		<be.nabu.glue-glue-series-version>1.0</be.nabu.glue-glue-series-version>
 		<nabu-eai-module-web-component-version>1.0</nabu-eai-module-web-component-version>
-		<nabu-eai-module-authentication-oauth2-version>1.1-SNAPSHOT</nabu-eai-module-authentication-oauth2-version>
+		<nabu-eai-module-authentication-oauth2-version>1.1</nabu-eai-module-authentication-oauth2-version>
 		<nabu-eai-module-http-client-version>1.0</nabu-eai-module-http-client-version>
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
 		<nabu-eai-module-services-vm-version>1.1</nabu-eai-module-services-vm-version>
@@ -376,6 +376,7 @@
 		<nabu-eai-module-utils-version>1.0</nabu-eai-module-utils-version>
 		<be.nabu.packaging-packaging-integrator-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-developer-version>
+		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 	</properties>
 	
 	<build>
@@ -1343,6 +1344,11 @@
 				<groupId>be.nabu.packaging</groupId>
 				<artifactId>packaging-developer</artifactId>
 				<version>${be.nabu.packaging-packaging-developer-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-glue-testing</artifactId>
+				<version>${nabu-eai-module-glue-testing-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
