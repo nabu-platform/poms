@@ -377,6 +377,7 @@
 		<be.nabu.packaging-packaging-integrator-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
+		<nabu-eai-module-glue-pdf-viewer-version>1.0-SNAPSHOT</nabu-eai-module-glue-pdf-viewer-version>
 	</properties>
 	
 	<build>
@@ -1349,6 +1350,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-glue-testing</artifactId>
 				<version>${nabu-eai-module-glue-testing-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-glue-pdf-viewer</artifactId>
+				<version>${nabu-eai-module-glue-pdf-viewer-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
