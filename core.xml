@@ -378,7 +378,7 @@
 		<be.nabu.packaging-packaging-developer-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
-		<be.nabu.packaging-packaging-glue-cli-version>1.0-SNAPSHOT</be.nabu.packaging-packaging-glue-cli-version>
+		<be.nabu.packaging-packaging-glue-cli-version>1.0</be.nabu.packaging-packaging-glue-cli-version>
 	</properties>
 	
 	<build>
