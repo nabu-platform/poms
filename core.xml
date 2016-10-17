@@ -298,7 +298,7 @@
 		<be.nabu.glue-glue-excel-version>1.0</be.nabu.glue-glue-excel-version>
 		<be.nabu.utils-utils-excel-version>1.0</be.nabu.utils-utils-excel-version>
 		<be.nabu.jfx-jfx-control-tree-version>1.1-SNAPSHOT</be.nabu.jfx-jfx-control-tree-version>
-		<be.nabu.jfx-jfx-control-ace-version>1.0</be.nabu.jfx-jfx-control-ace-version>
+		<be.nabu.jfx-jfx-control-ace-version>1.1-SNAPSHOT</be.nabu.jfx-jfx-control-ace-version>
 		<be.nabu.libs-html-scraper-version>1.0</be.nabu.libs-html-scraper-version>
 		<be.nabu.glue-glue-html-version>1.0</be.nabu.glue-glue-html-version>
 		<be.nabu.libs.http-http-glue-version>1.4-SNAPSHOT</be.nabu.libs.http-http-glue-version>
