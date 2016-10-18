@@ -263,7 +263,7 @@
 		<be.nabu.libs.services-services-vm-version>1.1-SNAPSHOT</be.nabu.libs.services-services-vm-version>
 		<be.nabu.libs.services-services-cache-version>1.0</be.nabu.libs.services-services-cache-version>
 		<be.nabu.libs.services-services-mask-version>1.0</be.nabu.libs.services-services-mask-version>
-		<be.nabu.libs.types-types-mask-version>1.0</be.nabu.libs.types-types-mask-version>
+		<be.nabu.libs.types-types-mask-version>1.1-SNAPSHOT</be.nabu.libs.types-types-mask-version>
 		<be.nabu.libs.swagger-swagger-api-version>1.0</be.nabu.libs.swagger-swagger-api-version>
 		<be.nabu.libs.swagger-swagger-parser-version>1.0</be.nabu.libs.swagger-swagger-parser-version>
 		<be.nabu.libs.types-types-map-version>1.2</be.nabu.libs.types-types-map-version>
@@ -380,6 +380,8 @@
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
 		<be.nabu.packaging-packaging-glue-cli-version>1.0</be.nabu.packaging-packaging-glue-cli-version>
 		<be.nabu.libs.smtp-smtp-server-version>1.0-SNAPSHOT</be.nabu.libs.smtp-smtp-server-version>
+		<nabu-eai-module-channels-version>1.0-SNAPSHOT</nabu-eai-module-channels-version>
+		<nabu-eai-module-data-transactions-version>1.0-SNAPSHOT</nabu-eai-module-data-transactions-version>
 	</properties>
 	
 	<build>
@@ -1372,6 +1374,16 @@
 				<groupId>be.nabu.libs.smtp</groupId>
 				<artifactId>smtp-server</artifactId>
 				<version>${be.nabu.libs.smtp-smtp-server-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-channels</artifactId>
+				<version>${nabu-eai-module-channels-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-data-transactions</artifactId>
+				<version>${nabu-eai-module-data-transactions-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
