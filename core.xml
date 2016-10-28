@@ -232,7 +232,7 @@
 		<be.nabu.libs.types-types-definition-api-version>1.0</be.nabu.libs.types-types-definition-api-version>
 		<be.nabu.libs.types-types-definition-xml-version>1.1-SNAPSHOT</be.nabu.libs.types-types-definition-xml-version>
 		<be.nabu.libs.types-types-structure-version>1.0</be.nabu.libs.types-types-structure-version>
-		<be.nabu.libs.types-types-definition-xsd-version>1.0</be.nabu.libs.types-types-definition-xsd-version>
+		<be.nabu.libs.types-types-definition-xsd-version>1.1-SNAPSHOT</be.nabu.libs.types-types-definition-xsd-version>
 		<be.nabu.libs.events-events-api-version>1.1</be.nabu.libs.events-events-api-version>
 		<be.nabu.libs.events-events-impl-version>1.1</be.nabu.libs.events-events-impl-version>
 		<be.nabu.libs.wsdl-wsdl-api-version>1.0</be.nabu.libs.wsdl-wsdl-api-version>
@@ -336,7 +336,7 @@
 		<nabu-eai-module-glue-version>1.0</nabu-eai-module-glue-version>
 		<be.nabu.glue-glue-series-version>1.0</be.nabu.glue-glue-series-version>
 		<nabu-eai-module-web-component-version>1.0</nabu-eai-module-web-component-version>
-		<nabu-eai-module-authentication-oauth2-version>1.1</nabu-eai-module-authentication-oauth2-version>
+		<nabu-eai-module-authentication-oauth2-version>1.2-SNAPSHOT</nabu-eai-module-authentication-oauth2-version>
 		<nabu-eai-module-http-client-version>1.0</nabu-eai-module-http-client-version>
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
 		<nabu-eai-module-services-vm-version>1.2-SNAPSHOT</nabu-eai-module-services-vm-version>
