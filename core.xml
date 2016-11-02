@@ -343,11 +343,11 @@
 		<nabu-eai-module-broker-version>1.0</nabu-eai-module-broker-version>
 		<nabu-eai-module-datastore-version>1.0</nabu-eai-module-datastore-version>
 		<nabu-eai-module-cache-version>1.0</nabu-eai-module-cache-version>
-		<nabu-eai-module-cluster-version>1.0</nabu-eai-module-cluster-version>
+		<nabu-eai-module-cluster-version>1.1-SNAPSHOT</nabu-eai-module-cluster-version>
 		<nabu-eai-module-excel-version>1.0</nabu-eai-module-excel-version>
-		<nabu-eai-module-configuration-version>1.0</nabu-eai-module-configuration-version>
+		<nabu-eai-module-configuration-version>1.1-SNAPSHOT</nabu-eai-module-configuration-version>
 		<nabu-eai-module-data-provider-version>1.0</nabu-eai-module-data-provider-version>
-		<nabu-eai-module-deployment-version>1.0</nabu-eai-module-deployment-version>
+		<nabu-eai-module-deployment-version>1.1-SNAPSHOT</nabu-eai-module-deployment-version>
 		<nabu-eai-module-jdbc-pool-version>1.2-SNAPSHOT</nabu-eai-module-jdbc-pool-version>
 		<nabu-eai-module-maven-version>1.0</nabu-eai-module-maven-version>
 		<nabu-eai-module-metrics-version>1.0</nabu-eai-module-metrics-version>
@@ -382,6 +382,7 @@
 		<be.nabu.libs.smtp-smtp-server-version>1.0-SNAPSHOT</be.nabu.libs.smtp-smtp-server-version>
 		<nabu-eai-module-channels-version>1.0-SNAPSHOT</nabu-eai-module-channels-version>
 		<nabu-eai-module-data-transactions-version>1.0-SNAPSHOT</nabu-eai-module-data-transactions-version>
+		<be.nabu.jfx-jfx-component-date-version>1.0-SNAPSHOT</be.nabu.jfx-jfx-component-date-version>
 	</properties>
 	
 	<build>
@@ -1384,6 +1385,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-data-transactions</artifactId>
 				<version>${nabu-eai-module-data-transactions-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.jfx</groupId>
+				<artifactId>jfx-component-date</artifactId>
+				<version>${be.nabu.jfx-jfx-component-date-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
