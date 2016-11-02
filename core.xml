@@ -102,7 +102,7 @@
 		<be.nabu.libs.channels-channels-api-scm>https://nablex@github.com/nablex/channels-api</be.nabu.libs.channels-channels-api-scm>
 		<nabu-eai-module-services-jdbc-scm>https://nablex@bitbucket.org/nablex/eai-module-services-jdbc</nabu-eai-module-services-jdbc-scm>
 		<be.nabu.libs.events-events-api-scm>https://nablex@github.com/nablex/events-api</be.nabu.libs.events-events-api-scm>
-		<be.nabu.jfx-jfx-component-date-scm>https://nablex@github.com/nablex/jfx-control-date</be.nabu.jfx-jfx-component-date-scm>
+		<be.nabu.jfx-jfx-control-date-scm>https://nablex@github.com/nablex/jfx-control-date</be.nabu.jfx-jfx-control-date-scm>
 		<nabu-eai-module-types-xml-scm>https://nablex@bitbucket.org/nablex/eai-module-types-xml</nabu-eai-module-types-xml-scm>
 		<nabu-eai-module-authorization-vm-scm>https://nablex@bitbucket.org/nablex/eai-module-authorization-vm</nabu-eai-module-authorization-vm-scm>
 		<be.nabu.libs.metrics-metrics-database-scm>https://nablex@github.com/nablex/metrics-database</be.nabu.libs.metrics-metrics-database-scm>
@@ -382,7 +382,7 @@
 		<be.nabu.libs.smtp-smtp-server-version>1.0-SNAPSHOT</be.nabu.libs.smtp-smtp-server-version>
 		<nabu-eai-module-channels-version>1.0-SNAPSHOT</nabu-eai-module-channels-version>
 		<nabu-eai-module-data-transactions-version>1.0-SNAPSHOT</nabu-eai-module-data-transactions-version>
-		<be.nabu.jfx-jfx-component-date-version>1.0-SNAPSHOT</be.nabu.jfx-jfx-component-date-version>
+		<be.nabu.jfx-jfx-control-date-version>1.0-SNAPSHOT</be.nabu.jfx-jfx-control-date-version>
 	</properties>
 	
 	<build>
@@ -1388,8 +1388,8 @@
 			</dependency>
 			<dependency>
 				<groupId>be.nabu.jfx</groupId>
-				<artifactId>jfx-component-date</artifactId>
-				<version>${be.nabu.jfx-jfx-component-date-version}</version>
+				<artifactId>jfx-control-date</artifactId>
+				<version>${be.nabu.jfx-jfx-control-date-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
