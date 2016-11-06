@@ -341,7 +341,7 @@
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
 		<nabu-eai-module-services-vm-version>1.2-SNAPSHOT</nabu-eai-module-services-vm-version>
 		<nabu-eai-module-broker-version>1.0</nabu-eai-module-broker-version>
-		<nabu-eai-module-datastore-version>1.0</nabu-eai-module-datastore-version>
+		<nabu-eai-module-datastore-version>1.1-SNAPSHOT</nabu-eai-module-datastore-version>
 		<nabu-eai-module-cache-version>1.0</nabu-eai-module-cache-version>
 		<nabu-eai-module-cluster-version>1.1-SNAPSHOT</nabu-eai-module-cluster-version>
 		<nabu-eai-module-excel-version>1.0</nabu-eai-module-excel-version>
@@ -384,6 +384,7 @@
 		<nabu-eai-module-data-transactions-version>1.0-SNAPSHOT</nabu-eai-module-data-transactions-version>
 		<be.nabu.jfx-jfx-control-date-version>1.0-SNAPSHOT</be.nabu.jfx-jfx-control-date-version>
 		<nabu-eai-module-binding-flat-version>1.0-SNAPSHOT</nabu-eai-module-binding-flat-version>
+		<nabu-eai-module-binding-xml-version>1.0-SNAPSHOT</nabu-eai-module-binding-xml-version>
 	</properties>
 	
 	<build>
@@ -1396,6 +1397,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-binding-flat</artifactId>
 				<version>${nabu-eai-module-binding-flat-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-binding-xml</artifactId>
+				<version>${nabu-eai-module-binding-xml-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
