@@ -385,6 +385,7 @@
 		<be.nabu.jfx-jfx-control-date-version>1.0-SNAPSHOT</be.nabu.jfx-jfx-control-date-version>
 		<nabu-eai-module-binding-flat-version>1.0-SNAPSHOT</nabu-eai-module-binding-flat-version>
 		<nabu-eai-module-binding-xml-version>1.0-SNAPSHOT</nabu-eai-module-binding-xml-version>
+		<nabu-eai-module-binding-json-version>1.0-SNAPSHOT</nabu-eai-module-binding-json-version>
 	</properties>
 	
 	<build>
@@ -1402,6 +1403,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-binding-xml</artifactId>
 				<version>${nabu-eai-module-binding-xml-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-binding-json</artifactId>
+				<version>${nabu-eai-module-binding-json-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
