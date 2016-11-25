@@ -39,6 +39,12 @@
 		<nabu.web.rest-client-version>1.1</nabu.web.rest-client-version>
 		<nabu.web.rest-provider-version>1.1</nabu.web.rest-provider-version>
 		<nabu.misc-auditing-version>1.0</nabu.misc-auditing-version>
+		<nabu.misc-cache-version>1.0</nabu.misc-cache-version>
+		<nabu.misc-configuration-version>1.1</nabu.misc-configuration-version>
+		<nabu.misc-startup-version>1.0</nabu.misc-startup-version>
+		<nabu.misc-workflow-version>1.1</nabu.misc-workflow-version>
+		<nabu.misc-broker-version>1.0</nabu.misc-broker-version>
+		<nabu.misc-cluster-version>1.1</nabu.misc-cluster-version>
 	</properties>
 		
 	<build>
@@ -206,6 +212,36 @@
 				<groupId>nabu.misc</groupId>
 				<artifactId>auditing</artifactId>
 				<version>${nabu.misc-auditing-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>cache</artifactId>
+				<version>${nabu.misc-cache-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>configuration</artifactId>
+				<version>${nabu.misc-configuration-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>startup</artifactId>
+				<version>${nabu.misc-startup-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>workflow</artifactId>
+				<version>${nabu.misc-workflow-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>broker</artifactId>
+				<version>${nabu.misc-broker-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>cluster</artifactId>
+				<version>${nabu.misc-cluster-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
