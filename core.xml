@@ -319,8 +319,8 @@
 		<be.nabu.libs.datastore-datastore-resources-version>1.1</be.nabu.libs.datastore-datastore-resources-version>
 		<be.nabu.libs.channels-channels-api-version>1.2</be.nabu.libs.channels-channels-api-version>
 		<be.nabu.libs.datatransactions-datatransactions-api-version>1.2</be.nabu.libs.datatransactions-datatransactions-api-version>
-		<be.nabu.libs.channels-channels-resources-version>1.2-SNAPSHOT</be.nabu.libs.channels-channels-resources-version>
-		<be.nabu.libs.datatransactions-datatransactions-database-version>1.2-SNAPSHOT</be.nabu.libs.datatransactions-datatransactions-database-version>
+		<be.nabu.libs.channels-channels-resources-version>1.2</be.nabu.libs.channels-channels-resources-version>
+		<be.nabu.libs.datatransactions-datatransactions-database-version>1.2</be.nabu.libs.datatransactions-datatransactions-database-version>
 		<be.nabu.libs.datastore-datastore-urn-database-version>1.1</be.nabu.libs.datastore-datastore-urn-database-version>
 		<be.nabu.libs.http-http-server-kerberos-version>1.0</be.nabu.libs.http-http-server-kerberos-version>
 		<nabu-eai-module-auditing-version>1.0</nabu-eai-module-auditing-version>
@@ -351,43 +351,43 @@
 		<nabu-eai-module-jdbc-pool-version>1.2</nabu-eai-module-jdbc-pool-version>
 		<nabu-eai-module-maven-version>1.0</nabu-eai-module-maven-version>
 		<nabu-eai-module-metrics-version>1.1</nabu-eai-module-metrics-version>
-		<be.nabu.libs.metrics-metrics-database-version>1.1-SNAPSHOT</be.nabu.libs.metrics-metrics-database-version>
+		<be.nabu.libs.metrics-metrics-database-version>1.1</be.nabu.libs.metrics-metrics-database-version>
 		<nabu-eai-module-rest-version>1.0</nabu-eai-module-rest-version>
-		<nabu-eai-module-rest-client-version>1.1-SNAPSHOT</nabu-eai-module-rest-client-version>
-		<nabu-eai-module-rest-provider-version>1.2-SNAPSHOT</nabu-eai-module-rest-provider-version>
+		<nabu-eai-module-rest-client-version>1.1</nabu-eai-module-rest-client-version>
+		<nabu-eai-module-rest-provider-version>1.2</nabu-eai-module-rest-provider-version>
 		<nabu-eai-module-mime-version>1.1</nabu-eai-module-mime-version>
 		<nabu-eai-module-types-xml-version>1.0</nabu-eai-module-types-xml-version>
-		<nabu-eai-module-types-uml-version>1.2-SNAPSHOT</nabu-eai-module-types-uml-version>
-		<nabu-eai-module-types-simple-version>1.1-SNAPSHOT</nabu-eai-module-types-simple-version>
+		<nabu-eai-module-types-uml-version>1.2</nabu-eai-module-types-uml-version>
+		<nabu-eai-module-types-simple-version>1.1</nabu-eai-module-types-simple-version>
 		<nabu-eai-module-wsdl-client-version>1.0</nabu-eai-module-wsdl-client-version>
 		<nabu-eai-module-wsdl-provider-version>1.0</nabu-eai-module-wsdl-provider-version>
 		<nabu-eai-module-web-cordova-version>1.0</nabu-eai-module-web-cordova-version>
 		<nabu-eai-module-template-text-version>1.0</nabu-eai-module-template-text-version>
-		<nabu-eai-module-scheduler-version>1.1-SNAPSHOT</nabu-eai-module-scheduler-version>
+		<nabu-eai-module-scheduler-version>1.1</nabu-eai-module-scheduler-version>
 		<nabu-eai-module-startup-version>1.0</nabu-eai-module-startup-version>
 		<nabu-eai-module-smtp-client-version>1.0</nabu-eai-module-smtp-client-version>
 		<nabu-eai-module-swagger-version>1.1</nabu-eai-module-swagger-version>
 		<nabu-eai-module-workflow-version>1.1</nabu-eai-module-workflow-version>
-		<nabu-eai-module-web-websockets-version>1.1-SNAPSHOT</nabu-eai-module-web-websockets-version>
-		<nabu-eai-module-web-resources-version>1.1-SNAPSHOT</nabu-eai-module-web-resources-version>
-		<nabu-eai-module-services-jdbc-version>1.1-SNAPSHOT</nabu-eai-module-services-jdbc-version>
-		<nabu-eai-module-web-wiki-version>1.1-SNAPSHOT</nabu-eai-module-web-wiki-version>
-		<nabu-eai-module-tracer-version>1.1-SNAPSHOT</nabu-eai-module-tracer-version>
-		<nabu-eai-module-utils-version>1.1-SNAPSHOT</nabu-eai-module-utils-version>
+		<nabu-eai-module-web-websockets-version>1.1</nabu-eai-module-web-websockets-version>
+		<nabu-eai-module-web-resources-version>1.1</nabu-eai-module-web-resources-version>
+		<nabu-eai-module-services-jdbc-version>1.1</nabu-eai-module-services-jdbc-version>
+		<nabu-eai-module-web-wiki-version>1.1</nabu-eai-module-web-wiki-version>
+		<nabu-eai-module-tracer-version>1.1</nabu-eai-module-tracer-version>
+		<nabu-eai-module-utils-version>1.1</nabu-eai-module-utils-version>
 		<be.nabu.packaging-packaging-integrator-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
 		<be.nabu.packaging-packaging-glue-cli-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-glue-cli-version>
-		<be.nabu.libs.smtp-smtp-server-version>1.0-SNAPSHOT</be.nabu.libs.smtp-smtp-server-version>
-		<nabu-eai-module-channels-version>1.0-SNAPSHOT</nabu-eai-module-channels-version>
-		<nabu-eai-module-data-transactions-version>1.0-SNAPSHOT</nabu-eai-module-data-transactions-version>
-		<be.nabu.jfx-jfx-control-date-version>1.0-SNAPSHOT</be.nabu.jfx-jfx-control-date-version>
-		<nabu-eai-module-binding-flat-version>1.0-SNAPSHOT</nabu-eai-module-binding-flat-version>
-		<nabu-eai-module-binding-xml-version>1.0-SNAPSHOT</nabu-eai-module-binding-xml-version>
-		<nabu-eai-module-binding-json-version>1.0-SNAPSHOT</nabu-eai-module-binding-json-version>
-		<nabu-eai-module-smtp-server-version>1.0-SNAPSHOT</nabu-eai-module-smtp-server-version>
-		<be.nabu.libs.smtp-smtp-server-forwarder-version>1.0-SNAPSHOT</be.nabu.libs.smtp-smtp-server-forwarder-version>
+		<be.nabu.libs.smtp-smtp-server-version>1.0</be.nabu.libs.smtp-smtp-server-version>
+		<nabu-eai-module-channels-version>1.0</nabu-eai-module-channels-version>
+		<nabu-eai-module-data-transactions-version>1.0</nabu-eai-module-data-transactions-version>
+		<be.nabu.jfx-jfx-control-date-version>1.0</be.nabu.jfx-jfx-control-date-version>
+		<nabu-eai-module-binding-flat-version>1.0</nabu-eai-module-binding-flat-version>
+		<nabu-eai-module-binding-xml-version>1.0</nabu-eai-module-binding-xml-version>
+		<nabu-eai-module-binding-json-version>1.0</nabu-eai-module-binding-json-version>
+		<nabu-eai-module-smtp-server-version>1.0</nabu-eai-module-smtp-server-version>
+		<be.nabu.libs.smtp-smtp-server-forwarder-version>1.0</be.nabu.libs.smtp-smtp-server-forwarder-version>
 	</properties>
 	
 	<build>
