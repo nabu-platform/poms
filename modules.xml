@@ -63,6 +63,9 @@
 		<nabu.web-cordova-version>1.0</nabu.web-cordova-version>
 		<nabu.web-core-version>1.1</nabu.web-core-version>
 		<nabu.web-management-version>1.1</nabu.web-management-version>
+		<nabu.web-resources-version>1.1</nabu.web-resources-version>
+		<nabu.web-swagger-version>1.1</nabu.web-swagger-version>
+		<nabu.web-wiki-version>1.1</nabu.web-wiki-version>
 	</properties>
 		
 	<build>
@@ -350,6 +353,21 @@
 				<groupId>nabu.web</groupId>
 				<artifactId>management</artifactId>
 				<version>${nabu.web-management-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>resources</artifactId>
+				<version>${nabu.web-resources-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>swagger</artifactId>
+				<version>${nabu.web-swagger-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>wiki</artifactId>
+				<version>${nabu.web-wiki-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
