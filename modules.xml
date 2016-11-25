@@ -53,6 +53,7 @@
 		<nabu.data-excel-version>1.1</nabu.data-excel-version>
 		<nabu.data-flat-version>1.0</nabu.data-flat-version>
 		<nabu.frameworks-datastore-version>1.1</nabu.frameworks-datastore-version>
+		<nabu.frameworks-dataTransactions-version>1.0</nabu.frameworks-dataTransactions-version>
 	</properties>
 		
 	<build>
@@ -290,6 +291,11 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>datastore</artifactId>
 				<version>${nabu.frameworks-datastore-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>dataTransactions</artifactId>
+				<version>${nabu.frameworks-dataTransactions-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
