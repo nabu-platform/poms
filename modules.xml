@@ -35,6 +35,8 @@
 		<nabu.services-jdbc-version>1.1</nabu.services-jdbc-version>
 		<nabu.services-vm-version>1.1</nabu.services-vm-version>
 		<nabu.services-iface-version>1.1</nabu.services-iface-version>
+		<nabu.services-glue-version>1.2</nabu.services-glue-version>
+		<nabu.web.rest-client-version>1.1</nabu.web.rest-client-version>
 	</properties>
 		
 	<build>
@@ -182,6 +184,16 @@
 				<groupId>nabu.services</groupId>
 				<artifactId>iface</artifactId>
 				<version>${nabu.services-iface-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.services</groupId>
+				<artifactId>glue</artifactId>
+				<version>${nabu.services-glue-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web.rest</groupId>
+				<artifactId>client</artifactId>
+				<version>${nabu.web.rest-client-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
