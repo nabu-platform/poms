@@ -55,6 +55,7 @@
 		<nabu.frameworks-datastore-version>1.1</nabu.frameworks-datastore-version>
 		<nabu.frameworks-dataTransactions-version>1.0</nabu.frameworks-dataTransactions-version>
 		<nabu.data-json-version>1.0</nabu.data-json-version>
+		<nabu.data-xml-version>1.0</nabu.data-xml-version>
 	</properties>
 		
 	<build>
@@ -302,6 +303,11 @@
 				<groupId>nabu.data</groupId>
 				<artifactId>json</artifactId>
 				<version>${nabu.data-json-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.data</groupId>
+				<artifactId>xml</artifactId>
+				<version>${nabu.data-xml-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
