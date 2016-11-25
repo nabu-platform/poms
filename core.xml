@@ -154,7 +154,7 @@
 		<nabu-eai-module-maven-scm>https://nablex@bitbucket.org/nablex/eai-module-maven</nabu-eai-module-maven-scm>
 		<be.nabu.libs.datatransactions-datatransactions-database-scm>https://nablex@github.com/nablex/datatransactions-database</be.nabu.libs.datatransactions-datatransactions-database-scm>
 		<nabu-eai-module-template-text-scm>https://nablex@bitbucket.org/nablex/eai-module-template-text</nabu-eai-module-template-text-scm>
-		<be.nabu.packaging-packaging-glue-cli-scm>https://nablex@bitbucket.org/nablex/packaging-glue-cli</be.nabu.packaging-packaging-glue-cli-scm>
+		<be.nabu.packaging-packaging-cli-scm>https://nablex@bitbucket.org/nablex/packaging-cli</be.nabu.packaging-packaging-cli-scm>
 		<be.nabu.libs.http-http-client-ntlm-scm>https://nablex@github.com/nablex/http-client-ntlm</be.nabu.libs.http-http-client-ntlm-scm>
 		<be.nabu.glue-glue-pdf-scm>https://nablex@github.com/nablex/glue-pdf</be.nabu.glue-glue-pdf-scm>
 		<be.nabu.libs.validator-validator-api-scm>https://nablex@github.com/nablex/validator-api</be.nabu.libs.validator-validator-api-scm>
@@ -378,7 +378,7 @@
 		<be.nabu.packaging-packaging-developer-version>1.1</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
-		<be.nabu.packaging-packaging-glue-cli-version>1.1</be.nabu.packaging-packaging-glue-cli-version>
+		<be.nabu.packaging-packaging-cli-version>1.1</be.nabu.packaging-packaging-cli-version>
 		<be.nabu.libs.smtp-smtp-server-version>1.0</be.nabu.libs.smtp-smtp-server-version>
 		<nabu-eai-module-channels-version>1.0</nabu-eai-module-channels-version>
 		<nabu-eai-module-data-transactions-version>1.0</nabu-eai-module-data-transactions-version>
@@ -1373,8 +1373,8 @@
 			</dependency>
 			<dependency>
 				<groupId>be.nabu.packaging</groupId>
-				<artifactId>packaging-glue-cli</artifactId>
-				<version>${be.nabu.packaging-packaging-glue-cli-version}</version>
+				<artifactId>packaging-cli</artifactId>
+				<version>${be.nabu.packaging-packaging-cli-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>be.nabu.libs.smtp</groupId>
