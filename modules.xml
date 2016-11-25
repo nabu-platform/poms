@@ -31,6 +31,10 @@
 		<nabu.protocols.smtp-client-version>1.0</nabu.protocols.smtp-client-version>
 		<nabu.services-authorization-version>1.0</nabu.services-authorization-version>
 		<nabu.protocols.websockets-provider-version>1.1</nabu.protocols.websockets-provider-version>
+		<nabu.protocols.jdbc-pool-version>1.2</nabu.protocols.jdbc-pool-version>
+		<nabu.services-jdbc-version>1.1</nabu.services-jdbc-version>
+		<nabu.services-vm-version>1.1</nabu.services-vm-version>
+		<nabu.services-iface-version>1.1</nabu.services-iface-version>
 	</properties>
 		
 	<build>
@@ -158,6 +162,26 @@
 				<groupId>nabu.protocols.websockets</groupId>
 				<artifactId>provider</artifactId>
 				<version>${nabu.protocols.websockets-provider-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.protocols.jdbc</groupId>
+				<artifactId>pool</artifactId>
+				<version>${nabu.protocols.jdbc-pool-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.services</groupId>
+				<artifactId>jdbc</artifactId>
+				<version>${nabu.services-jdbc-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.services</groupId>
+				<artifactId>vm</artifactId>
+				<version>${nabu.services-vm-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.services</groupId>
+				<artifactId>iface</artifactId>
+				<version>${nabu.services-iface-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
