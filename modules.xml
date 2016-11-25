@@ -52,6 +52,7 @@
 		<nabu.payment-stripe-version>1.0</nabu.payment-stripe-version>
 		<nabu.data-excel-version>1.1</nabu.data-excel-version>
 		<nabu.data-flat-version>1.0</nabu.data-flat-version>
+		<nabu.frameworks-datastore-version>1.1</nabu.frameworks-datastore-version>
 	</properties>
 		
 	<build>
@@ -284,6 +285,11 @@
 				<groupId>nabu.data</groupId>
 				<artifactId>flat</artifactId>
 				<version>${nabu.data-flat-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>datastore</artifactId>
+				<version>${nabu.frameworks-datastore-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
