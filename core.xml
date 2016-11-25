@@ -374,7 +374,7 @@
 		<nabu-eai-module-web-wiki-version>1.1</nabu-eai-module-web-wiki-version>
 		<nabu-eai-module-tracer-version>1.1</nabu-eai-module-tracer-version>
 		<nabu-eai-module-utils-version>1.1</nabu-eai-module-utils-version>
-		<be.nabu.packaging-packaging-integrator-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-integrator-version>
+		<be.nabu.packaging-packaging-integrator-version>1.1</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.1-SNAPSHOT</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
