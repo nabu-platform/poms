@@ -56,6 +56,7 @@
 		<nabu.frameworks-dataTransactions-version>1.0</nabu.frameworks-dataTransactions-version>
 		<nabu.data-json-version>1.0</nabu.data-json-version>
 		<nabu.data-xml-version>1.0</nabu.data-xml-version>
+		<nabu.data-mime-version>1.1</nabu.data-mime-version>
 	</properties>
 		
 	<build>
@@ -308,6 +309,11 @@
 				<groupId>nabu.data</groupId>
 				<artifactId>xml</artifactId>
 				<version>${nabu.data-xml-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.data</groupId>
+				<artifactId>mime</artifactId>
+				<version>${nabu.data-mime-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
