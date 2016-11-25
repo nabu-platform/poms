@@ -66,6 +66,9 @@
 		<nabu.web-resources-version>1.1</nabu.web-resources-version>
 		<nabu.web-swagger-version>1.1</nabu.web-swagger-version>
 		<nabu.web-wiki-version>1.1</nabu.web-wiki-version>
+		<nabu.web.wsdl-client-version>1.0</nabu.web.wsdl-client-version>
+		<nabu.web.wsdl-provider-version>1.0</nabu.web.wsdl-provider-version>
+		<nabu.cms-attachments-version>1.0</nabu.cms-attachments-version>
 	</properties>
 		
 	<build>
@@ -368,6 +371,21 @@
 				<groupId>nabu.web</groupId>
 				<artifactId>wiki</artifactId>
 				<version>${nabu.web-wiki-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web.wsdl</groupId>
+				<artifactId>client</artifactId>
+				<version>${nabu.web.wsdl-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web.wsdl</groupId>
+				<artifactId>provider</artifactId>
+				<version>${nabu.web.wsdl-provider-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.cms</groupId>
+				<artifactId>attachments</artifactId>
+				<version>${nabu.cms-attachments-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
