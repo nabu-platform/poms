@@ -58,6 +58,7 @@
 		<nabu.data-xml-version>1.0</nabu.data-xml-version>
 		<nabu.data-mime-version>1.1</nabu.data-mime-version>
 		<nabu.frameworks-channels-version>1.0</nabu.frameworks-channels-version>
+		<nabu.templates-text-version>1.0</nabu.templates-text-version>
 	</properties>
 		
 	<build>
@@ -320,6 +321,11 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>channels</artifactId>
 				<version>${nabu.frameworks-channels-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.templates</groupId>
+				<artifactId>text</artifactId>
+				<version>${nabu.templates-text-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
