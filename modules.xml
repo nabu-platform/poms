@@ -61,6 +61,8 @@
 		<nabu.templates-text-version>1.0</nabu.templates-text-version>
 		<nabu.web-component-version>1.1</nabu.web-component-version>
 		<nabu.web-cordova-version>1.0</nabu.web-cordova-version>
+		<nabu.web-core-version>1.1</nabu.web-core-version>
+		<nabu.web-management-version>1.1</nabu.web-management-version>
 	</properties>
 		
 	<build>
@@ -338,6 +340,16 @@
 				<groupId>nabu.web</groupId>
 				<artifactId>cordova</artifactId>
 				<version>${nabu.web-cordova-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>core</artifactId>
+				<version>${nabu.web-core-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>management</artifactId>
+				<version>${nabu.web-management-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
