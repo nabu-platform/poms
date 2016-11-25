@@ -60,6 +60,7 @@
 		<nabu.frameworks-channels-version>1.0</nabu.frameworks-channels-version>
 		<nabu.templates-text-version>1.0</nabu.templates-text-version>
 		<nabu.web-component-version>1.1</nabu.web-component-version>
+		<nabu.web-cordova-version>1.0</nabu.web-cordova-version>
 	</properties>
 		
 	<build>
@@ -332,6 +333,11 @@
 				<groupId>nabu.web</groupId>
 				<artifactId>component</artifactId>
 				<version>${nabu.web-component-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>cordova</artifactId>
+				<version>${nabu.web-cordova-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
