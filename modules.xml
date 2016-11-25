@@ -49,6 +49,9 @@
 		<nabu.misc-metrics-version>1.1</nabu.misc-metrics-version>
 		<nabu.misc-scheduler-version>1.1</nabu.misc-scheduler-version>
 		<nabu.misc-tracer-version>1.1</nabu.misc-tracer-version>
+		<nabu.payment-stripe-version>1.0</nabu.payment-stripe-version>
+		<nabu.data-excel-version>1.1</nabu.data-excel-version>
+		<nabu.data-flat-version>1.0</nabu.data-flat-version>
 	</properties>
 		
 	<build>
@@ -266,6 +269,21 @@
 				<groupId>nabu.misc</groupId>
 				<artifactId>tracer</artifactId>
 				<version>${nabu.misc-tracer-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.payment</groupId>
+				<artifactId>stripe</artifactId>
+				<version>${nabu.payment-stripe-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.data</groupId>
+				<artifactId>excel</artifactId>
+				<version>${nabu.data-excel-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.data</groupId>
+				<artifactId>flat</artifactId>
+				<version>${nabu.data-flat-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
