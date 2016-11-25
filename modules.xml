@@ -45,6 +45,8 @@
 		<nabu.misc-workflow-version>1.1</nabu.misc-workflow-version>
 		<nabu.misc-broker-version>1.0</nabu.misc-broker-version>
 		<nabu.misc-cluster-version>1.1</nabu.misc-cluster-version>
+		<nabu.misc-deployment-version>1.1</nabu.misc-deployment-version>
+		<nabu.misc-metrics-version>1.1</nabu.misc-metrics-version>
 	</properties>
 		
 	<build>
@@ -242,6 +244,16 @@
 				<groupId>nabu.misc</groupId>
 				<artifactId>cluster</artifactId>
 				<version>${nabu.misc-cluster-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>deployment</artifactId>
+				<version>${nabu.misc-deployment-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>metrics</artifactId>
+				<version>${nabu.misc-metrics-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
