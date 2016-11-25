@@ -10,6 +10,13 @@
 		<artifactId>core</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
+	
+	<properties>
+		<nabu-utils-version>1.1</nabu-utils-version>
+		<nabu.protocols.http-server-version>1.1</nabu.protocols.http-server-version>
+		<nabu.authentication.oauth2-server-version>1.2-SNAPSHOT</nabu.authentication.oauth2-server-version>
+		<nabu.web-application-version>1.1</nabu.web-application-version>
+	</properties>
 		
 	<build>
 		<resources>
@@ -39,4 +46,29 @@
 		</dependency>
 	</dependencies>
 	
+	
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>utils</artifactId>
+				<version>${nabu-utils-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.protocols.http</groupId>
+				<artifactId>server</artifactId>
+				<version>${nabu.protocols.http-server-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.authentication.oauth2</groupId>
+				<artifactId>server</artifactId>
+				<version>${nabu.authentication.oauth2-server-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>application</artifactId>
+				<version>${nabu.web-application-version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 </project>
