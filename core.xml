@@ -202,7 +202,7 @@
 		<be.nabu.libs.services-services-wsdl-scm>https://nablex@github.com/nablex/services-wsdl</be.nabu.libs.services-services-wsdl-scm>
 		
 		<!-- Versioning -->
-		<be.nabu.utils-utils-io-version>1.4</be.nabu.utils-utils-io-version>
+		<be.nabu.utils-utils-io-version>1.5-SNAPSHOT</be.nabu.utils-utils-io-version>
 		<be.nabu.utils-utils-security-resources-version>1.0</be.nabu.utils-utils-security-resources-version>
 		<be.nabu.utils-utils-security-version>1.0</be.nabu.utils-utils-security-version>
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
@@ -382,7 +382,7 @@
 		<be.nabu.libs.smtp-smtp-server-version>1.0</be.nabu.libs.smtp-smtp-server-version>
 		<nabu-eai-module-channels-version>1.0</nabu-eai-module-channels-version>
 		<nabu-eai-module-data-transactions-version>1.0</nabu-eai-module-data-transactions-version>
-		<be.nabu.jfx-jfx-control-date-version>1.0</be.nabu.jfx-jfx-control-date-version>
+		<be.nabu.jfx-jfx-control-date-version>1.1-SNAPSHOT</be.nabu.jfx-jfx-control-date-version>
 		<nabu-eai-module-binding-flat-version>1.0</nabu-eai-module-binding-flat-version>
 		<nabu-eai-module-binding-xml-version>1.0</nabu-eai-module-binding-xml-version>
 		<nabu-eai-module-binding-json-version>1.0</nabu-eai-module-binding-json-version>
