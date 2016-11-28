@@ -70,6 +70,7 @@
 		<nabu.web.wsdl-provider-version>1.0</nabu.web.wsdl-provider-version>
 		<nabu.cms-attachments-version>1.0</nabu.cms-attachments-version>
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
+		<nabu.data-csv-version>1.0-SNAPSHOT</nabu.data-csv-version>
 	</properties>
 		
 	<build>
@@ -392,6 +393,11 @@
 				<groupId>nabu.cms</groupId>
 				<artifactId>masterdata</artifactId>
 				<version>${nabu.cms-masterdata-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.data</groupId>
+				<artifactId>csv</artifactId>
+				<version>${nabu.data-csv-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
