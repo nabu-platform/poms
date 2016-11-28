@@ -367,7 +367,7 @@
 		<nabu-eai-module-startup-version>1.0</nabu-eai-module-startup-version>
 		<nabu-eai-module-smtp-client-version>1.0</nabu-eai-module-smtp-client-version>
 		<nabu-eai-module-swagger-version>1.1</nabu-eai-module-swagger-version>
-		<nabu-eai-module-workflow-version>1.1</nabu-eai-module-workflow-version>
+		<nabu-eai-module-workflow-version>1.2-SNAPSHOT</nabu-eai-module-workflow-version>
 		<nabu-eai-module-web-websockets-version>1.1</nabu-eai-module-web-websockets-version>
 		<nabu-eai-module-web-resources-version>1.1</nabu-eai-module-web-resources-version>
 		<nabu-eai-module-services-jdbc-version>1.1</nabu-eai-module-services-jdbc-version>
