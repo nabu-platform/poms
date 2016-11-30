@@ -61,7 +61,7 @@
 		<nabu.templates-text-version>1.0</nabu.templates-text-version>
 		<nabu.web-component-version>1.1</nabu.web-component-version>
 		<nabu.web-cordova-version>1.0</nabu.web-cordova-version>
-		<nabu.web-core-version>1.1</nabu.web-core-version>
+		<nabu.web-core-version>1.2-SNAPSHOT</nabu.web-core-version>
 		<nabu.web-management-version>1.1</nabu.web-management-version>
 		<nabu.web-resources-version>1.1</nabu.web-resources-version>
 		<nabu.web-swagger-version>1.1</nabu.web-swagger-version>
