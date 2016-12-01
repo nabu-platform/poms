@@ -73,6 +73,7 @@
 		<nabu.data-csv-version>1.0-SNAPSHOT</nabu.data-csv-version>
 		<nabu.management-core-version>1.0-SNAPSHOT</nabu.management-core-version>
 		<nabu.management-workflow-version>1.0-SNAPSHOT</nabu.management-workflow-version>
+		<nabu.cms-order-version>1.0-SNAPSHOT</nabu.cms-order-version>
 	</properties>
 		
 	<build>
@@ -410,6 +411,11 @@
 				<groupId>nabu.management</groupId>
 				<artifactId>workflow</artifactId>
 				<version>${nabu.management-workflow-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.cms</groupId>
+				<artifactId>order</artifactId>
+				<version>${nabu.cms-order-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
