@@ -74,6 +74,8 @@
 		<nabu.management-core-version>1.0-SNAPSHOT</nabu.management-core-version>
 		<nabu.management-workflow-version>1.0-SNAPSHOT</nabu.management-workflow-version>
 		<nabu.cms-order-version>1.0-SNAPSHOT</nabu.cms-order-version>
+		<nabu.management-metrics-version>1.0-SNAPSHOT</nabu.management-metrics-version>
+		<nabu.management-cluster-version>1.0-SNAPSHOT</nabu.management-cluster-version>
 	</properties>
 		
 	<build>
@@ -416,6 +418,16 @@
 				<groupId>nabu.cms</groupId>
 				<artifactId>order</artifactId>
 				<version>${nabu.cms-order-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.management</groupId>
+				<artifactId>metrics</artifactId>
+				<version>${nabu.management-metrics-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.management</groupId>
+				<artifactId>cluster</artifactId>
+				<version>${nabu.management-cluster-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
