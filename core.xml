@@ -392,6 +392,7 @@
 		<nabu-eai-module-binding-csv-version>1.0-SNAPSHOT</nabu-eai-module-binding-csv-version>
 		<be.nabu.utils-utils-bully-version>1.0-SNAPSHOT</be.nabu.utils-utils-bully-version>
 		<nabu-eai-module-jdbc-oracle-version>1.0-SNAPSHOT</nabu-eai-module-jdbc-oracle-version>
+		<nabu-eai-module-jdbc-postgresql-version>1.0-SNAPSHOT</nabu-eai-module-jdbc-postgresql-version>
 	</properties>
 	
 	<build>
@@ -1444,6 +1445,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-jdbc-oracle</artifactId>
 				<version>${nabu-eai-module-jdbc-oracle-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-jdbc-postgresql</artifactId>
+				<version>${nabu-eai-module-jdbc-postgresql-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
