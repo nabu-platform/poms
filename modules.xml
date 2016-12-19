@@ -71,14 +71,14 @@
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
 		<nabu.data-csv-version>1.0</nabu.data-csv-version>
 		<nabu.management-core-version>1.0</nabu.management-core-version>
-		<nabu.management-workflow-version>1.0-SNAPSHOT</nabu.management-workflow-version>
+		<nabu.management-workflow-version>1.0</nabu.management-workflow-version>
 		<nabu.cms-order-version>1.0</nabu.cms-order-version>
 		<nabu.management-metrics-version>1.0</nabu.management-metrics-version>
 		<nabu.management-cluster-version>1.0</nabu.management-cluster-version>
 		<nabu.drivers-oracle-version>1.0</nabu.drivers-oracle-version>
 		<nabu.drivers-postgresql-version>1.0</nabu.drivers-postgresql-version>
 		<nabu.management-logger-version>1.0</nabu.management-logger-version>
-		<nabu.management-deployment-version>1.0-SNAPSHOT</nabu.management-deployment-version>
+		<nabu.management-deployment-version>1.0</nabu.management-deployment-version>
 		<nabu.management-server-version>1.0</nabu.management-server-version>
 	</properties>
 		
