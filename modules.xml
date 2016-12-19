@@ -15,7 +15,7 @@
 		<nabu-utils-version>1.2-SNAPSHOT</nabu-utils-version>
 		<nabu.protocols.http-server-version>1.1</nabu.protocols.http-server-version>
 		<nabu.authentication.oauth2-server-version>1.2</nabu.authentication.oauth2-server-version>
-		<nabu.web-application-version>1.2-SNAPSHOT</nabu.web-application-version>
+		<nabu.web-application-version>1.2</nabu.web-application-version>
 		<nabu.protocols.http-client-version>1.0</nabu.protocols.http-client-version>
 		<nabu.misc-proxy-version>1.0</nabu.misc-proxy-version>
 		<nabu.misc-keystore-version>1.1</nabu.misc-keystore-version>
@@ -61,10 +61,9 @@
 		<nabu.templates-text-version>1.0</nabu.templates-text-version>
 		<nabu.web-component-version>1.1</nabu.web-component-version>
 		<nabu.web-cordova-version>1.0</nabu.web-cordova-version>
-		<nabu.web-core-version>1.2-SNAPSHOT</nabu.web-core-version>
-		<nabu.web-management-version>1.1</nabu.web-management-version>
+		<nabu.web-core-version>1.2</nabu.web-core-version>
 		<nabu.web-resources-version>1.2</nabu.web-resources-version>
-		<nabu.web-swagger-version>1.2-SNAPSHOT</nabu.web-swagger-version>
+		<nabu.web-swagger-version>1.2</nabu.web-swagger-version>
 		<nabu.web-wiki-version>1.1</nabu.web-wiki-version>
 		<nabu.web.wsdl-client-version>1.0</nabu.web.wsdl-client-version>
 		<nabu.web.wsdl-provider-version>1.0</nabu.web.wsdl-provider-version>
@@ -363,11 +362,6 @@
 				<groupId>nabu.web</groupId>
 				<artifactId>core</artifactId>
 				<version>${nabu.web-core-version}</version>
-			</dependency>
-			<dependency>
-				<groupId>nabu.web</groupId>
-				<artifactId>management</artifactId>
-				<version>${nabu.web-management-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.web</groupId>
