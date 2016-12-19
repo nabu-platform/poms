@@ -12,7 +12,7 @@
 	</parent>
 	
 	<properties>
-		<nabu-utils-version>1.2-SNAPSHOT</nabu-utils-version>
+		<nabu-utils-version>1.2</nabu-utils-version>
 		<nabu.protocols.http-server-version>1.1</nabu.protocols.http-server-version>
 		<nabu.authentication.oauth2-server-version>1.2</nabu.authentication.oauth2-server-version>
 		<nabu.web-application-version>1.2</nabu.web-application-version>
@@ -21,7 +21,7 @@
 		<nabu.misc-keystore-version>1.1</nabu.misc-keystore-version>
 		<nabu.authentication.ntlm-client-version>1.0</nabu.authentication.ntlm-client-version>
 		<nabu.authentication.kerberos-server-version>1.0</nabu.authentication.kerberos-server-version>
-		<nabu.cms-core-version>1.1-SNAPSHOT</nabu.cms-core-version>
+		<nabu.cms-core-version>1.1</nabu.cms-core-version>
 		<nabu.types-uml-version>1.2</nabu.types-uml-version>
 		<nabu.types-xml-version>1.2</nabu.types-xml-version>
 		<nabu.types-structure-version>1.2</nabu.types-structure-version>
@@ -31,14 +31,14 @@
 		<nabu.protocols.smtp-client-version>1.0</nabu.protocols.smtp-client-version>
 		<nabu.services-authorization-version>1.0</nabu.services-authorization-version>
 		<nabu.protocols.websockets-provider-version>1.1</nabu.protocols.websockets-provider-version>
-		<nabu.protocols.jdbc-pool-version>1.3-SNAPSHOT</nabu.protocols.jdbc-pool-version>
+		<nabu.protocols.jdbc-pool-version>1.3</nabu.protocols.jdbc-pool-version>
 		<nabu.services-jdbc-version>1.2</nabu.services-jdbc-version>
 		<nabu.services-vm-version>1.2</nabu.services-vm-version>
 		<nabu.services-iface-version>1.2</nabu.services-iface-version>
 		<nabu.services-glue-version>1.3</nabu.services-glue-version>
 		<nabu.web.rest-client-version>1.2</nabu.web.rest-client-version>
 		<nabu.web.rest-provider-version>1.2</nabu.web.rest-provider-version>
-		<nabu.misc-auditing-version>1.1-SNAPSHOT</nabu.misc-auditing-version>
+		<nabu.misc-auditing-version>1.1</nabu.misc-auditing-version>
 		<nabu.misc-cache-version>1.0</nabu.misc-cache-version>
 		<nabu.misc-configuration-version>1.2</nabu.misc-configuration-version>
 		<nabu.misc-startup-version>1.0</nabu.misc-startup-version>
@@ -70,16 +70,16 @@
 		<nabu.cms-attachments-version>1.0</nabu.cms-attachments-version>
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
 		<nabu.data-csv-version>1.0</nabu.data-csv-version>
-		<nabu.management-core-version>1.0-SNAPSHOT</nabu.management-core-version>
+		<nabu.management-core-version>1.0</nabu.management-core-version>
 		<nabu.management-workflow-version>1.0-SNAPSHOT</nabu.management-workflow-version>
-		<nabu.cms-order-version>1.0-SNAPSHOT</nabu.cms-order-version>
-		<nabu.management-metrics-version>1.0-SNAPSHOT</nabu.management-metrics-version>
-		<nabu.management-cluster-version>1.0-SNAPSHOT</nabu.management-cluster-version>
-		<nabu.drivers-oracle-version>1.0-SNAPSHOT</nabu.drivers-oracle-version>
-		<nabu.drivers-postgresql-version>1.0-SNAPSHOT</nabu.drivers-postgresql-version>
-		<nabu.management-logger-version>1.0-SNAPSHOT</nabu.management-logger-version>
+		<nabu.cms-order-version>1.0</nabu.cms-order-version>
+		<nabu.management-metrics-version>1.0</nabu.management-metrics-version>
+		<nabu.management-cluster-version>1.0</nabu.management-cluster-version>
+		<nabu.drivers-oracle-version>1.0</nabu.drivers-oracle-version>
+		<nabu.drivers-postgresql-version>1.0</nabu.drivers-postgresql-version>
+		<nabu.management-logger-version>1.0</nabu.management-logger-version>
 		<nabu.management-deployment-version>1.0-SNAPSHOT</nabu.management-deployment-version>
-		<nabu.management-server-version>1.0-SNAPSHOT</nabu.management-server-version>
+		<nabu.management-server-version>1.0</nabu.management-server-version>
 	</properties>
 		
 	<build>
