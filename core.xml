@@ -204,7 +204,7 @@
 		<!-- Versioning -->
 		<be.nabu.utils-utils-io-version>1.5</be.nabu.utils-utils-io-version>
 		<be.nabu.utils-utils-security-resources-version>1.0</be.nabu.utils-utils-security-resources-version>
-		<be.nabu.utils-utils-security-version>1.0</be.nabu.utils-utils-security-version>
+		<be.nabu.utils-utils-security-version>1.1</be.nabu.utils-utils-security-version>
 		<be.nabu.utils-utils-codec-version>1.1</be.nabu.utils-utils-codec-version>
 		<be.nabu.libs.validator-validator-api-version>1.1</be.nabu.libs.validator-validator-api-version>
 		<be.nabu.libs.validator-validator-base-version>1.3</be.nabu.libs.validator-validator-base-version>
@@ -329,7 +329,7 @@
 		<nabu-eai-module-authentication-kerberos-version>1.0</nabu-eai-module-authentication-kerberos-version>
 		<nabu-eai-module-web-application-version>1.3</nabu-eai-module-web-application-version>
 		<nabu-eai-module-http-server-version>1.1</nabu-eai-module-http-server-version>
-		<nabu-eai-module-keystore-version>1.1</nabu-eai-module-keystore-version>
+		<nabu-eai-module-keystore-version>1.2</nabu-eai-module-keystore-version>
 		<nabu-eai-module-authorization-vm-version>1.0</nabu-eai-module-authorization-vm-version>
 		<nabu-eai-module-services-interface-version>1.2</nabu-eai-module-services-interface-version>
 		<nabu-eai-module-types-structure-version>1.2</nabu-eai-module-types-structure-version>
