@@ -18,7 +18,7 @@
 		<nabu.web-application-version>1.2</nabu.web-application-version>
 		<nabu.protocols.http-client-version>1.0</nabu.protocols.http-client-version>
 		<nabu.misc-proxy-version>1.0</nabu.misc-proxy-version>
-		<nabu.misc-keystore-version>1.1</nabu.misc-keystore-version>
+		<nabu.misc-keystore-version>1.2</nabu.misc-keystore-version>
 		<nabu.authentication.ntlm-client-version>1.0</nabu.authentication.ntlm-client-version>
 		<nabu.authentication.kerberos-server-version>1.0</nabu.authentication.kerberos-server-version>
 		<nabu.cms-core-version>1.1</nabu.cms-core-version>
