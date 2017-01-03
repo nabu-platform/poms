@@ -24,7 +24,7 @@
 		<nabu.cms-core-version>1.1</nabu.cms-core-version>
 		<nabu.types-uml-version>1.2</nabu.types-uml-version>
 		<nabu.types-xml-version>1.2</nabu.types-xml-version>
-		<nabu.types-structure-version>1.2</nabu.types-structure-version>
+		<nabu.types-structure-version>1.3-SNAPSHOT</nabu.types-structure-version>
 		<nabu.types-simple-version>1.1</nabu.types-simple-version>
 		<nabu.protocols.http-dataProvider-version>1.0</nabu.protocols.http-dataProvider-version>
 		<nabu.protocols.smtp-server-version>1.0</nabu.protocols.smtp-server-version>
@@ -44,7 +44,7 @@
 		<nabu.misc-startup-version>1.0</nabu.misc-startup-version>
 		<nabu.misc-workflow-version>1.2</nabu.misc-workflow-version>
 		<nabu.misc-broker-version>1.1</nabu.misc-broker-version>
-		<nabu.misc-cluster-version>1.2</nabu.misc-cluster-version>
+		<nabu.misc-cluster-version>1.3-SNAPSHOT</nabu.misc-cluster-version>
 		<nabu.misc-deployment-version>1.2</nabu.misc-deployment-version>
 		<nabu.misc-metrics-version>1.2</nabu.misc-metrics-version>
 		<nabu.misc-scheduler-version>1.1</nabu.misc-scheduler-version>
