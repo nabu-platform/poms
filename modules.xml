@@ -27,7 +27,7 @@
 		<nabu.types-structure-version>1.3-SNAPSHOT</nabu.types-structure-version>
 		<nabu.types-simple-version>1.1</nabu.types-simple-version>
 		<nabu.protocols.http-dataProvider-version>1.0</nabu.protocols.http-dataProvider-version>
-		<nabu.protocols.smtp-server-version>1.0</nabu.protocols.smtp-server-version>
+		<nabu.protocols.smtp-server-version>1.1-SNAPSHOT</nabu.protocols.smtp-server-version>
 		<nabu.protocols.smtp-client-version>1.1-SNAPSHOT</nabu.protocols.smtp-client-version>
 		<nabu.services-authorization-version>1.0</nabu.services-authorization-version>
 		<nabu.protocols.websockets-provider-version>1.2-SNAPSHOT</nabu.protocols.websockets-provider-version>
@@ -67,11 +67,11 @@
 		<nabu.web-wiki-version>1.1</nabu.web-wiki-version>
 		<nabu.web.wsdl-client-version>1.0</nabu.web.wsdl-client-version>
 		<nabu.web.wsdl-provider-version>1.0</nabu.web.wsdl-provider-version>
-		<nabu.cms-attachments-version>1.0</nabu.cms-attachments-version>
+		<nabu.cms-attachment-version>1.0</nabu.cms-attachment-version>
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
 		<nabu.data-csv-version>1.1-SNAPSHOT</nabu.data-csv-version>
 		<nabu.management-core-version>1.0</nabu.management-core-version>
-		<nabu.management-workflow-version>1.0</nabu.management-workflow-version>
+		<nabu.management-workflow-version>1.1-SNAPSHOT</nabu.management-workflow-version>
 		<nabu.cms-order-version>1.0</nabu.cms-order-version>
 		<nabu.management-metrics-version>1.0</nabu.management-metrics-version>
 		<nabu.management-cluster-version>1.0</nabu.management-cluster-version>
@@ -390,8 +390,8 @@
 			</dependency>
 			<dependency>
 				<groupId>nabu.cms</groupId>
-				<artifactId>attachments</artifactId>
-				<version>${nabu.cms-attachments-version}</version>
+				<artifactId>attachment</artifactId>
+				<version>${nabu.cms-attachment-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.cms</groupId>
