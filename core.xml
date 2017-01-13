@@ -222,7 +222,7 @@
 		<be.nabu.libs.types-types-api-version>1.3</be.nabu.libs.types-types-api-version>
 		<be.nabu.libs.property-property-api-version>1.1</be.nabu.libs.property-property-api-version>
 		<be.nabu.libs.artifacts-artifacts-api-version>1.1</be.nabu.libs.artifacts-artifacts-api-version>
-		<be.nabu.libs.types-types-base-version>1.5</be.nabu.libs.types-types-base-version>
+		<be.nabu.libs.types-types-base-version>1.6-SNAPSHOT</be.nabu.libs.types-types-base-version>
 		<be.nabu.libs.types-types-binding-api-version>1.1</be.nabu.libs.types-types-binding-api-version>
 		<be.nabu.libs.types-types-binding-xml-version>1.3</be.nabu.libs.types-types-binding-xml-version>
 		<be.nabu.libs.types-types-java-version>1.3-SNAPSHOT</be.nabu.libs.types-types-java-version>
@@ -231,7 +231,7 @@
 		<be.nabu.libs.types-types-binding-flat-version>1.3</be.nabu.libs.types-types-binding-flat-version>
 		<be.nabu.libs.types-types-definition-api-version>1.0</be.nabu.libs.types-types-definition-api-version>
 		<be.nabu.libs.types-types-definition-xml-version>1.1</be.nabu.libs.types-types-definition-xml-version>
-		<be.nabu.libs.types-types-structure-version>1.1</be.nabu.libs.types-types-structure-version>
+		<be.nabu.libs.types-types-structure-version>1.2-SNAPSHOT</be.nabu.libs.types-types-structure-version>
 		<be.nabu.libs.types-types-definition-xsd-version>1.2</be.nabu.libs.types-types-definition-xsd-version>
 		<be.nabu.libs.events-events-api-version>1.1</be.nabu.libs.events-events-api-version>
 		<be.nabu.libs.events-events-impl-version>1.2-SNAPSHOT</be.nabu.libs.events-events-impl-version>
