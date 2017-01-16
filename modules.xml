@@ -13,38 +13,38 @@
 	
 	<properties>
 		<nabu-utils-version>1.2</nabu-utils-version>
-		<nabu.protocols.http-server-version>1.2-SNAPSHOT</nabu.protocols.http-server-version>
-		<nabu.authentication.oauth2-server-version>1.3-SNAPSHOT</nabu.authentication.oauth2-server-version>
-		<nabu.web-application-version>1.3-SNAPSHOT</nabu.web-application-version>
+		<nabu.protocols.http-server-version>1.2</nabu.protocols.http-server-version>
+		<nabu.authentication.oauth2-server-version>1.3</nabu.authentication.oauth2-server-version>
+		<nabu.web-application-version>1.3</nabu.web-application-version>
 		<nabu.protocols.http-client-version>1.0</nabu.protocols.http-client-version>
 		<nabu.misc-proxy-version>1.0</nabu.misc-proxy-version>
-		<nabu.misc-keystore-version>1.2</nabu.misc-keystore-version>
+		<nabu.misc-keystore-version>1.3</nabu.misc-keystore-version>
 		<nabu.authentication.ntlm-client-version>1.0</nabu.authentication.ntlm-client-version>
 		<nabu.authentication.kerberos-server-version>1.0</nabu.authentication.kerberos-server-version>
-		<nabu.cms-core-version>1.3-SNAPSHOT</nabu.cms-core-version>
+		<nabu.cms-core-version>1.3</nabu.cms-core-version>
 		<nabu.types-uml-version>1.2</nabu.types-uml-version>
 		<nabu.types-xml-version>1.2</nabu.types-xml-version>
-		<nabu.types-structure-version>1.3-SNAPSHOT</nabu.types-structure-version>
+		<nabu.types-structure-version>1.3</nabu.types-structure-version>
 		<nabu.types-simple-version>1.1</nabu.types-simple-version>
 		<nabu.protocols.http-dataProvider-version>1.0</nabu.protocols.http-dataProvider-version>
-		<nabu.protocols.smtp-server-version>1.1-SNAPSHOT</nabu.protocols.smtp-server-version>
-		<nabu.protocols.smtp-client-version>1.1-SNAPSHOT</nabu.protocols.smtp-client-version>
+		<nabu.protocols.smtp-server-version>1.1</nabu.protocols.smtp-server-version>
+		<nabu.protocols.smtp-client-version>1.1</nabu.protocols.smtp-client-version>
 		<nabu.services-authorization-version>1.0</nabu.services-authorization-version>
-		<nabu.protocols.websockets-provider-version>1.2-SNAPSHOT</nabu.protocols.websockets-provider-version>
+		<nabu.protocols.websockets-provider-version>1.2</nabu.protocols.websockets-provider-version>
 		<nabu.protocols.jdbc-pool-version>1.3</nabu.protocols.jdbc-pool-version>
-		<nabu.services-jdbc-version>1.3-SNAPSHOT</nabu.services-jdbc-version>
-		<nabu.services-vm-version>1.3-SNAPSHOT</nabu.services-vm-version>
+		<nabu.services-jdbc-version>1.3</nabu.services-jdbc-version>
+		<nabu.services-vm-version>1.3</nabu.services-vm-version>
 		<nabu.services-iface-version>1.2</nabu.services-iface-version>
-		<nabu.services-glue-version>1.4-SNAPSHOT</nabu.services-glue-version>
-		<nabu.web.rest-client-version>1.3-SNAPSHOT</nabu.web.rest-client-version>
-		<nabu.web.rest-provider-version>1.3-SNAPSHOT</nabu.web.rest-provider-version>
+		<nabu.services-glue-version>1.4</nabu.services-glue-version>
+		<nabu.web.rest-client-version>1.3</nabu.web.rest-client-version>
+		<nabu.web.rest-provider-version>1.3</nabu.web.rest-provider-version>
 		<nabu.misc-auditing-version>1.1</nabu.misc-auditing-version>
 		<nabu.misc-cache-version>1.0</nabu.misc-cache-version>
 		<nabu.misc-configuration-version>1.2</nabu.misc-configuration-version>
 		<nabu.misc-startup-version>1.0</nabu.misc-startup-version>
-		<nabu.misc-workflow-version>1.3-SNAPSHOT</nabu.misc-workflow-version>
-		<nabu.misc-broker-version>1.2-SNAPSHOT</nabu.misc-broker-version>
-		<nabu.misc-cluster-version>1.3-SNAPSHOT</nabu.misc-cluster-version>
+		<nabu.misc-workflow-version>1.3</nabu.misc-workflow-version>
+		<nabu.misc-broker-version>1.2</nabu.misc-broker-version>
+		<nabu.misc-cluster-version>1.3</nabu.misc-cluster-version>
 		<nabu.misc-deployment-version>1.2</nabu.misc-deployment-version>
 		<nabu.misc-metrics-version>1.2</nabu.misc-metrics-version>
 		<nabu.misc-scheduler-version>1.1</nabu.misc-scheduler-version>
@@ -61,17 +61,17 @@
 		<nabu.templates-text-version>1.0</nabu.templates-text-version>
 		<nabu.web-component-version>1.1</nabu.web-component-version>
 		<nabu.web-cordova-version>1.0</nabu.web-cordova-version>
-		<nabu.web-core-version>1.3-SNAPSHOT</nabu.web-core-version>
-		<nabu.web-resources-version>1.3-SNAPSHOT</nabu.web-resources-version>
+		<nabu.web-core-version>1.3</nabu.web-core-version>
+		<nabu.web-resources-version>1.3</nabu.web-resources-version>
 		<nabu.web-swagger-version>1.2</nabu.web-swagger-version>
 		<nabu.web-wiki-version>1.1</nabu.web-wiki-version>
 		<nabu.web.wsdl-client-version>1.0</nabu.web.wsdl-client-version>
 		<nabu.web.wsdl-provider-version>1.0</nabu.web.wsdl-provider-version>
 		<nabu.cms-attachment-version>1.0</nabu.cms-attachment-version>
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
-		<nabu.data-csv-version>1.1-SNAPSHOT</nabu.data-csv-version>
+		<nabu.data-csv-version>1.1</nabu.data-csv-version>
 		<nabu.management-core-version>1.0</nabu.management-core-version>
-		<nabu.management-workflow-version>1.1-SNAPSHOT</nabu.management-workflow-version>
+		<nabu.management-workflow-version>1.1</nabu.management-workflow-version>
 		<nabu.cms-order-version>1.0</nabu.cms-order-version>
 		<nabu.management-metrics-version>1.0</nabu.management-metrics-version>
 		<nabu.management-cluster-version>1.0</nabu.management-cluster-version>
