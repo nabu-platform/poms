@@ -72,7 +72,7 @@
 		<nabu.data-csv-version>1.1</nabu.data-csv-version>
 		<nabu.management-core-version>1.1</nabu.management-core-version>
 		<nabu.management-workflow-version>1.1</nabu.management-workflow-version>
-		<nabu.cms-order-version>1.0</nabu.cms-order-version>
+		<nabu.cms-order-version>1.1</nabu.cms-order-version>
 		<nabu.management-metrics-version>1.0</nabu.management-metrics-version>
 		<nabu.management-cluster-version>1.0</nabu.management-cluster-version>
 		<nabu.drivers-oracle-version>1.0</nabu.drivers-oracle-version>
