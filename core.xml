@@ -309,7 +309,7 @@
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
 		<be.nabu.eai-eai-api-version>1.4</be.nabu.eai-eai-api-version>
 		<be.nabu.libs.http-http-client-websockets-version>0.2</be.nabu.libs.http-http-client-websockets-version>
-		<be.nabu.eai-eai-server-version>1.6</be.nabu.eai-eai-server-version>
+		<be.nabu.eai-eai-server-version>1.7</be.nabu.eai-eai-server-version>
 		<be.nabu.eai-eai-developer-version>1.6</be.nabu.eai-eai-developer-version>
 		<be.nabu.jfx-jfx-control-spinner-version>1.0</be.nabu.jfx-jfx-control-spinner-version>
 		<be.nabu.libs.tasks-tasks-api-version>1.2</be.nabu.libs.tasks-tasks-api-version>
@@ -374,7 +374,7 @@
 		<nabu-eai-module-web-wiki-version>1.2</nabu-eai-module-web-wiki-version>
 		<nabu-eai-module-tracer-version>1.1</nabu-eai-module-tracer-version>
 		<nabu-eai-module-utils-version>1.4</nabu-eai-module-utils-version>
-		<be.nabu.packaging-packaging-integrator-version>1.5</be.nabu.packaging-packaging-integrator-version>
+		<be.nabu.packaging-packaging-integrator-version>1.6</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.5</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
