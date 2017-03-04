@@ -12,7 +12,7 @@
 	</parent>
 	
 	<properties>
-		<nabu-utils-version>1.5</nabu-utils-version>
+		<nabu-utils-version>1.6</nabu-utils-version>
 		<nabu.protocols.http-server-version>1.4</nabu.protocols.http-server-version>
 		<nabu.authentication.oauth2-server-version>1.4</nabu.authentication.oauth2-server-version>
 		<nabu.web-application-version>1.8</nabu.web-application-version>
@@ -42,12 +42,12 @@
 		<nabu.misc-cache-version>1.0</nabu.misc-cache-version>
 		<nabu.misc-configuration-version>1.2</nabu.misc-configuration-version>
 		<nabu.misc-startup-version>1.1</nabu.misc-startup-version>
-		<nabu.misc-workflow-version>1.6</nabu.misc-workflow-version>
+		<nabu.misc-workflow-version>1.7</nabu.misc-workflow-version>
 		<nabu.misc-broker-version>1.5</nabu.misc-broker-version>
-		<nabu.misc-cluster-version>1.4</nabu.misc-cluster-version>
+		<nabu.misc-cluster-version>1.5</nabu.misc-cluster-version>
 		<nabu.misc-deployment-version>1.3</nabu.misc-deployment-version>
 		<nabu.misc-metrics-version>1.3</nabu.misc-metrics-version>
-		<nabu.misc-scheduler-version>1.5</nabu.misc-scheduler-version>
+		<nabu.misc-scheduler-version>1.6</nabu.misc-scheduler-version>
 		<nabu.misc-tracer-version>1.1</nabu.misc-tracer-version>
 		<nabu.payment-stripe-version>1.0</nabu.payment-stripe-version>
 		<nabu.data-excel-version>1.2</nabu.data-excel-version>
@@ -57,7 +57,7 @@
 		<nabu.data-json-version>1.2</nabu.data-json-version>
 		<nabu.data-xml-version>1.2</nabu.data-xml-version>
 		<nabu.data-mime-version>1.2</nabu.data-mime-version>
-		<nabu.frameworks-channels-version>1.3</nabu.frameworks-channels-version>
+		<nabu.frameworks-channels-version>1.4</nabu.frameworks-channels-version>
 		<nabu.templates-text-version>1.2</nabu.templates-text-version>
 		<nabu.web-component-version>1.2</nabu.web-component-version>
 		<nabu.web-cordova-version>1.1</nabu.web-cordova-version>
