@@ -257,7 +257,7 @@
 		<be.nabu.libs.http-http-client-version>1.2</be.nabu.libs.http-http-client-version>
 		<be.nabu.libs.cache-cache-api-version>1.2</be.nabu.libs.cache-cache-api-version>
 		<be.nabu.libs.cache-cache-resources-version>1.0</be.nabu.libs.cache-cache-resources-version>
-		<be.nabu.libs.services-services-jdbc-version>1.4</be.nabu.libs.services-services-jdbc-version>
+		<be.nabu.libs.services-services-jdbc-version>1.5</be.nabu.libs.services-services-jdbc-version>
 		<be.nabu.libs.services-services-pojo-version>1.1</be.nabu.libs.services-services-pojo-version>
 		<be.nabu.libs.services-services-wsdl-version>1.1</be.nabu.libs.services-services-wsdl-version>
 		<be.nabu.libs.services-services-vm-version>1.2</be.nabu.libs.services-services-vm-version>
@@ -309,19 +309,19 @@
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
 		<be.nabu.eai-eai-api-version>1.4</be.nabu.eai-eai-api-version>
 		<be.nabu.libs.http-http-client-websockets-version>0.2</be.nabu.libs.http-http-client-websockets-version>
-		<be.nabu.eai-eai-server-version>1.12</be.nabu.eai-eai-server-version>
+		<be.nabu.eai-eai-server-version>1.13</be.nabu.eai-eai-server-version>
 		<be.nabu.eai-eai-developer-version>1.7</be.nabu.eai-eai-developer-version>
 		<be.nabu.jfx-jfx-control-spinner-version>1.0</be.nabu.jfx-jfx-control-spinner-version>
 		<be.nabu.libs.tasks-tasks-api-version>1.2</be.nabu.libs.tasks-tasks-api-version>
-		<be.nabu.libs.tasks-tasks-queues-database-version>1.1</be.nabu.libs.tasks-tasks-queues-database-version>
+		<be.nabu.libs.tasks-tasks-queues-database-version>1.2</be.nabu.libs.tasks-tasks-queues-database-version>
 		<be.nabu.libs.tasks-tasks-queues-cache-version>1.0</be.nabu.libs.tasks-tasks-queues-cache-version>
 		<be.nabu.libs.tasks-tasks-remote-version>1.1</be.nabu.libs.tasks-tasks-remote-version>
 		<be.nabu.libs.datastore-datastore-resources-version>1.2</be.nabu.libs.datastore-datastore-resources-version>
-		<be.nabu.libs.channels-channels-api-version>1.4</be.nabu.libs.channels-channels-api-version>
+		<be.nabu.libs.channels-channels-api-version>1.5</be.nabu.libs.channels-channels-api-version>
 		<be.nabu.libs.datatransactions-datatransactions-api-version>1.2</be.nabu.libs.datatransactions-datatransactions-api-version>
-		<be.nabu.libs.channels-channels-resources-version>1.3</be.nabu.libs.channels-channels-resources-version>
-		<be.nabu.libs.datatransactions-datatransactions-database-version>1.2</be.nabu.libs.datatransactions-datatransactions-database-version>
-		<be.nabu.libs.datastore-datastore-urn-database-version>1.1</be.nabu.libs.datastore-datastore-urn-database-version>
+		<be.nabu.libs.channels-channels-resources-version>1.4</be.nabu.libs.channels-channels-resources-version>
+		<be.nabu.libs.datatransactions-datatransactions-database-version>1.3</be.nabu.libs.datatransactions-datatransactions-database-version>
+		<be.nabu.libs.datastore-datastore-urn-database-version>1.2</be.nabu.libs.datastore-datastore-urn-database-version>
 		<be.nabu.libs.http-http-server-kerberos-version>1.0</be.nabu.libs.http-http-server-kerberos-version>
 		<nabu-eai-module-auditing-version>1.1</nabu-eai-module-auditing-version>
 		<be.nabu.libs.http-http-server-kerberos-scm>https://nablex@bitbucket.org/nablex/http-server-kerberos</be.nabu.libs.http-http-server-kerberos-scm>
@@ -343,12 +343,12 @@
 		<nabu-eai-module-broker-version>1.4</nabu-eai-module-broker-version>
 		<nabu-eai-module-datastore-version>1.4</nabu-eai-module-datastore-version>
 		<nabu-eai-module-cache-version>1.0</nabu-eai-module-cache-version>
-		<nabu-eai-module-cluster-version>1.5</nabu-eai-module-cluster-version>
+		<nabu-eai-module-cluster-version>1.6</nabu-eai-module-cluster-version>
 		<nabu-eai-module-excel-version>1.2</nabu-eai-module-excel-version>
 		<nabu-eai-module-configuration-version>1.2</nabu-eai-module-configuration-version>
 		<nabu-eai-module-data-provider-version>1.0</nabu-eai-module-data-provider-version>
 		<nabu-eai-module-deployment-version>1.3</nabu-eai-module-deployment-version>
-		<nabu-eai-module-jdbc-pool-version>1.3</nabu-eai-module-jdbc-pool-version>
+		<nabu-eai-module-jdbc-pool-version>1.4</nabu-eai-module-jdbc-pool-version>
 		<nabu-eai-module-maven-version>1.0</nabu-eai-module-maven-version>
 		<nabu-eai-module-metrics-version>1.3</nabu-eai-module-metrics-version>
 		<be.nabu.libs.metrics-metrics-database-version>1.2</be.nabu.libs.metrics-metrics-database-version>
@@ -374,13 +374,13 @@
 		<nabu-eai-module-web-wiki-version>1.2</nabu-eai-module-web-wiki-version>
 		<nabu-eai-module-tracer-version>1.1</nabu-eai-module-tracer-version>
 		<nabu-eai-module-utils-version>1.6</nabu-eai-module-utils-version>
-		<be.nabu.packaging-packaging-integrator-version>1.11</be.nabu.packaging-packaging-integrator-version>
+		<be.nabu.packaging-packaging-integrator-version>1.12</be.nabu.packaging-packaging-integrator-version>
 		<be.nabu.packaging-packaging-developer-version>1.6</be.nabu.packaging-packaging-developer-version>
 		<nabu-eai-module-glue-testing-version>1.0</nabu-eai-module-glue-testing-version>
 		<nabu-eai-module-glue-pdf-viewer-version>1.0</nabu-eai-module-glue-pdf-viewer-version>
 		<be.nabu.packaging-packaging-cli-version>1.1</be.nabu.packaging-packaging-cli-version>
 		<be.nabu.libs.smtp-smtp-server-version>1.1</be.nabu.libs.smtp-smtp-server-version>
-		<nabu-eai-module-channels-version>1.4</nabu-eai-module-channels-version>
+		<nabu-eai-module-channels-version>1.5</nabu-eai-module-channels-version>
 		<nabu-eai-module-data-transactions-version>1.1</nabu-eai-module-data-transactions-version>
 		<be.nabu.jfx-jfx-control-date-version>1.1</be.nabu.jfx-jfx-control-date-version>
 		<nabu-eai-module-binding-flat-version>1.1</nabu-eai-module-binding-flat-version>
