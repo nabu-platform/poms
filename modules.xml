@@ -13,9 +13,9 @@
 	
 	<properties>
 		<nabu-utils-version>1.6</nabu-utils-version>
-		<nabu.protocols.http-server-version>1.6</nabu.protocols.http-server-version>
+		<nabu.protocols.http-server-version>1.7</nabu.protocols.http-server-version>
 		<nabu.authentication.oauth2-server-version>1.4</nabu.authentication.oauth2-server-version>
-		<nabu.web-application-version>1.10</nabu.web-application-version>
+		<nabu.web-application-version>1.11</nabu.web-application-version>
 		<nabu.protocols.http-client-version>1.0</nabu.protocols.http-client-version>
 		<nabu.misc-proxy-version>1.0</nabu.misc-proxy-version>
 		<nabu.misc-keystore-version>1.4</nabu.misc-keystore-version>
