@@ -70,7 +70,7 @@
 		<nabu.cms-attachment-version>1.7</nabu.cms-attachment-version>
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
 		<nabu.data-csv-version>1.4</nabu.data-csv-version>
-		<nabu.management-core-version>1.10</nabu.management-core-version>
+		<nabu.management-core-version>1.11</nabu.management-core-version>
 		<nabu.management-workflow-version>1.7</nabu.management-workflow-version>
 		<nabu.cms-order-version>1.3</nabu.cms-order-version>
 		<nabu.management-metrics-version>1.4</nabu.management-metrics-version>
