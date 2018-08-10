@@ -1,0 +1,29 @@
+## This packages an application, can be used for packaging the integrator, developer, cli,...
+
+outputDirectory ?= "/path/to/builds"
+inputDirectory ?= system.pwd()
+
+system.mvn("clean", "package", 1> system)
+fileName = first(file.list("target", fileRegex: ".*\.zip"))
+jarFileName = first(file.list("target", fileRegex: ".*\.jar"))
+
+name = replace("-[0-9.]+.*", "", fileName)
+# write latest
+write(outputDirectory + "/" + name + "-LATEST.zip", read(inputDirectory + "/target/" + fileName))
+
+content = xml.objectify(read(inputDirectory + "/pom.xml"))
+# read the parent pom...
+parent = xml.objectify(read(inputDirectory + "/../pom.xml"))
+version = parent/properties[/content/groupId + "-" + /content/artifactId + "-version"]
+
+if (version ~ ".*-SNAPSHOT")
+	buildTime = null
+	entries = unzip(read(inputDirectory + "/target/" + jarFileName))
+	for (entry : keys(entries))
+		if (entry ~ ".*/MANIFEST.MF")
+			buildTime = replace("(?s).*Build-Time:[\s]*([0-9]{4})-([0-9]{2})-([0-9]{2})T([0-9]{2}):([0-9]{2}):([0-9]{2})Z.*", "$1$2$3$4$5$6", entries[entry])
+	if (buildTime == null)
+		buildTime = format("yyyyMMddHHmmss", date: date())
+	write(outputDirectory + "/" + name + "/" + replace("(\.zip)$", "." + buildTime + "$1", fileName), read(inputDirectory + "/target/" + fileName))
+else
+	write(outputDirectory + "/" + name + "/" + fileName, read(inputDirectory + "/target/" + fileName))

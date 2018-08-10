@@ -1,0 +1,28 @@
+<settings>
+	<profiles>
+		<profile>
+			<id>nabu-development</id>
+			<properties>
+				<sign.keystore>/path/to/nabu/development/keystore.jks</sign.keystore>
+				<sign.alias>the_alias</sign.alias>
+				<sign.storepass>the_store_password</sign.storepass>
+				<sign.keypass>the_key_password</sign.keypass>
+				<sign.tsa>http://timestamp.digicert.com</sign.tsa>
+			</properties>
+		</profile>
+		<profile>
+			<id>nabu-release</id>
+			<properties>
+				<sign.keystore>/path/to/nabu/packaging/keystore.jks</sign.keystore>
+				<sign.alias>the_alias</sign.alias>
+				<sign.storepass>the_store_password</sign.storepass>
+				<sign.keypass>the_key_password</sign.keypass>
+				<sign.tsa>http://timestamp.digicert.com</sign.tsa>
+			</properties>
+		</profile>
+	</profiles>
+
+	<activeProfiles>
+		<activeProfile>nabu-development</activeProfile>
+	</activeProfiles>
+</settings>
