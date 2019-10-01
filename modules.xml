@@ -126,6 +126,7 @@
 		<nabu-cloud-version>1.0-SNAPSHOT</nabu-cloud-version>
 		<nabu.protocols.websockets-client-version>1.0-SNAPSHOT</nabu.protocols.websockets-client-version>
 		<nabu.protocols.http-waf-version>1.0-SNAPSHOT</nabu.protocols.http-waf-version>
+		<nabu.libs.system-oshi-version>1.0-SNAPSHOT</nabu.libs.system-oshi-version>
 	</properties>
 		
 	<build>
@@ -728,6 +729,11 @@
 				<groupId>nabu.protocols.http</groupId>
 				<artifactId>waf</artifactId>
 				<version>${nabu.protocols.http-waf-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.libs.system</groupId>
+				<artifactId>oshi</artifactId>
+				<version>${nabu.libs.system-oshi-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
