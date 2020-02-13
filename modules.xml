@@ -36,7 +36,7 @@
 		<nabu.services-vm-version>1.17-SNAPSHOT</nabu.services-vm-version>
 		<nabu.services-iface-version>1.14-SNAPSHOT</nabu.services-iface-version>
 		<nabu.services-glue-version>1.21-SNAPSHOT</nabu.services-glue-version>
-		<nabu.web.rest-client-version>1.9</nabu.web.rest-client-version>
+		<nabu.web.rest-client-version>1.10-SNAPSHOT</nabu.web.rest-client-version>
 		<nabu.web.rest-provider-version>1.16-SNAPSHOT</nabu.web.rest-provider-version>
 		<nabu.misc-auditing-version>1.4</nabu.misc-auditing-version>
 		<nabu.misc-cache-version>1.4</nabu.misc-cache-version>
@@ -45,7 +45,7 @@
 		<nabu.misc-workflow-version>1.20-SNAPSHOT</nabu.misc-workflow-version>
 		<nabu.misc-broker-version>1.10</nabu.misc-broker-version>
 		<nabu.misc-cluster-version>1.10-SNAPSHOT</nabu.misc-cluster-version>
-		<nabu.misc-deployment-version>1.11</nabu.misc-deployment-version>
+		<nabu.misc-deployment-version>1.12-SNAPSHOT</nabu.misc-deployment-version>
 		<nabu.misc-metrics-version>1.6</nabu.misc-metrics-version>
 		<nabu.misc-scheduler-version>1.10</nabu.misc-scheduler-version>
 		<nabu.misc-tracer-version>1.6-SNAPSHOT</nabu.misc-tracer-version>
@@ -106,7 +106,7 @@
 		<nabu.data-pdf-version>1.1</nabu.data-pdf-version>
 		<nabu.testing-images-version>1.1</nabu.testing-images-version>
 		<nabu.testing-pdf-version>1.1</nabu.testing-pdf-version>
-		<nabu.web.page-cms-version>1.1</nabu.web.page-cms-version>
+		<nabu.web.page-cms-version>1.2-SNAPSHOT</nabu.web.page-cms-version>
 		<nabu.integrations-github-version>1.0</nabu.integrations-github-version>
 		<nabu.cms-dynamic-version>1.2-SNAPSHOT</nabu.cms-dynamic-version>
 		<nabu.integrations-ice-version>1.0</nabu.integrations-ice-version>
@@ -130,6 +130,9 @@
 		<nabu.drivers-h2-version>1.0-SNAPSHOT</nabu.drivers-h2-version>
 		<nabu.cms-shop-version>1.0-SNAPSHOT</nabu.cms-shop-version>
 		<nabu.authentication-temporary-version>1.0-SNAPSHOT</nabu.authentication-temporary-version>
+		<nabu.integrations-spryng-version>1.0-SNAPSHOT</nabu.integrations-spryng-version>
+		<nabu.services-report-version>1.0-SNAPSHOT</nabu.services-report-version>
+		<nabu.services-crud-version>1.0-SNAPSHOT</nabu.services-crud-version>
 	</properties>
 		
 	<build>
@@ -752,6 +755,21 @@
 				<groupId>nabu.authentication</groupId>
 				<artifactId>temporary</artifactId>
 				<version>${nabu.authentication-temporary-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.integrations</groupId>
+				<artifactId>spryng</artifactId>
+				<version>${nabu.integrations-spryng-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.services</groupId>
+				<artifactId>report</artifactId>
+				<version>${nabu.services-report-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.services</groupId>
+				<artifactId>crud</artifactId>
+				<version>${nabu.services-crud-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
