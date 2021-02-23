@@ -204,11 +204,11 @@
 		<!-- Versioning -->
 		<be.nabu.utils-utils-io-version>1.12-SNAPSHOT</be.nabu.utils-utils-io-version>
 		<be.nabu.utils-utils-security-resources-version>1.1</be.nabu.utils-utils-security-resources-version>
-		<be.nabu.utils-utils-security-version>1.7</be.nabu.utils-utils-security-version>
-		<be.nabu.utils-utils-codec-version>1.5</be.nabu.utils-utils-codec-version>
+		<be.nabu.utils-utils-security-version>1.8-SNAPSHOT</be.nabu.utils-utils-security-version>
+		<be.nabu.utils-utils-codec-version>1.6-SNAPSHOT</be.nabu.utils-utils-codec-version>
 		<be.nabu.libs.validator-validator-api-version>1.2</be.nabu.libs.validator-validator-api-version>
 		<be.nabu.libs.validator-validator-base-version>1.4</be.nabu.libs.validator-validator-base-version>
-		<be.nabu.libs.resources-resources-api-version>1.10</be.nabu.libs.resources-resources-api-version>
+		<be.nabu.libs.resources-resources-api-version>1.11-SNAPSHOT</be.nabu.libs.resources-resources-api-version>
 		<be.nabu.libs.resources-resources-alias-version>1.1</be.nabu.libs.resources-resources-alias-version>
 		<be.nabu.libs.resources-resources-cifs-version>1.2</be.nabu.libs.resources-resources-cifs-version>
 		<be.nabu.libs.resources-resources-classpath-version>1.1</be.nabu.libs.resources-resources-classpath-version>
@@ -218,56 +218,56 @@
 		<be.nabu.libs.resources-resources-url-version>1.1</be.nabu.libs.resources-resources-url-version>
 		<be.nabu.libs.resources-resources-zip-version>1.2</be.nabu.libs.resources-resources-zip-version>
 		<be.nabu.libs.converter-converter-api-version>1.3</be.nabu.libs.converter-converter-api-version>
-		<be.nabu.libs.converter-converter-base-version>1.5</be.nabu.libs.converter-converter-base-version>
-		<be.nabu.libs.types-types-api-version>1.7</be.nabu.libs.types-types-api-version>
+		<be.nabu.libs.converter-converter-base-version>1.6-SNAPSHOT</be.nabu.libs.converter-converter-base-version>
+		<be.nabu.libs.types-types-api-version>1.8-SNAPSHOT</be.nabu.libs.types-types-api-version>
 		<be.nabu.libs.property-property-api-version>1.2-SNAPSHOT</be.nabu.libs.property-property-api-version>
-		<be.nabu.libs.artifacts-artifacts-api-version>1.5</be.nabu.libs.artifacts-artifacts-api-version>
+		<be.nabu.libs.artifacts-artifacts-api-version>1.6-SNAPSHOT</be.nabu.libs.artifacts-artifacts-api-version>
 		<be.nabu.libs.types-types-base-version>1.18-SNAPSHOT</be.nabu.libs.types-types-base-version>
 		<be.nabu.libs.types-types-binding-api-version>1.2</be.nabu.libs.types-types-binding-api-version>
-		<be.nabu.libs.types-types-binding-xml-version>1.9</be.nabu.libs.types-types-binding-xml-version>
+		<be.nabu.libs.types-types-binding-xml-version>1.10-SNAPSHOT</be.nabu.libs.types-types-binding-xml-version>
 		<be.nabu.libs.types-types-java-version>1.8-SNAPSHOT</be.nabu.libs.types-types-java-version>
 		<be.nabu.libs.types-types-binding-json-version>1.11-SNAPSHOT</be.nabu.libs.types-types-binding-json-version>
 		<be.nabu.libs.types-types-binding-form-version>1.0</be.nabu.libs.types-types-binding-form-version>
 		<be.nabu.libs.types-types-binding-flat-version>1.5</be.nabu.libs.types-types-binding-flat-version>
 		<be.nabu.libs.types-types-definition-api-version>1.0</be.nabu.libs.types-types-definition-api-version>
 		<be.nabu.libs.types-types-definition-xml-version>1.6-SNAPSHOT</be.nabu.libs.types-types-definition-xml-version>
-		<be.nabu.libs.types-types-structure-version>1.6</be.nabu.libs.types-types-structure-version>
+		<be.nabu.libs.types-types-structure-version>1.7-SNAPSHOT</be.nabu.libs.types-types-structure-version>
 		<be.nabu.libs.types-types-definition-xsd-version>1.4</be.nabu.libs.types-types-definition-xsd-version>
 		<be.nabu.libs.events-events-api-version>1.2</be.nabu.libs.events-events-api-version>
-		<be.nabu.libs.events-events-impl-version>1.3</be.nabu.libs.events-events-impl-version>
-		<be.nabu.libs.wsdl-wsdl-api-version>1.0</be.nabu.libs.wsdl-wsdl-api-version>
+		<be.nabu.libs.events-events-impl-version>1.4-SNAPSHOT</be.nabu.libs.events-events-impl-version>
+		<be.nabu.libs.wsdl-wsdl-api-version>1.1-SNAPSHOT</be.nabu.libs.wsdl-wsdl-api-version>
 		<be.nabu.libs.wsdl-wsdl-formatter-version>1.0</be.nabu.libs.wsdl-wsdl-formatter-version>
 		<be.nabu.utils-utils-xml-version>1.1</be.nabu.utils-utils-xml-version>
-		<be.nabu.libs.wsdl-wsdl-parser-version>1.0</be.nabu.libs.wsdl-wsdl-parser-version>
-		<be.nabu.libs.types-types-xml-version>1.7</be.nabu.libs.types-types-xml-version>
-		<be.nabu.libs.evaluator-evaluator-api-version>1.14</be.nabu.libs.evaluator-evaluator-api-version>
+		<be.nabu.libs.wsdl-wsdl-parser-version>1.1-SNAPSHOT</be.nabu.libs.wsdl-wsdl-parser-version>
+		<be.nabu.libs.types-types-xml-version>1.8-SNAPSHOT</be.nabu.libs.types-types-xml-version>
+		<be.nabu.libs.evaluator-evaluator-api-version>1.15-SNAPSHOT</be.nabu.libs.evaluator-evaluator-api-version>
 		<be.nabu.libs.evaluator-evaluator-types-version>1.7-SNAPSHOT</be.nabu.libs.evaluator-evaluator-types-version>
-		<be.nabu.libs.types-types-uml-version>1.7</be.nabu.libs.types-types-uml-version>
+		<be.nabu.libs.types-types-uml-version>1.8-SNAPSHOT</be.nabu.libs.types-types-uml-version>
 		<be.nabu.libs.services-services-api-version>1.13-SNAPSHOT</be.nabu.libs.services-services-api-version>
 		<be.nabu.libs.authentication-authentication-api-version>1.11-SNAPSHOT</be.nabu.libs.authentication-authentication-api-version>
 		<be.nabu.libs.authentication-authentication-database-version>1.0</be.nabu.libs.authentication-authentication-database-version>
 		<be.nabu.libs.authentication-authentication-resources-version>1.0</be.nabu.libs.authentication-authentication-resources-version>
 		<be.nabu.libs.http-http-core-version>1.7-SNAPSHOT</be.nabu.libs.http-http-core-version>
-		<be.nabu.libs.http-http-api-version>1.9</be.nabu.libs.http-http-api-version>
-		<be.nabu.utils-utils-mime-version>1.10</be.nabu.utils-utils-mime-version>
+		<be.nabu.libs.http-http-api-version>1.10-SNAPSHOT</be.nabu.libs.http-http-api-version>
+		<be.nabu.utils-utils-mime-version>1.11-SNAPSHOT</be.nabu.utils-utils-mime-version>
 		<be.nabu.libs.nio-nio-server-version>1.18-SNAPSHOT</be.nabu.libs.nio-nio-server-version>
-		<be.nabu.libs.metrics-metrics-api-version>1.0</be.nabu.libs.metrics-metrics-api-version>
-		<be.nabu.libs.metrics-metrics-core-version>1.4</be.nabu.libs.metrics-metrics-core-version>
+		<be.nabu.libs.metrics-metrics-api-version>1.1-SNAPSHOT</be.nabu.libs.metrics-metrics-api-version>
+		<be.nabu.libs.metrics-metrics-core-version>1.5-SNAPSHOT</be.nabu.libs.metrics-metrics-core-version>
 		<be.nabu.libs.http-http-server-version>1.19-SNAPSHOT</be.nabu.libs.http-http-server-version>
-		<be.nabu.libs.http-http-client-version>1.7</be.nabu.libs.http-http-client-version>
-		<be.nabu.libs.cache-cache-api-version>1.6</be.nabu.libs.cache-cache-api-version>
+		<be.nabu.libs.http-http-client-version>1.8-SNAPSHOT</be.nabu.libs.http-http-client-version>
+		<be.nabu.libs.cache-cache-api-version>1.7-SNAPSHOT</be.nabu.libs.cache-cache-api-version>
 		<be.nabu.libs.cache-cache-resources-version>1.1</be.nabu.libs.cache-cache-resources-version>
 		<be.nabu.libs.services-services-jdbc-version>1.14-SNAPSHOT</be.nabu.libs.services-services-jdbc-version>
 		<be.nabu.libs.services-services-pojo-version>1.2-SNAPSHOT</be.nabu.libs.services-services-pojo-version>
-		<be.nabu.libs.services-services-wsdl-version>1.3</be.nabu.libs.services-services-wsdl-version>
+		<be.nabu.libs.services-services-wsdl-version>1.4-SNAPSHOT</be.nabu.libs.services-services-wsdl-version>
 		<be.nabu.libs.services-services-vm-version>1.13-SNAPSHOT</be.nabu.libs.services-services-vm-version>
 		<be.nabu.libs.services-services-cache-version>1.1</be.nabu.libs.services-services-cache-version>
 		<be.nabu.libs.services-services-mask-version>1.0</be.nabu.libs.services-services-mask-version>
-		<be.nabu.libs.types-types-mask-version>1.3</be.nabu.libs.types-types-mask-version>
-		<be.nabu.libs.swagger-swagger-api-version>1.3</be.nabu.libs.swagger-swagger-api-version>
-		<be.nabu.libs.swagger-swagger-parser-version>1.11</be.nabu.libs.swagger-swagger-parser-version>
+		<be.nabu.libs.types-types-mask-version>1.4-SNAPSHOT</be.nabu.libs.types-types-mask-version>
+		<be.nabu.libs.swagger-swagger-api-version>1.4-SNAPSHOT</be.nabu.libs.swagger-swagger-api-version>
+		<be.nabu.libs.swagger-swagger-parser-version>1.12-SNAPSHOT</be.nabu.libs.swagger-swagger-parser-version>
 		<be.nabu.libs.types-types-map-version>1.4</be.nabu.libs.types-types-map-version>
-		<be.nabu.libs.swagger-swagger-formatter-version>1.8</be.nabu.libs.swagger-swagger-formatter-version>
+		<be.nabu.libs.swagger-swagger-formatter-version>1.9-SNAPSHOT</be.nabu.libs.swagger-swagger-formatter-version>
 		<be.nabu.utils-utils-aspects-version>1.1</be.nabu.utils-utils-aspects-version>
 		<be.nabu.libs.resources-resources-snapshot-version>1.0</be.nabu.libs.resources-resources-snapshot-version>
 		<be.nabu.libs.http-http-server-rest-version>1.2</be.nabu.libs.http-http-server-rest-version>
@@ -296,7 +296,7 @@
 		<be.nabu.glue-glue-events-version>1.1</be.nabu.glue-glue-events-version>
 		<be.nabu.glue-glue-database-version>1.0</be.nabu.glue-glue-database-version>
 		<be.nabu.glue-glue-excel-version>1.0</be.nabu.glue-glue-excel-version>
-		<be.nabu.utils-utils-excel-version>1.2</be.nabu.utils-utils-excel-version>
+		<be.nabu.utils-utils-excel-version>1.3-SNAPSHOT</be.nabu.utils-utils-excel-version>
 		<be.nabu.jfx-jfx-control-tree-version>1.6-SNAPSHOT</be.nabu.jfx-jfx-control-tree-version>
 		<be.nabu.jfx-jfx-control-ace-version>1.5-SNAPSHOT</be.nabu.jfx-jfx-control-ace-version>
 		<be.nabu.libs-html-scraper-version>1.0</be.nabu.libs-html-scraper-version>
@@ -304,7 +304,7 @@
 		<be.nabu.libs.http-http-glue-version>1.26-SNAPSHOT</be.nabu.libs.http-http-glue-version>
 		<be.nabu.jfx-jfx-control-line-version>1.0</be.nabu.jfx-jfx-control-line-version>
 		<be.nabu.eai-eai-repository-version>1.22-SNAPSHOT</be.nabu.eai-eai-repository-version>
-		<be.nabu.libs.artifacts-artifacts-maven-version>1.2</be.nabu.libs.artifacts-artifacts-maven-version>
+		<be.nabu.libs.artifacts-artifacts-maven-version>1.3-SNAPSHOT</be.nabu.libs.artifacts-artifacts-maven-version>
 		<be.nabu.libs.maven-maven-repository-version>1.4</be.nabu.libs.maven-maven-repository-version>
 		<be.nabu.libs.maven-maven-server-version>1.0</be.nabu.libs.maven-maven-server-version>
 		<be.nabu.eai-eai-api-version>1.7-SNAPSHOT</be.nabu.eai-eai-api-version>
@@ -323,48 +323,48 @@
 		<be.nabu.libs.datatransactions-datatransactions-database-version>1.3</be.nabu.libs.datatransactions-datatransactions-database-version>
 		<be.nabu.libs.datastore-datastore-urn-database-version>1.2</be.nabu.libs.datastore-datastore-urn-database-version>
 		<be.nabu.libs.http-http-server-kerberos-version>1.0</be.nabu.libs.http-http-server-kerberos-version>
-		<nabu-eai-module-auditing-version>1.4</nabu-eai-module-auditing-version>
+		<nabu-eai-module-auditing-version>1.5-SNAPSHOT</nabu-eai-module-auditing-version>
 		<be.nabu.libs.http-http-server-kerberos-scm>https://nablex@bitbucket.org/nablex/http-server-kerberos</be.nabu.libs.http-http-server-kerberos-scm>
 		<nabu-eai-module-authentication-kerberos-scm>https://nablex@bitbucket.org/nablex/eai-module-authentication-kerberos</nabu-eai-module-authentication-kerberos-scm>
 		<nabu-eai-module-authentication-kerberos-version>1.0</nabu-eai-module-authentication-kerberos-version>
 		<nabu-eai-module-web-application-version>1.23-SNAPSHOT</nabu-eai-module-web-application-version>
 		<nabu-eai-module-http-server-version>1.15-SNAPSHOT</nabu-eai-module-http-server-version>
-		<nabu-eai-module-keystore-version>1.7</nabu-eai-module-keystore-version>
+		<nabu-eai-module-keystore-version>1.8-SNAPSHOT</nabu-eai-module-keystore-version>
 		<nabu-eai-module-authorization-vm-version>1.2-SNAPSHOT</nabu-eai-module-authorization-vm-version>
 		<nabu-eai-module-services-interface-version>1.7-SNAPSHOT</nabu-eai-module-services-interface-version>
 		<nabu-eai-module-types-structure-version>1.10-SNAPSHOT</nabu-eai-module-types-structure-version>
-		<nabu-eai-module-glue-version>1.7</nabu-eai-module-glue-version>
+		<nabu-eai-module-glue-version>1.8-SNAPSHOT</nabu-eai-module-glue-version>
 		<be.nabu.glue-glue-series-version>1.0</be.nabu.glue-glue-series-version>
-		<nabu-eai-module-web-component-version>1.7</nabu-eai-module-web-component-version>
+		<nabu-eai-module-web-component-version>1.8-SNAPSHOT</nabu-eai-module-web-component-version>
 		<nabu-eai-module-authentication-oauth2-version>1.15-SNAPSHOT</nabu-eai-module-authentication-oauth2-version>
-		<nabu-eai-module-http-client-version>1.3</nabu-eai-module-http-client-version>
+		<nabu-eai-module-http-client-version>1.4-SNAPSHOT</nabu-eai-module-http-client-version>
 		<nabu-eai-module-proxy-version>1.0</nabu-eai-module-proxy-version>
 		<nabu-eai-module-services-vm-version>1.18-SNAPSHOT</nabu-eai-module-services-vm-version>
 		<nabu-eai-module-broker-version>1.8</nabu-eai-module-broker-version>
 		<nabu-eai-module-datastore-version>1.6</nabu-eai-module-datastore-version>
-		<nabu-eai-module-cache-version>1.4</nabu-eai-module-cache-version>
+		<nabu-eai-module-cache-version>1.5-SNAPSHOT</nabu-eai-module-cache-version>
 		<nabu-eai-module-cluster-version>1.10-SNAPSHOT</nabu-eai-module-cluster-version>
-		<nabu-eai-module-excel-version>1.5</nabu-eai-module-excel-version>
+		<nabu-eai-module-excel-version>1.6-SNAPSHOT</nabu-eai-module-excel-version>
 		<nabu-eai-module-configuration-version>1.4-SNAPSHOT</nabu-eai-module-configuration-version>
 		<nabu-eai-module-data-provider-version>1.0</nabu-eai-module-data-provider-version>
 		<nabu-eai-module-deployment-version>1.13-SNAPSHOT</nabu-eai-module-deployment-version>
 		<nabu-eai-module-jdbc-pool-version>1.10-SNAPSHOT</nabu-eai-module-jdbc-pool-version>
 		<nabu-eai-module-maven-version>1.3-SNAPSHOT</nabu-eai-module-maven-version>
-		<nabu-eai-module-metrics-version>1.6</nabu-eai-module-metrics-version>
+		<nabu-eai-module-metrics-version>1.7-SNAPSHOT</nabu-eai-module-metrics-version>
 		<be.nabu.libs.metrics-metrics-database-version>1.2</be.nabu.libs.metrics-metrics-database-version>
 		<nabu-eai-module-rest-version>1.1</nabu-eai-module-rest-version>
 		<nabu-eai-module-rest-client-version>1.10-SNAPSHOT</nabu-eai-module-rest-client-version>
 		<nabu-eai-module-rest-provider-version>1.17-SNAPSHOT</nabu-eai-module-rest-provider-version>
 		<nabu-eai-module-mime-version>1.4</nabu-eai-module-mime-version>
 		<nabu-eai-module-types-xml-version>1.1</nabu-eai-module-types-xml-version>
-		<nabu-eai-module-types-uml-version>1.5</nabu-eai-module-types-uml-version>
+		<nabu-eai-module-types-uml-version>1.6-SNAPSHOT</nabu-eai-module-types-uml-version>
 		<nabu-eai-module-types-simple-version>1.2</nabu-eai-module-types-simple-version>
-		<nabu-eai-module-wsdl-client-version>1.1</nabu-eai-module-wsdl-client-version>
-		<nabu-eai-module-wsdl-provider-version>1.3</nabu-eai-module-wsdl-provider-version>
+		<nabu-eai-module-wsdl-client-version>1.2-SNAPSHOT</nabu-eai-module-wsdl-client-version>
+		<nabu-eai-module-wsdl-provider-version>1.4-SNAPSHOT</nabu-eai-module-wsdl-provider-version>
 		<nabu-eai-module-web-cordova-version>1.2-SNAPSHOT</nabu-eai-module-web-cordova-version>
-		<nabu-eai-module-template-text-version>1.3</nabu-eai-module-template-text-version>
+		<nabu-eai-module-template-text-version>1.4-SNAPSHOT</nabu-eai-module-template-text-version>
 		<nabu-eai-module-scheduler-version>1.10</nabu-eai-module-scheduler-version>
-		<nabu-eai-module-startup-version>1.3</nabu-eai-module-startup-version>
+		<nabu-eai-module-startup-version>1.4-SNAPSHOT</nabu-eai-module-startup-version>
 		<nabu-eai-module-smtp-client-version>1.8</nabu-eai-module-smtp-client-version>
 		<nabu-eai-module-swagger-version>1.19-SNAPSHOT</nabu-eai-module-swagger-version>
 		<nabu-eai-module-workflow-version>1.20-SNAPSHOT</nabu-eai-module-workflow-version>
@@ -382,7 +382,7 @@
 		<be.nabu.libs.smtp-smtp-server-version>1.2</be.nabu.libs.smtp-smtp-server-version>
 		<nabu-eai-module-channels-version>1.8</nabu-eai-module-channels-version>
 		<nabu-eai-module-data-transactions-version>1.1</nabu-eai-module-data-transactions-version>
-		<be.nabu.jfx-jfx-control-date-version>1.2</be.nabu.jfx-jfx-control-date-version>
+		<be.nabu.jfx-jfx-control-date-version>1.3-SNAPSHOT</be.nabu.jfx-jfx-control-date-version>
 		<nabu-eai-module-binding-flat-version>1.2</nabu-eai-module-binding-flat-version>
 		<nabu-eai-module-binding-xml-version>1.3</nabu-eai-module-binding-xml-version>
 		<nabu-eai-module-binding-json-version>1.5</nabu-eai-module-binding-json-version>
@@ -394,7 +394,7 @@
 		<nabu-eai-module-jdbc-oracle-version>1.6-SNAPSHOT</nabu-eai-module-jdbc-oracle-version>
 		<nabu-eai-module-jdbc-postgresql-version>1.9-SNAPSHOT</nabu-eai-module-jdbc-postgresql-version>
 		<nabu-eai-module-notifier-version>1.4</nabu-eai-module-notifier-version>
-		<be.nabu.libs.http-http-jwt-version>1.3</be.nabu.libs.http-http-jwt-version>
+		<be.nabu.libs.http-http-jwt-version>1.4-SNAPSHOT</be.nabu.libs.http-http-jwt-version>
 		<be.nabu.libs.types-types-view-version>1.0</be.nabu.libs.types-types-view-version>
 		<nabu-eai-module-services-jdbc-aggregation-version>1.2</nabu-eai-module-services-jdbc-aggregation-version>
 		<nabu-eai-module-glue-console-version>1.1</nabu-eai-module-glue-console-version>
@@ -402,26 +402,26 @@
 		<nabu-eai-module-web-analyzer-version>1.0</nabu-eai-module-web-analyzer-version>
 		<nabu-eai-module-authentication-remote-version>1.1</nabu-eai-module-authentication-remote-version>
 		<nabu-eai-module-web-renderer-version>1.6-SNAPSHOT</nabu-eai-module-web-renderer-version>
-		<nabu-eai-module-web-compressor-version>1.1</nabu-eai-module-web-compressor-version>
+		<nabu-eai-module-web-compressor-version>1.2-SNAPSHOT</nabu-eai-module-web-compressor-version>
 		<nabu-eai-module-web-sitemap-version>1.1</nabu-eai-module-web-sitemap-version>
 		<nabu-eai-module-reports-version>1.0</nabu-eai-module-reports-version>
 		<nabu-eai-module-jdbc-mssql-version>1.2</nabu-eai-module-jdbc-mssql-version>
-		<nabu-eai-module-executor-version>1.3</nabu-eai-module-executor-version>
+		<nabu-eai-module-executor-version>1.4-SNAPSHOT</nabu-eai-module-executor-version>
 		<be.nabu.utils-utils-promise-version>1.0</be.nabu.utils-utils-promise-version>
 		<be.nabu.libs.nio-nio-client-version>1.3-SNAPSHOT</be.nabu.libs.nio-nio-client-version>
 		<nabu-eai-module-http-reverse-proxy-version>1.3-SNAPSHOT</nabu-eai-module-http-reverse-proxy-version>
-		<be.nabu.libs.types-types-binding-excel-version>1.0</be.nabu.libs.types-types-binding-excel-version>
-		<be.nabu.libs.cluster-cluster-api-version>1.0</be.nabu.libs.cluster-cluster-api-version>
-		<be.nabu.libs.cluster-cluster-hazelcast-version>1.0</be.nabu.libs.cluster-cluster-hazelcast-version>
+		<be.nabu.libs.types-types-binding-excel-version>1.1-SNAPSHOT</be.nabu.libs.types-types-binding-excel-version>
+		<be.nabu.libs.cluster-cluster-api-version>1.1-SNAPSHOT</be.nabu.libs.cluster-cluster-api-version>
+		<be.nabu.libs.cluster-cluster-hazelcast-version>1.1-SNAPSHOT</be.nabu.libs.cluster-cluster-hazelcast-version>
 		<nabu-eai-module-deployment-action-version>1.1</nabu-eai-module-deployment-action-version>
 		<be.nabu.libs.http-http-sass-version>1.0</be.nabu.libs.http-http-sass-version>
-		<nabu-eai-module-libs-phone-version>1.0</nabu-eai-module-libs-phone-version>
+		<nabu-eai-module-libs-phone-version>1.1-SNAPSHOT</nabu-eai-module-libs-phone-version>
 		<be.nabu.libs.resources-resources-sftp-version>1.1</be.nabu.libs.resources-resources-sftp-version>
 		<nabu-eai-module-pdf-version>1.0</nabu-eai-module-pdf-version>
 		<nabu-eai-module-http-acme-version>1.1</nabu-eai-module-http-acme-version>
 		<nabu-eai-module-cms-dynamic-version>1.0</nabu-eai-module-cms-dynamic-version>
-		<be.nabu.utils-utils-cep-version>1.0</be.nabu.utils-utils-cep-version>
-		<nabu-eai-module-cluster-hazelcast-version>1.0</nabu-eai-module-cluster-hazelcast-version>
+		<be.nabu.utils-utils-cep-version>1.1-SNAPSHOT</be.nabu.utils-utils-cep-version>
+		<nabu-eai-module-cluster-hazelcast-version>1.1-SNAPSHOT</nabu-eai-module-cluster-hazelcast-version>
 		<nabu-eai-module-libs-qr-version>1.0</nabu-eai-module-libs-qr-version>
 		<nabu-eai-module-jdbc-h2-version>1.1-SNAPSHOT</nabu-eai-module-jdbc-h2-version>
 		<nabu-eai-module-services-scl-version>1.1-SNAPSHOT</nabu-eai-module-services-scl-version>
@@ -430,6 +430,19 @@
 		<nabu-eai-module-libs-oshi-version>1.0</nabu-eai-module-libs-oshi-version>
 		<nabu-eai-module-services-report-version>1.0-SNAPSHOT</nabu-eai-module-services-report-version>
 		<nabu-eai-module-services-crud-version>1.0-SNAPSHOT</nabu-eai-module-services-crud-version>
+		<nabu-eai-module-services-profile-version>1.0-SNAPSHOT</nabu-eai-module-services-profile-version>
+		<nabu-eai-module-features-version>1.0-SNAPSHOT</nabu-eai-module-features-version>
+		<nabu-eai-module-lucene-version>1.0-SNAPSHOT</nabu-eai-module-lucene-version>
+		<nabu-eai-developer-data-version>1.0-SNAPSHOT</nabu-eai-developer-data-version>
+		<be.nabu.libs.tracer-tracer-api-version>1.0-SNAPSHOT</be.nabu.libs.tracer-tracer-api-version>
+		<be.nabu.libs.tracer-tracer-dynatrace-version>1.0-SNAPSHOT</be.nabu.libs.tracer-tracer-dynatrace-version>
+		<nabu-eai-module-http-icap-version>1.0-SNAPSHOT</nabu-eai-module-http-icap-version>
+		<be.nabu.libs.http-http-icap-version>1.0-SNAPSHOT</be.nabu.libs.http-http-icap-version>
+		<nabu-eai-module-data-model-version>1.0-SNAPSHOT</nabu-eai-module-data-model-version>
+		<nabu-eai-module-services-insight-version>1.0-SNAPSHOT</nabu-eai-module-services-insight-version>
+		<be.nabu.glue-glue-metrics-version>1.0-SNAPSHOT</be.nabu.glue-glue-metrics-version>
+		<nabu-eai-module-web-events-version>1.0-SNAPSHOT</nabu-eai-module-web-events-version>
+		<be.nabu.triton-triton-version>1.0-SNAPSHOT</be.nabu.triton-triton-version>
 	</properties>
 	
 	<build>
@@ -1673,6 +1686,71 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-services-crud</artifactId>
 				<version>${nabu-eai-module-services-crud-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-services-profile</artifactId>
+				<version>${nabu-eai-module-services-profile-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-features</artifactId>
+				<version>${nabu-eai-module-features-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-lucene</artifactId>
+				<version>${nabu-eai-module-lucene-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-developer-data</artifactId>
+				<version>${nabu-eai-developer-data-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.tracer</groupId>
+				<artifactId>tracer-api</artifactId>
+				<version>${be.nabu.libs.tracer-tracer-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.tracer</groupId>
+				<artifactId>tracer-dynatrace</artifactId>
+				<version>${be.nabu.libs.tracer-tracer-dynatrace-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-http-icap</artifactId>
+				<version>${nabu-eai-module-http-icap-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.http</groupId>
+				<artifactId>http-icap</artifactId>
+				<version>${be.nabu.libs.http-http-icap-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-data-model</artifactId>
+				<version>${nabu-eai-module-data-model-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-services-insight</artifactId>
+				<version>${nabu-eai-module-services-insight-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.glue</groupId>
+				<artifactId>glue-metrics</artifactId>
+				<version>${be.nabu.glue-glue-metrics-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-web-events</artifactId>
+				<version>${nabu-eai-module-web-events-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.triton</groupId>
+				<artifactId>triton</artifactId>
+				<version>${be.nabu.triton-triton-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
