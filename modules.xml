@@ -149,6 +149,7 @@
 		<nabu.web-events-version>1.0-SNAPSHOT</nabu.web-events-version>
 		<nabu.documentation-wiki-version>1.0-SNAPSHOT</nabu.documentation-wiki-version>
 		<nabu.frameworks-signals-version>1.0-SNAPSHOT</nabu.frameworks-signals-version>
+		<nabu.web-renderer2-version>1.0-SNAPSHOT</nabu.web-renderer2-version>
 	</properties>
 		
 	<build>
@@ -866,6 +867,11 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>signals</artifactId>
 				<version>${nabu.frameworks-signals-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>renderer2</artifactId>
+				<version>${nabu.web-renderer2-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
