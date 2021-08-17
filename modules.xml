@@ -111,12 +111,12 @@
 		<nabu.cms-dynamic-version>1.2-SNAPSHOT</nabu.cms-dynamic-version>
 		<nabu.integrations-ice-version>1.0</nabu.integrations-ice-version>
 		<nabu.integrations-entsoe-version>1.0</nabu.integrations-entsoe-version>
-		<nabu.integrations.google-geocoding-version>1.0</nabu.integrations.google-geocoding-version>
+		<nabu.integrations.google-geocoding-version>1.1-SNAPSHOT</nabu.integrations.google-geocoding-version>
 		<nabu.manage-cache-version>1.0</nabu.manage-cache-version>
 		<nabu.cms-humanTask-version>1.1-SNAPSHOT</nabu.cms-humanTask-version>
 		<nabu.web-analysis-version>1.1</nabu.web-analysis-version>
 		<nabu.cms-choice-version>1.0</nabu.cms-choice-version>
-		<nabu.protocols.http-acme-version>1.0</nabu.protocols.http-acme-version>
+		<nabu.protocols.http-acme-version>1.1-SNAPSHOT</nabu.protocols.http-acme-version>
 		<nabu.providers.notifier-email-version>1.0</nabu.providers.notifier-email-version>
 		<nabu.libs.misc-qr-version>1.0</nabu.libs.misc-qr-version>
 		<nabu.web-sitemap-version>1.0</nabu.web-sitemap-version>
@@ -150,6 +150,9 @@
 		<nabu.documentation-wiki-version>1.0-SNAPSHOT</nabu.documentation-wiki-version>
 		<nabu.frameworks-signals-version>1.0-SNAPSHOT</nabu.frameworks-signals-version>
 		<nabu.web-renderer2-version>1.0-SNAPSHOT</nabu.web-renderer2-version>
+		<nabu.providers.waf-basic-version>1.0-SNAPSHOT</nabu.providers.waf-basic-version>
+		<nabu.drivers-mysql-version>1.0-SNAPSHOT</nabu.drivers-mysql-version>
+		<nabu.protocols.ftp-client-version>1.0-SNAPSHOT</nabu.protocols.ftp-client-version>
 	</properties>
 		
 	<build>
@@ -872,6 +875,21 @@
 				<groupId>nabu.web</groupId>
 				<artifactId>renderer2</artifactId>
 				<version>${nabu.web-renderer2-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.providers.waf</groupId>
+				<artifactId>basic</artifactId>
+				<version>${nabu.providers.waf-basic-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.drivers</groupId>
+				<artifactId>mysql</artifactId>
+				<version>${nabu.drivers-mysql-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.protocols.ftp</groupId>
+				<artifactId>client</artifactId>
+				<version>${nabu.protocols.ftp-client-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
