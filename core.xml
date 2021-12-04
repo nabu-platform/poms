@@ -212,7 +212,7 @@
 		<be.nabu.libs.resources-resources-alias-version>1.1</be.nabu.libs.resources-resources-alias-version>
 		<be.nabu.libs.resources-resources-cifs-version>1.2</be.nabu.libs.resources-resources-cifs-version>
 		<be.nabu.libs.resources-resources-classpath-version>1.1</be.nabu.libs.resources-resources-classpath-version>
-		<be.nabu.libs.resources-resources-file-version>1.5</be.nabu.libs.resources-resources-file-version>
+		<be.nabu.libs.resources-resources-file-version>1.6-SNAPSHOT</be.nabu.libs.resources-resources-file-version>
 		<be.nabu.libs.resources-resources-memory-version>1.2</be.nabu.libs.resources-resources-memory-version>
 		<be.nabu.libs.resources-resources-remote-version>1.10-SNAPSHOT</be.nabu.libs.resources-resources-remote-version>
 		<be.nabu.libs.resources-resources-url-version>1.1</be.nabu.libs.resources-resources-url-version>
@@ -266,7 +266,7 @@
 		<be.nabu.libs.types-types-mask-version>1.4-SNAPSHOT</be.nabu.libs.types-types-mask-version>
 		<be.nabu.libs.swagger-swagger-api-version>1.4-SNAPSHOT</be.nabu.libs.swagger-swagger-api-version>
 		<be.nabu.libs.swagger-swagger-parser-version>1.12-SNAPSHOT</be.nabu.libs.swagger-swagger-parser-version>
-		<be.nabu.libs.types-types-map-version>1.4</be.nabu.libs.types-types-map-version>
+		<be.nabu.libs.types-types-map-version>1.5-SNAPSHOT</be.nabu.libs.types-types-map-version>
 		<be.nabu.libs.swagger-swagger-formatter-version>1.9-SNAPSHOT</be.nabu.libs.swagger-swagger-formatter-version>
 		<be.nabu.utils-utils-aspects-version>1.1</be.nabu.utils-utils-aspects-version>
 		<be.nabu.libs.resources-resources-snapshot-version>1.0</be.nabu.libs.resources-resources-snapshot-version>
@@ -417,7 +417,7 @@
 		<be.nabu.libs.http-http-sass-version>1.0</be.nabu.libs.http-http-sass-version>
 		<nabu-eai-module-libs-phone-version>1.1-SNAPSHOT</nabu-eai-module-libs-phone-version>
 		<be.nabu.libs.resources-resources-sftp-version>1.1</be.nabu.libs.resources-resources-sftp-version>
-		<nabu-eai-module-pdf-version>1.0</nabu-eai-module-pdf-version>
+		<nabu-eai-module-pdf-version>1.1-SNAPSHOT</nabu-eai-module-pdf-version>
 		<nabu-eai-module-http-acme-version>1.1</nabu-eai-module-http-acme-version>
 		<nabu-eai-module-cms-dynamic-version>1.0</nabu-eai-module-cms-dynamic-version>
 		<be.nabu.utils-utils-cep-version>1.1-SNAPSHOT</be.nabu.utils-utils-cep-version>
@@ -447,6 +447,7 @@
 		<nabu-eai-module-jdbc-mysql-version>1.0-SNAPSHOT</nabu-eai-module-jdbc-mysql-version>
 		<nabu-eai-module-ftp-client-version>1.0-SNAPSHOT</nabu-eai-module-ftp-client-version>
 		<nabu-eai-module-web-renderer2-version>1.0-SNAPSHOT</nabu-eai-module-web-renderer2-version>
+		<nabu-eai-module-git-version>1.0-SNAPSHOT</nabu-eai-module-git-version>
 	</properties>
 	
 	<build>
@@ -1775,6 +1776,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-web-renderer2</artifactId>
 				<version>${nabu-eai-module-web-renderer2-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-git</artifactId>
+				<version>${nabu-eai-module-git-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

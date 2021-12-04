@@ -69,7 +69,7 @@
 		<nabu.web.wsdl-provider-version>1.4-SNAPSHOT</nabu.web.wsdl-provider-version>
 		<nabu.cms-attachment-version>1.11-SNAPSHOT</nabu.cms-attachment-version>
 		<nabu.cms-masterdata-version>1.0</nabu.cms-masterdata-version>
-		<nabu.data-csv-version>1.5</nabu.data-csv-version>
+		<nabu.data-csv-version>1.6-SNAPSHOT</nabu.data-csv-version>
 		<nabu.management-core-version>1.12</nabu.management-core-version>
 		<nabu.management-workflow-version>1.7</nabu.management-workflow-version>
 		<nabu.cms-order-version>1.4</nabu.cms-order-version>
@@ -103,7 +103,7 @@
 		<nabu.libs.google-phone-version>1.1-SNAPSHOT</nabu.libs.google-phone-version>
 		<nabu.testing-runner-version>1.0</nabu.testing-runner-version>
 		<nabu.providers.resources-sftp-version>1.1</nabu.providers.resources-sftp-version>
-		<nabu.data-pdf-version>1.1</nabu.data-pdf-version>
+		<nabu.data-pdf-version>1.2-SNAPSHOT</nabu.data-pdf-version>
 		<nabu.testing-images-version>1.1</nabu.testing-images-version>
 		<nabu.testing-pdf-version>1.1</nabu.testing-pdf-version>
 		<nabu.web.page-cms-version>1.2-SNAPSHOT</nabu.web.page-cms-version>
@@ -119,14 +119,14 @@
 		<nabu.protocols.http-acme-version>1.1-SNAPSHOT</nabu.protocols.http-acme-version>
 		<nabu.providers.notifier-email-version>1.0</nabu.providers.notifier-email-version>
 		<nabu.libs.misc-qr-version>1.0</nabu.libs.misc-qr-version>
-		<nabu.web-sitemap-version>1.0</nabu.web-sitemap-version>
+		<nabu.web-sitemap-version>1.1-SNAPSHOT</nabu.web-sitemap-version>
 		<nabu.analytics-cep-version>1.0</nabu.analytics-cep-version>
 		<nabu.misc-hazelcast-version>1.1-SNAPSHOT</nabu.misc-hazelcast-version>
 		<nabu.cms-oauth2-version>1.0</nabu.cms-oauth2-version>
 		<nabu-cloud-version>1.1-SNAPSHOT</nabu-cloud-version>
 		<nabu.protocols.websockets-client-version>1.1-SNAPSHOT</nabu.protocols.websockets-client-version>
 		<nabu.protocols.http-waf-version>1.1-SNAPSHOT</nabu.protocols.http-waf-version>
-		<nabu.libs.system-oshi-version>1.0</nabu.libs.system-oshi-version>
+		<nabu.libs.system-oshi-version>1.1-SNAPSHOT</nabu.libs.system-oshi-version>
 		<nabu.drivers-h2-version>1.0-SNAPSHOT</nabu.drivers-h2-version>
 		<nabu.cms-shop-version>1.0-SNAPSHOT</nabu.cms-shop-version>
 		<nabu.authentication-temporary-version>1.0-SNAPSHOT</nabu.authentication-temporary-version>
@@ -153,6 +153,9 @@
 		<nabu.providers.waf-basic-version>1.0-SNAPSHOT</nabu.providers.waf-basic-version>
 		<nabu.drivers-mysql-version>1.0-SNAPSHOT</nabu.drivers-mysql-version>
 		<nabu.protocols.ftp-client-version>1.0-SNAPSHOT</nabu.protocols.ftp-client-version>
+		<nabu.web-recorder-version>1.0-SNAPSHOT</nabu.web-recorder-version>
+		<nabu.misc-git-version>1.0-SNAPSHOT</nabu.misc-git-version>
+		<nabu.misc-build-version>1.0-SNAPSHOT</nabu.misc-build-version>
 	</properties>
 		
 	<build>
@@ -890,6 +893,21 @@
 				<groupId>nabu.protocols.ftp</groupId>
 				<artifactId>client</artifactId>
 				<version>${nabu.protocols.ftp-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>recorder</artifactId>
+				<version>${nabu.web-recorder-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>git</artifactId>
+				<version>${nabu.misc-git-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>build</artifactId>
+				<version>${nabu.misc-build-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
