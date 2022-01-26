@@ -19,7 +19,7 @@
 		<nabu.protocols.http-client-version>1.4-SNAPSHOT</nabu.protocols.http-client-version>
 		<nabu.misc-proxy-version>1.0</nabu.misc-proxy-version>
 		<nabu.misc-keystore-version>1.9-SNAPSHOT</nabu.misc-keystore-version>
-		<nabu.authentication.ntlm-client-version>1.0</nabu.authentication.ntlm-client-version>
+		<nabu.authentication.ntlm-client-version>1.1-SNAPSHOT</nabu.authentication.ntlm-client-version>
 		<nabu.authentication.kerberos-server-version>1.0</nabu.authentication.kerberos-server-version>
 		<nabu.cms-core-version>1.19-SNAPSHOT</nabu.cms-core-version>
 		<nabu.types-uml-version>1.7-SNAPSHOT</nabu.types-uml-version>
@@ -118,7 +118,7 @@
 		<nabu.cms-choice-version>1.0</nabu.cms-choice-version>
 		<nabu.protocols.http-acme-version>1.1-SNAPSHOT</nabu.protocols.http-acme-version>
 		<nabu.providers.notifier-email-version>1.0</nabu.providers.notifier-email-version>
-		<nabu.libs.misc-qr-version>1.0</nabu.libs.misc-qr-version>
+		<nabu.libs.misc-qr-version>1.1-SNAPSHOT</nabu.libs.misc-qr-version>
 		<nabu.web-sitemap-version>1.1-SNAPSHOT</nabu.web-sitemap-version>
 		<nabu.analytics-cep-version>1.0</nabu.analytics-cep-version>
 		<nabu.misc-hazelcast-version>1.1-SNAPSHOT</nabu.misc-hazelcast-version>
@@ -156,6 +156,8 @@
 		<nabu.web-recorder-version>1.0-SNAPSHOT</nabu.web-recorder-version>
 		<nabu.misc-git-version>1.0-SNAPSHOT</nabu.misc-git-version>
 		<nabu.misc-build-version>1.0-SNAPSHOT</nabu.misc-build-version>
+		<nabu.misc-broadcast-version>1.0-SNAPSHOT</nabu.misc-broadcast-version>
+		<nabu.web.page-websocket-version>1.0-SNAPSHOT</nabu.web.page-websocket-version>
 	</properties>
 		
 	<build>
@@ -908,6 +910,16 @@
 				<groupId>nabu.misc</groupId>
 				<artifactId>build</artifactId>
 				<version>${nabu.misc-build-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.misc</groupId>
+				<artifactId>broadcast</artifactId>
+				<version>${nabu.misc-broadcast-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web.page</groupId>
+				<artifactId>websocket</artifactId>
+				<version>${nabu.web.page-websocket-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
