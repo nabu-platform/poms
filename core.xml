@@ -449,6 +449,7 @@
 		<nabu-eai-module-web-renderer2-version>1.0-SNAPSHOT</nabu-eai-module-web-renderer2-version>
 		<nabu-eai-module-git-version>1.0-SNAPSHOT</nabu-eai-module-git-version>
 		<nabu-eai-module-cluster-messaging-version>1.0-SNAPSHOT</nabu-eai-module-cluster-messaging-version>
+		<nabu-eai-module-libs-okapi-barcode-version>1.0-SNAPSHOT</nabu-eai-module-libs-okapi-barcode-version>
 	</properties>
 	
 	<build>
@@ -1787,6 +1788,11 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-cluster-messaging</artifactId>
 				<version>${nabu-eai-module-cluster-messaging-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-libs-okapi-barcode</artifactId>
+				<version>${nabu-eai-module-libs-okapi-barcode-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
