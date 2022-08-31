@@ -450,6 +450,8 @@
 		<nabu-eai-module-git-version>1.0-SNAPSHOT</nabu-eai-module-git-version>
 		<nabu-eai-module-cluster-messaging-version>1.0-SNAPSHOT</nabu-eai-module-cluster-messaging-version>
 		<nabu-eai-module-libs-okapi-barcode-version>1.0-SNAPSHOT</nabu-eai-module-libs-okapi-barcode-version>
+		<nabu-eai-module-jwk-version>1.0-SNAPSHOT</nabu-eai-module-jwk-version>
+		<be.nabu.libs.types-types-binding-xml-rpc-version>1.0-SNAPSHOT</be.nabu.libs.types-types-binding-xml-rpc-version>
 	</properties>
 	
 	<build>
@@ -1793,6 +1795,16 @@
 				<groupId>nabu</groupId>
 				<artifactId>eai-module-libs-okapi-barcode</artifactId>
 				<version>${nabu-eai-module-libs-okapi-barcode-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-jwk</artifactId>
+				<version>${nabu-eai-module-jwk-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.types</groupId>
+				<artifactId>types-binding-xml-rpc</artifactId>
+				<version>${be.nabu.libs.types-types-binding-xml-rpc-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
