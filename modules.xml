@@ -162,6 +162,7 @@
 		<nabu.frameworks-io-version>1.0-SNAPSHOT</nabu.frameworks-io-version>
 		<nabu.cms.oauth2-client-version>1.0-SNAPSHOT</nabu.cms.oauth2-client-version>
 		<nabu.security-jwk-version>1.0-SNAPSHOT</nabu.security-jwk-version>
+		<nabu.frameworks-storage-version>1.0-SNAPSHOT</nabu.frameworks-storage-version>
 	</properties>
 		
 	<build>
@@ -944,6 +945,11 @@
 				<groupId>nabu.security</groupId>
 				<artifactId>jwk</artifactId>
 				<version>${nabu.security-jwk-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>storage</artifactId>
+				<version>${nabu.frameworks-storage-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
