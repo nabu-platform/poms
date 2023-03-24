@@ -355,7 +355,7 @@
 		<nabu-eai-module-rest-version>1.1</nabu-eai-module-rest-version>
 		<nabu-eai-module-rest-client-version>1.10-SNAPSHOT</nabu-eai-module-rest-client-version>
 		<nabu-eai-module-rest-provider-version>1.17-SNAPSHOT</nabu-eai-module-rest-provider-version>
-		<nabu-eai-module-mime-version>1.4</nabu-eai-module-mime-version>
+		<nabu-eai-module-mime-version>1.5-SNAPSHOT</nabu-eai-module-mime-version>
 		<nabu-eai-module-types-xml-version>1.1</nabu-eai-module-types-xml-version>
 		<nabu-eai-module-types-uml-version>1.6-SNAPSHOT</nabu-eai-module-types-uml-version>
 		<nabu-eai-module-types-simple-version>1.2</nabu-eai-module-types-simple-version>
@@ -452,6 +452,11 @@
 		<nabu-eai-module-libs-okapi-barcode-version>1.0-SNAPSHOT</nabu-eai-module-libs-okapi-barcode-version>
 		<nabu-eai-module-jwk-version>1.0-SNAPSHOT</nabu-eai-module-jwk-version>
 		<be.nabu.libs.types-types-binding-xml-rpc-version>1.0-SNAPSHOT</be.nabu.libs.types-types-binding-xml-rpc-version>
+		<be.nabu.libs.odata-odata-api-version>1.0-SNAPSHOT</be.nabu.libs.odata-odata-api-version>
+		<be.nabu.libs.odata-odata-parser-version>1.0-SNAPSHOT</be.nabu.libs.odata-odata-parser-version>
+		<nabu-eai-module-odata-version>1.0-SNAPSHOT</nabu-eai-module-odata-version>
+		<be.nabu.libs.openapi-openapi-api-version>1.0-SNAPSHOT</be.nabu.libs.openapi-openapi-api-version>
+		<be.nabu.libs.openapi-openapi-parser-version>1.0-SNAPSHOT</be.nabu.libs.openapi-openapi-parser-version>
 	</properties>
 	
 	<build>
@@ -1805,6 +1810,31 @@
 				<groupId>be.nabu.libs.types</groupId>
 				<artifactId>types-binding-xml-rpc</artifactId>
 				<version>${be.nabu.libs.types-types-binding-xml-rpc-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.odata</groupId>
+				<artifactId>odata-api</artifactId>
+				<version>${be.nabu.libs.odata-odata-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.odata</groupId>
+				<artifactId>odata-parser</artifactId>
+				<version>${be.nabu.libs.odata-odata-parser-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu</groupId>
+				<artifactId>eai-module-odata</artifactId>
+				<version>${nabu-eai-module-odata-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.openapi</groupId>
+				<artifactId>openapi-api</artifactId>
+				<version>${be.nabu.libs.openapi-openapi-api-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>be.nabu.libs.openapi</groupId>
+				<artifactId>openapi-parser</artifactId>
+				<version>${be.nabu.libs.openapi-openapi-parser-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
