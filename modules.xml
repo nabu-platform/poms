@@ -89,7 +89,7 @@
 		<nabu.services-jdbcAggregation-version>1.3</nabu.services-jdbcAggregation-version>
 		<nabu.web-analyzer-version>1.0</nabu.web-analyzer-version>
 		<nabu.providers.analytics-traffic-version>1.0</nabu.providers.analytics-traffic-version>
-		<nabu.authentication-remote-version>1.1</nabu.authentication-remote-version>
+		<nabu.authentication-remote-version>1.2-SNAPSHOT</nabu.authentication-remote-version>
 		<nabu.web-renderer-version>1.6-SNAPSHOT</nabu.web-renderer-version>
 		<nabu.web-compressor-version>1.3-SNAPSHOT</nabu.web-compressor-version>
 		<nabu.reporting-analytics-version>1.1</nabu.reporting-analytics-version>
@@ -175,6 +175,14 @@
 		<nabu.cms.saml-client-version>1.0-SNAPSHOT</nabu.cms.saml-client-version>
 		<nabu.integrations-poeditor-version>1.0-SNAPSHOT</nabu.integrations-poeditor-version>
 		<nabu.frameworks-series-version>1.0-SNAPSHOT</nabu.frameworks-series-version>
+		<nabu.frameworks-features-version>1.0-SNAPSHOT</nabu.frameworks-features-version>
+		<nabu.web-robots-version>1.0-SNAPSHOT</nabu.web-robots-version>
+		<nabu.integrations-hubspot-version>1.0-SNAPSHOT</nabu.integrations-hubspot-version>
+		<nabu.providers.keystore-persisted-version>1.0-SNAPSHOT</nabu.providers.keystore-persisted-version>
+		<nabu.cms-blog-version>1.0-SNAPSHOT</nabu.cms-blog-version>
+		<nabu.web-map-version>1.0-SNAPSHOT</nabu.web-map-version>
+		<nabu.frameworks-cdm-version>1.0-SNAPSHOT</nabu.frameworks-cdm-version>
+		<nabu.integrations-odoo-version>1.0-SNAPSHOT</nabu.integrations-odoo-version>
 	</properties>
 		
 	<build>
@@ -1022,6 +1030,46 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>series</artifactId>
 				<version>${nabu.frameworks-series-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>features</artifactId>
+				<version>${nabu.frameworks-features-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>robots</artifactId>
+				<version>${nabu.web-robots-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.integrations</groupId>
+				<artifactId>hubspot</artifactId>
+				<version>${nabu.integrations-hubspot-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.providers.keystore</groupId>
+				<artifactId>persisted</artifactId>
+				<version>${nabu.providers.keystore-persisted-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.cms</groupId>
+				<artifactId>blog</artifactId>
+				<version>${nabu.cms-blog-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.web</groupId>
+				<artifactId>map</artifactId>
+				<version>${nabu.web-map-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>cdm</artifactId>
+				<version>${nabu.frameworks-cdm-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.integrations</groupId>
+				<artifactId>odoo</artifactId>
+				<version>${nabu.integrations-odoo-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
