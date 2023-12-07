@@ -183,6 +183,7 @@
 		<nabu.web-map-version>1.0-SNAPSHOT</nabu.web-map-version>
 		<nabu.frameworks-cdm-version>1.0-SNAPSHOT</nabu.frameworks-cdm-version>
 		<nabu.integrations-odoo-version>1.0-SNAPSHOT</nabu.integrations-odoo-version>
+		<nabu.monitoring-heartbeat-version>1.0-SNAPSHOT</nabu.monitoring-heartbeat-version>
 	</properties>
 		
 	<build>
@@ -1070,6 +1071,11 @@
 				<groupId>nabu.integrations</groupId>
 				<artifactId>odoo</artifactId>
 				<version>${nabu.integrations-odoo-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.monitoring</groupId>
+				<artifactId>heartbeat</artifactId>
+				<version>${nabu.monitoring-heartbeat-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
