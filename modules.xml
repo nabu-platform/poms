@@ -184,6 +184,7 @@
 		<nabu.frameworks-cdm-version>1.0-SNAPSHOT</nabu.frameworks-cdm-version>
 		<nabu.integrations-odoo-version>1.0-SNAPSHOT</nabu.integrations-odoo-version>
 		<nabu.monitoring-heartbeat-version>1.0-SNAPSHOT</nabu.monitoring-heartbeat-version>
+		<nabu.frameworks-logs-version>1.0-SNAPSHOT</nabu.frameworks-logs-version>
 	</properties>
 		
 	<build>
@@ -1076,6 +1077,11 @@
 				<groupId>nabu.monitoring</groupId>
 				<artifactId>heartbeat</artifactId>
 				<version>${nabu.monitoring-heartbeat-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>logs</artifactId>
+				<version>${nabu.frameworks-logs-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
