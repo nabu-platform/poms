@@ -187,6 +187,8 @@
 		<nabu.frameworks-logs-version>1.0-SNAPSHOT</nabu.frameworks-logs-version>
 		<nabu.frameworks-locks-version>1.0-SNAPSHOT</nabu.frameworks-locks-version>
 		<nabu.frameworks-undo-version>1.0-SNAPSHOT</nabu.frameworks-undo-version>
+		<nabu.frameworks-notifications-version>1.0-SNAPSHOT</nabu.frameworks-notifications-version>
+		<nabu.frameworks-metrics-version>1.0-SNAPSHOT</nabu.frameworks-metrics-version>
 	</properties>
 		
 	<build>
@@ -1094,6 +1096,16 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>undo</artifactId>
 				<version>${nabu.frameworks-undo-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>notifications</artifactId>
+				<version>${nabu.frameworks-notifications-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>metrics</artifactId>
+				<version>${nabu.frameworks-metrics-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
