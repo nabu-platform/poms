@@ -190,6 +190,9 @@
 		<nabu.frameworks-notifications-version>1.0-SNAPSHOT</nabu.frameworks-notifications-version>
 		<nabu.frameworks-metrics-version>1.0-SNAPSHOT</nabu.frameworks-metrics-version>
 		<nabu.frameworks-incident-version>1.0-SNAPSHOT</nabu.frameworks-incident-version>
+		<nabu.frameworks-attachments-version>1.0-SNAPSHOT</nabu.frameworks-attachments-version>
+		<nabu.frameworks-reports-version>1.0-SNAPSHOT</nabu.frameworks-reports-version>
+		<nabu.integrations-sharepoint-version>1.0-SNAPSHOT</nabu.integrations-sharepoint-version>
 	</properties>
 		
 	<build>
@@ -1112,6 +1115,21 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>incident</artifactId>
 				<version>${nabu.frameworks-incident-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>attachments</artifactId>
+				<version>${nabu.frameworks-attachments-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>reports</artifactId>
+				<version>${nabu.frameworks-reports-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.integrations</groupId>
+				<artifactId>sharepoint</artifactId>
+				<version>${nabu.integrations-sharepoint-version}</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
