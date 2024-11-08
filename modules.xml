@@ -207,6 +207,8 @@
 					<exclude>.gitignore</exclude>
 					<exclude>.git</exclude>
 					<exclude>RELEASE.md</exclude>
+					<exclude>LICENSE</exclude>
+					<exclude>LICENSE.GPL</exclude>
 				</excludes>
 			</resource>
 		</resources>
