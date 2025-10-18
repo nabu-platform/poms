@@ -1660,7 +1660,6 @@
 			</dependency>
 			
 			
-			
 			<!-- temporary until removed -->			
 			<dependency>
 				<groupId>javax.jws</groupId>
