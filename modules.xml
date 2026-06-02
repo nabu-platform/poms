@@ -147,6 +147,7 @@
 		<nabu.providers.waf-basic-version>1.0-SNAPSHOT</nabu.providers.waf-basic-version>
 		<nabu.drivers-mysql-version>1.0-SNAPSHOT</nabu.drivers-mysql-version>
 		<nabu.protocols.ftp-client-version>1.0-SNAPSHOT</nabu.protocols.ftp-client-version>
+		<nabu.protocols.s3-client-version>1.0-SNAPSHOT</nabu.protocols.s3-client-version>
 		<nabu.web-recorder-version>1.0-SNAPSHOT</nabu.web-recorder-version>
 		<nabu.misc-git-version>1.0-SNAPSHOT</nabu.misc-git-version>
 		<nabu.misc-build-version>1.0-SNAPSHOT</nabu.misc-build-version>
@@ -911,6 +912,11 @@
 				<groupId>nabu.protocols.ftp</groupId>
 				<artifactId>client</artifactId>
 				<version>${nabu.protocols.ftp-client-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.protocols.s3</groupId>
+				<artifactId>client</artifactId>
+				<version>${nabu.protocols.s3-client-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.web</groupId>
