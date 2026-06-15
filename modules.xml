@@ -187,6 +187,8 @@
 		<nabu.frameworks-incident-version>1.0-SNAPSHOT</nabu.frameworks-incident-version>
 		<nabu.frameworks-attachments-version>1.0-SNAPSHOT</nabu.frameworks-attachments-version>
 		<nabu.frameworks-reports-version>1.0-SNAPSHOT</nabu.frameworks-reports-version>
+		<nabu.frameworks-sla-version>1.0-SNAPSHOT</nabu.frameworks-sla-version>
+		<nabu.frameworks-gauge-version>1.0-SNAPSHOT</nabu.frameworks-gauge-version>
 		<nabu.integrations-sharepoint-version>1.0-SNAPSHOT</nabu.integrations-sharepoint-version>
 	</properties>
 		
@@ -1112,6 +1114,16 @@
 				<groupId>nabu.frameworks</groupId>
 				<artifactId>reports</artifactId>
 				<version>${nabu.frameworks-reports-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>sla</artifactId>
+				<version>${nabu.frameworks-sla-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.frameworks</groupId>
+				<artifactId>gauge</artifactId>
+				<version>${nabu.frameworks-gauge-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.integrations</groupId>
