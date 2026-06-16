@@ -17,14 +17,37 @@ def qualify(tag):
 	return f'{{{MAVEN_NS}}}{tag}'
 
 
+def find_child(element, tag):
+	if element is None:
+		return None
+	child = element.find(f'm:{tag}', NS)
+	if child is not None:
+		return child
+	return element.find(tag)
+
+
+def find_children(element, tag):
+	if element is None:
+		return []
+	children = element.findall(f'm:{tag}', NS)
+	if children:
+		return children
+	return element.findall(tag)
+
+
+def find_text(element, tag):
+	child = find_child(element, tag)
+	return child.text if child is not None else None
+
+
 def collect_latest_versions(owner, dependencies):
 	token = os.environ.get('GITHUB_TOKEN')
 	if not token:
 		raise RuntimeError('GITHUB_TOKEN is required')
 	latest = {}
 	for dependency in dependencies:
-		groupId = dependency.findtext('m:groupId', namespaces=NS)
-		artifactId = dependency.findtext('m:artifactId', namespaces=NS)
+		groupId = find_text(dependency, 'groupId')
+		artifactId = find_text(dependency, 'artifactId')
 		if not groupId or not artifactId:
 			continue
 		packageName = f'{groupId}.{artifactId}'
@@ -57,19 +80,19 @@ def collect_latest_versions(owner, dependencies):
 def build_bom(sourcePath, outputPath, bomArtifactId, bomVersion, owner):
 	tree = ET.parse(sourcePath)
 	root = tree.getroot()
-	dependencyManagement = root.find('m:dependencyManagement', NS)
+	dependencyManagement = find_child(root, 'dependencyManagement')
 	if dependencyManagement is None:
 		raise RuntimeError(f'No dependencyManagement found in {sourcePath}')
-	dependenciesNode = dependencyManagement.find('m:dependencies', NS)
+	dependenciesNode = find_child(dependencyManagement, 'dependencies')
 	if dependenciesNode is None:
 		raise RuntimeError(f'No managed dependencies found in {sourcePath}')
-	managedDependencies = dependenciesNode.findall('m:dependency', NS)
+	managedDependencies = find_children(dependenciesNode, 'dependency')
 	latestVersions = collect_latest_versions(owner, managedDependencies)
 
 	bomRoot = ET.Element(qualify('project'))
 	for tag, value in (
 		('modelVersion', '4.0.0'),
-		('groupId', root.findtext('m:groupId', namespaces=NS)),
+		('groupId', find_text(root, 'groupId')),
 		('artifactId', bomArtifactId),
 		('version', bomVersion),
 		('packaging', 'pom'),
@@ -81,11 +104,11 @@ def build_bom(sourcePath, outputPath, bomArtifactId, bomVersion, owner):
 	bomDependencies = ET.SubElement(bomDependencyManagement, qualify('dependencies'))
 
 	for dependency in managedDependencies:
-		groupId = dependency.findtext('m:groupId', namespaces=NS)
-		artifactId = dependency.findtext('m:artifactId', namespaces=NS)
-		version = dependency.findtext('m:version', namespaces=NS)
-		typeValue = dependency.findtext('m:type', namespaces=NS)
-		scopeValue = dependency.findtext('m:scope', namespaces=NS)
+		groupId = find_text(dependency, 'groupId')
+		artifactId = find_text(dependency, 'artifactId')
+		version = find_text(dependency, 'version')
+		typeValue = find_text(dependency, 'type')
+		scopeValue = find_text(dependency, 'scope')
 		override = latestVersions.get((groupId, artifactId))
 		bomDependency = ET.SubElement(bomDependencies, qualify('dependency'))
 		for childTag, childValue in (
