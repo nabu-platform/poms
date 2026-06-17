@@ -97,6 +97,7 @@
 		<nabu.libs.google-phone-version>1.1-SNAPSHOT</nabu.libs.google-phone-version>
 		<nabu.testing-runner-version>1.0</nabu.testing-runner-version>
 		<nabu.providers.resources-sftp-version>1.1</nabu.providers.resources-sftp-version>
+		<nabu.protocols.sftp-client-version>1.0-SNAPSHOT</nabu.protocols.sftp-client-version>
 		<nabu.data-pdf-version>1.2-SNAPSHOT</nabu.data-pdf-version>
 		<nabu.testing-images-version>1.1</nabu.testing-images-version>
 		<nabu.testing-pdf-version>1.1</nabu.testing-pdf-version>
@@ -664,6 +665,11 @@
 				<groupId>nabu.providers.resources</groupId>
 				<artifactId>sftp</artifactId>
 				<version>${nabu.providers.resources-sftp-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.protocols.sftp</groupId>
+				<artifactId>client</artifactId>
+				<version>${nabu.protocols.sftp-client-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.data</groupId>
