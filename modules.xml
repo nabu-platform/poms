@@ -95,6 +95,7 @@
 		<nabu.web.page-core-version>1.3-SNAPSHOT</nabu.web.page-core-version>
 		<nabu.web.page-data-version>1.3-SNAPSHOT</nabu.web.page-data-version>
 		<nabu.libs.google-phone-version>1.1-SNAPSHOT</nabu.libs.google-phone-version>
+		<nabu.libs.misc-ical4j-version>1.0-SNAPSHOT</nabu.libs.misc-ical4j-version>
 		<nabu.testing-runner-version>1.0</nabu.testing-runner-version>
 		<nabu.providers.resources-sftp-version>1.1</nabu.providers.resources-sftp-version>
 		<nabu.protocols.sftp-client-version>1.0-SNAPSHOT</nabu.protocols.sftp-client-version>
@@ -655,6 +656,11 @@
 				<groupId>nabu.libs.google</groupId>
 				<artifactId>phone</artifactId>
 				<version>${nabu.libs.google-phone-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.libs.misc</groupId>
+				<artifactId>ical4j</artifactId>
+				<version>${nabu.libs.misc-ical4j-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.testing</groupId>
