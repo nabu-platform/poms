@@ -85,7 +85,7 @@
 		<dependencies>
 			<dependency>
 				<groupId>be.nabu</groupId>
-				<artifactId>core-bom</artifactId>
+				<artifactId>core-local-bom</artifactId>
 				<version>1.0-SNAPSHOT</version>
 				<type>pom</type>
 				<scope>import</scope>
