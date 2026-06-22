@@ -75,6 +75,8 @@
 					<exclude>.gitignore</exclude>
 					<exclude>.github</exclude>
 					<exclude>.github/**</exclude>
+					<exclude>.tmp</exclude>
+					<exclude>.tmp/**</exclude>
 					<exclude>.git</exclude>
 					<exclude>RELEASE.md</exclude>
 					<exclude>LICENSE</exclude>
