@@ -106,6 +106,7 @@
 		<nabu.testing-pdf-version>1.1</nabu.testing-pdf-version>
 		<nabu.web.page-cms-version>1.2-SNAPSHOT</nabu.web.page-cms-version>
 		<nabu.integrations-github-version>1.0</nabu.integrations-github-version>
+		<nabu.integrations-kbo-version>1.0-SNAPSHOT</nabu.integrations-kbo-version>
 		<nabu.cms-dynamic-version>1.2-SNAPSHOT</nabu.cms-dynamic-version>
 		<nabu.integrations-ice-version>1.0</nabu.integrations-ice-version>
 		<nabu.integrations-entsoe-version>1.0</nabu.integrations-entsoe-version>
@@ -702,6 +703,11 @@
 				<groupId>nabu.integrations</groupId>
 				<artifactId>github</artifactId>
 				<version>${nabu.integrations-github-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.integrations</groupId>
+				<artifactId>kbo</artifactId>
+				<version>${nabu.integrations-kbo-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.cms</groupId>
