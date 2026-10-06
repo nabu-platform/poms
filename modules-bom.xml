@@ -180,6 +180,7 @@
 		<nabu.integrations-hubspot-version>1.0-SNAPSHOT</nabu.integrations-hubspot-version>
 		<nabu.providers.keystore-persisted-version>1.0-SNAPSHOT</nabu.providers.keystore-persisted-version>
 		<nabu.cms-blog-version>1.0-SNAPSHOT</nabu.cms-blog-version>
+		<nabu.cms-totp-version>1.0-SNAPSHOT</nabu.cms-totp-version>
 		<nabu.web-map-version>1.0-SNAPSHOT</nabu.web-map-version>
 		<nabu.frameworks-cdm-version>1.0-SNAPSHOT</nabu.frameworks-cdm-version>
 		<nabu.integrations-odoo-version>1.0-SNAPSHOT</nabu.integrations-odoo-version>
@@ -1073,6 +1074,11 @@
 				<groupId>nabu.cms</groupId>
 				<artifactId>blog</artifactId>
 				<version>${nabu.cms-blog-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.cms</groupId>
+				<artifactId>totp</artifactId>
+				<version>${nabu.cms-totp-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.web</groupId>
