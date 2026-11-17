@@ -138,6 +138,7 @@
 		<nabu.providers.audit-narrator-version>1.0-SNAPSHOT</nabu.providers.audit-narrator-version>
 		<nabu.providers.audit-performance-version>1.0-SNAPSHOT</nabu.providers.audit-performance-version>
 		<nabu.cms.authentication-sms2fa-version>1.0-SNAPSHOT</nabu.cms.authentication-sms2fa-version>
+		<nabu.cms.authentication-webauthn-version>1.0-SNAPSHOT</nabu.cms.authentication-webauthn-version>
 		<nabu.providers.metrics-periodicOverview-version>1.0-SNAPSHOT</nabu.providers.metrics-periodicOverview-version>
 		<nabu.providers.trace-dynatrace-version>1.0-SNAPSHOT</nabu.providers.trace-dynatrace-version>
 		<nabu.providers.antivirus-icap-version>1.0-SNAPSHOT</nabu.providers.antivirus-icap-version>
@@ -864,6 +865,11 @@
 				<groupId>nabu.cms.authentication</groupId>
 				<artifactId>sms2fa</artifactId>
 				<version>${nabu.cms.authentication-sms2fa-version}</version>
+			</dependency>
+			<dependency>
+				<groupId>nabu.cms.authentication</groupId>
+				<artifactId>webauthn</artifactId>
+				<version>${nabu.cms.authentication-webauthn-version}</version>
 			</dependency>
 			<dependency>
 				<groupId>nabu.providers.metrics</groupId>
